@@ -14,9 +14,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-orange-500 to-orange-400 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">🇮🇳</span>
-              </div>
+              <img src="/logo.png" alt="Logo" className="w-8 h-8 border-2 border-orange-500 rounded-full" />
               <div className="text-xl font-bold">
                 {t('hero.title')}
               </div>
@@ -136,7 +134,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-blue-100">
-              © 2024 {language === 'en' ? 'Government of India. All rights reserved.' : 'भारत सरकार। सभी अधिकार सुरक्षित।'}
+              © 2025 {language === 'en' ? 'Government of India. All rights reserved.' : 'भारत सरकार। सभी अधिकार सुरक्षित।'}
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-blue-100 hover:text-orange-300 transition-colors duration-200">
