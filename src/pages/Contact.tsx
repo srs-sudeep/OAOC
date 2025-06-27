@@ -6,7 +6,7 @@ const Contact = () => {
   const { language } = useLanguage();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 pt-16">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
