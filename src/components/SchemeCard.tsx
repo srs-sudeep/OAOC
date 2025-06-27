@@ -1,10 +1,16 @@
-
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { useLanguage } from '@/contexts/LanguageContext';
-import { ExternalLink } from 'lucide-react';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+  CardFooter,
+} from "@/components/ui/card";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { ExternalLink } from "lucide-react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 interface Scheme {
   id: string;
@@ -47,7 +53,7 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
             <ExternalLink className="w-6 h-6 text-blue-600" />
           </div>
           <div className="bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full">
-            {language === 'en' ? 'ACTIVE' : 'सक्रिय'}
+            {language === "en" ? "ACTIVE" : "सक्रिय"}
           </div>
         </div>
         <CardTitle className="text-xl text-blue-900 mb-3 group-hover:text-blue-700 transition-colors duration-300 leading-tight">
@@ -58,12 +64,12 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
         </CardDescription>
       </CardHeader>
       <CardContent className="pt-0">
-        <div className="space-y-6">
+        <div className="space-y-6 flex flex-col justify-between h-full">
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
               <h4 className="font-semibold text-sm text-orange-600 uppercase tracking-wide">
-                {t('scheme.benefits')}
+                {t("scheme.benefits")}
               </h4>
             </div>
             <ul className="text-sm text-gray-700 space-y-2">
@@ -76,21 +82,21 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
             </ul>
             {scheme.benefits[language].length > 2 && (
               <p className="text-xs text-gray-500 italic">
-                +{scheme.benefits[language].length - 2} {language === 'en' ? 'more benefits' : 'और लाभ'}
+                +{scheme.benefits[language].length - 2}{" "}
+                {language === "en" ? "more benefits" : "और लाभ"}
               </p>
             )}
           </div>
-          
-          <div className="border-t border-gray-100 pt-6">
-            <Link to={`/scheme/${departmentId}/${scheme.id}`}>
-              <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-medium py-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
-                {t('button.applyNow')}
-                <ExternalLink className="w-4 h-4 ml-2" />
-              </Button>
-            </Link>
-          </div>
         </div>
       </CardContent>
+      <CardFooter>
+          <Link to={`/scheme/${departmentId}/${scheme.id}`}>
+            <Button className="w-full bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-medium py-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
+              {t("button.applyNow")}
+              <ExternalLink className="w-4 h-4 ml-2" />
+            </Button>
+          </Link>
+      </CardFooter>
     </Card>
   );
 };
