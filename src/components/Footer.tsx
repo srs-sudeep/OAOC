@@ -1,8 +1,7 @@
 
-import React from 'react';
-import { Link } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Mail, Phone, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { Facebook, Instagram, Mail, MapPin, Phone, Twitter, Youtube } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const { language, t } = useLanguage();
@@ -101,8 +100,8 @@ const Footer = () => {
                 <MapPin className="w-4 h-4 text-orange-300 mt-0.5" />
                 <span className="text-blue-100">
                   {language === 'en' 
-                    ? 'Ministry of Electronics & IT, Electronics Niketan, 6 CGO Complex, New Delhi - 110003'
-                    : 'इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी मंत्रालय, इलेक्ट्रॉनिक्स निकेतन, 6 सीजीओ कॉम्प्लेक्स, नई दिल्ली - 110003'
+                    ? 'Chhattisgarh State Electronics Development Corporation, Collectorate Complex, Civil Lines, Raipur, Chhattisgarh - 492001'
+                    : 'छत्तीसगढ़ राज्य इलेक्ट्रॉनिक्स विकास निगम, कलेक्टोरेट कॉम्प्लेक्स, सिविल लाइन्स, रायपुर, छत्तीसगढ़ - 492001'
                   }
                 </span>
               </div>
