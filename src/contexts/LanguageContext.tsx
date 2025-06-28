@@ -31,7 +31,7 @@ const translations = {
     'button.viewSchemes': 'View Schemes',
     'button.applyNow': 'Apply Now',
     'button.backToDepartments': 'Back to Departments',
-    'button.learnMore': 'Learn More About Chhattisgarh'
+    'button.learnMore': 'Learn About Chhattisgarh'
   },
   hi: {
     'nav.home': 'होम',

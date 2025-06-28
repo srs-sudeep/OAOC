@@ -248,7 +248,7 @@ const Index = () => {
 
           <div className="text-center animate-fade-in">
             <Link to="/departments">
-              <Button size="lg" className="bg-gradient-to-r from-blue-900 to-blue-800 hover:from-blue-800 hover:to-blue-700 text-white px-16 py-6 text-xl font-semibold transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 rounded-xl">
+              <Button size="lg" className="bg-gradient-to-r from-blue-900 to-blue-800 hover:from-blue-800 hover:to-blue-700 text-white px-16 py-6 text-xl font-semibold transform hover:scale-105 transition-all duration-300 shadow-2xl hover:shadow-blue-500/25 rounded-xl text-wrap">
                 {language === 'en' ? 'View All Departments' : 'सभी विभाग देखें'}
                 <ArrowRight className="w-6 h-6 ml-3" />
               </Button>
