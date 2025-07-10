@@ -158,10 +158,12 @@ const SchemeDetail = () => {
                 {language === "en" ? "Quick Actions" : "त्वरित कार्य"}
               </h3>
               <div className="space-y-3">
+                <a href={scheme.website}>
                 <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 my-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
                   <FileText className="w-5 h-5 mr-2" />
                   {t("button.applyNow")}
                 </Button>
+                </a>
                 <a href={`tel:${scheme?.contact?.phone}`}>
                   <Button
                     variant="outline"
@@ -325,17 +327,49 @@ const SchemeDetail = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-6">
-                <div className="space-y-3 text-sm text-gray-700">
-                  {(Array.isArray(scheme.notices[language])
-                    ? scheme.notices[language]
-                    : []
-                  ).map((notice, index) => (
-                    <p key={index} className={index === 0 ? "font-medium" : ""}>
-                      {notice}
-                    </p>
-                  ))}
-                </div>
-              </CardContent>
+  <div className="space-y-3 text-sm text-gray-700 text-wrap">
+    {(Array.isArray(scheme.notices?.[language])
+      ? scheme.notices[language]
+      : scheme.notices?.[language]
+        ? [scheme.notices[language]]
+        : scheme.notices?.[language === "en" ? "en" : "hi"]
+          ? [scheme.notices[language === "en" ? "en" : "hi"]]
+          : []
+    ).map((notice, index) => {
+      // Simple URL detection
+      const urlMatch = notice.match(/https?:\/\/[^\s]+/);
+      return (
+        <p key={index} className={index === 0 ? "font-medium" : ""}>
+          {urlMatch ? (
+            <a
+              href={urlMatch[0]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-700 underline hover:text-blue-900 transition"
+            >
+              {notice}
+            </a>
+          ) : (
+            <>
+              {notice}
+              {/* Optionally, add a default link if you want */}
+              {scheme.website && (
+                <a
+                  href={scheme.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="ml-2 text-blue-700 underline hover:text-blue-900 transition"
+                >
+                  {language === "en" ? "View Document" : "दस्तावेज़ देखें"}
+                </a>
+              )}
+            </>
+          )}
+        </p>
+      );
+    })}
+  </div>
+</CardContent>
             </Card>
 
             {/* Contact Support */}
