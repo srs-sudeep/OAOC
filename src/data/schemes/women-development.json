@@ -1,0 +1,54 @@
+{
+  "schemes": [
+    {
+      "id": "women-entrepreneurship",
+      "name": {
+        "en": "Women Entrepreneurship Support",
+        "hi": "महिला उद्यमिता सहायता"
+      },
+      "description": {
+        "en": "Financial and technical assistance to women for starting their own business.",
+        "hi": "महिलाओं को अपना व्यवसाय शुरू करने के लिए वित्तीय और तकनीकी सहायता।"
+      },
+      "benefits": {
+        "en": ["Subsidized loans", "Business training", "Marketing support", "Mentorship programs"],
+        "hi": ["सब्सिडी युक्त ऋण", "व्यापारिक प्रशिक्षण", "विपणन सहायता", "परामर्श कार्यक्रम"]
+      },
+      "eligibility": {
+        "en": ["Women aged 18-45", "Basic education", "No existing business"],
+        "hi": ["18-45 आयु की महिलाएं", "बुनियादी शिक्षा", "कोई मौजूदा व्यवसाय नहीं"]
+      },
+      "process": {
+        "en": ["Business plan submission", "Training completion", "Loan application", "Business setup"],
+        "hi": ["व्यवसायिक योजना प्रस्तुत करना", "प्रशिक्षण पूर्णता", "ऋण आवेदन", "व्यवसाय स्थापना"]
+      },
+      "contact": {
+        "phone": "0771-2234-572",
+        "email": "womenentrepreneurship@cg.gov.in",
+        "office": {
+          "en": "Women Development Office",
+          "hi": "महिला विकास कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Aadhaar Card", "Educational Certificates", "Address Proof", "Bank Details", "Business Plan"],
+        "hi": ["आधार कार्ड", "शैक्षणिक प्रमाणपत्र", "पता प्रमाण", "बैंक विवरण", "व्यापारिक योजना"]
+      },
+      "guidelines": {
+        "en": "https://womendevelopment.cg.gov.in/entrepreneurship-guidelines.pdf",
+        "hi": "https://womendevelopment.cg.gov.in/entrepreneurship-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://womendevelopment.cg.gov.in/forms/entrepreneurship-application.pdf",
+        "hi": "https://womendevelopment.cg.gov.in/forms/entrepreneurship-application-hindi.pdf"
+      },
+      "website": "https://womendevelopment.cg.gov.in/schemes/women-entrepreneurship",
+      "status": "active",
+      "lastUpdated": "2025-06-28",
+      "notices": {
+        "en": ["Training is mandatory before loan approval", "Business mentorship provided for 2 years"],
+        "hi": ["ऋण अनुमोदन से पहले प्रशिक्षण अनिवार्य", "2 साल तक व्यापारिक परामर्श प्रदान किया जाता है"]
+      }
+    }
+  ]
+}

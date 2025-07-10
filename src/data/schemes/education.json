@@ -1,0 +1,104 @@
+{
+  "schemes": [
+    {
+      "id": "scholarship-scheme",
+      "name": {
+        "en": "Merit Scholarship Scheme",
+        "hi": "मेधा छात्रवृत्ति योजना"
+      },
+      "description": {
+        "en": "Financial assistance to meritorious students from economically weaker sections for higher education.",
+        "hi": "उच्च शिक्षा के लिए आर्थिक रूप से कमजोर वर्गों के मेधावी छात्रों को वित्तीय सहायता।"
+      },
+      "benefits": {
+        "en": ["Tuition fee support", "Maintenance allowance", "Book allowance", "Hostel facility"],
+        "hi": ["ट्यूशन फीस सहायता", "भरण-पोषण भत्ता", "पुस्तक भत्ता", "हॉस्टल सुविधा"]
+      },
+      "eligibility": {
+        "en": ["Minimum 60% marks", "Family income below Rs. 2 lakhs", "Regular attendance"],
+        "hi": ["न्यूनतम 60% अंक", "2 लाख रुपये से कम पारिवारिक आय", "नियमित उपस्थिति"]
+      },
+      "process": {
+        "en": ["Online application", "Document submission", "Merit list preparation", "Scholarship disbursement"],
+        "hi": ["ऑनलाइन आवेदन", "दस्तावेज जमा करना", "मेरिट लिस्ट तैयार करना", "छात्रवृत्ति वितरण"]
+      },
+      "contact": {
+        "phone": "0771-2234-569",
+        "email": "scholarship@cg.gov.in",
+        "office": {
+          "en": "District Education Office",
+          "hi": "जिला शिक्षा कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Mark Sheets", "Income Certificate", "Caste Certificate", "Bank Details", "Aadhaar Card"],
+        "hi": ["अंक पत्र", "आय प्रमाण पत्र", "जाति प्रमाण पत्र", "बैंक विवरण", "आधार कार्ड"]
+      },
+      "guidelines": {
+        "en": "https://education.cg.gov.in/scholarship-guidelines.pdf",
+        "hi": "https://education.cg.gov.in/scholarship-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://education.cg.gov.in/forms/scholarship-application.pdf",
+        "hi": "https://education.cg.gov.in/forms/scholarship-application-hindi.pdf"
+      },
+      "website": "https://education.cg.gov.in/schemes/merit-scholarship",
+      "status": "active",
+      "lastUpdated": "2025-07-01",
+      "notices": {
+        "en": ["Applications open from June to August", "Merit list published in September"],
+        "hi": ["जून से अगस्त तक आवेदन खुले रहते हैं", "मेरिट लिस्ट सितंबर में प्रकाशित होती है"]
+      }
+    },
+    {
+      "id": "digital-education",
+      "name": {
+        "en": "Digital Education Initiative",
+        "hi": "डिजिटल शिक्षा पहल"
+      },
+      "description": {
+        "en": "Providing digital devices and internet connectivity to students for online learning.",
+        "hi": "ऑनलाइन सीखने के लिए छात्रों को डिजिटल उपकरण और इंटरनेट कनेक्टिविटी प्रदान करना।"
+      },
+      "benefits": {
+        "en": ["Free tablets/laptops", "Free internet for 1 year", "Digital learning content", "Technical support"],
+        "hi": ["मुफ्त टैबलेट/लैपटॉप", "1 वर्ष के लिए मुफ्त इंटरनेट", "डिजिटल शिक्षण सामग्री", "तकनीकी सहायता"]
+      },
+      "eligibility": {
+        "en": ["Students in class 9-12", "Government school students", "Family income below Rs. 3 lakhs"],
+        "hi": ["कक्षा 9-12 के छात्र", "सरकारी स्कूल के छात्र", "3 लाख रुपये से कम पारिवारिक आय"]
+      },
+      "process": {
+        "en": ["School nomination", "Application verification", "Device distribution", "Usage monitoring"],
+        "hi": ["स्कूल नामांकन", "आवेदन सत्यापन", "उपकरण वितरण", "उपयोग निगरानी"]
+      },
+      "contact": {
+        "phone": "0771-2234-569",
+        "email": "digitaleducation@cg.gov.in",
+        "office": {
+          "en": "District Education Office",
+          "hi": "जिला शिक्षा कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["School ID", "Income Certificate", "Aadhaar Card", "Address Proof", "Guardian Details"],
+        "hi": ["स्कूल आईडी", "आय प्रमाण पत्र", "आधार कार्ड", "पता प्रमाण", "अभिभावक विवरण"]
+      },
+      "guidelines": {
+        "en": "https://education.cg.gov.in/digital-education-guidelines.pdf",
+        "hi": "https://education.cg.gov.in/digital-education-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://education.cg.gov.in/forms/digital-education-application.pdf",
+        "hi": "https://education.cg.gov.in/forms/digital-education-application-hindi.pdf"
+      },
+      "website": "https://education.cg.gov.in/schemes/digital-education",
+      "status": "active",
+      "lastUpdated": "2025-06-30",
+      "notices": {
+        "en": ["Device distribution in phases", "Students must attend digital literacy training"],
+        "hi": ["चरणों में उपकरण वितरण", "छात्रों को डिजिटल साक्षरता प्रशिक्षण में भाग लेना आवश्यक"]
+      }
+    }
+  ]
+}

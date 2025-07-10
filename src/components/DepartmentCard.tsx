@@ -2,23 +2,10 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ChevronRight, Clock, FileText, Star, Users } from 'lucide-react';
-import React from 'react';
+import { Department, fetchSchemes } from '@/lib/departmentUtils';
+import { ChevronRight, Clock, FileText, Globe, MapPin, Phone, Star, Users } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
-interface Department {
-  id: string;
-  name: {
-    en: string;
-    hi: string;
-  };
-  icon: string;
-  description: {
-    en: string;
-    hi: string;
-  };
-  schemes: any[];
-}
 
 interface DepartmentCardProps {
   department: Department;
@@ -26,6 +13,22 @@ interface DepartmentCardProps {
 
 const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
   const { language, t } = useLanguage();
+  const [schemeCount, setSchemeCount] = useState(0);
+
+  useEffect(() => {
+    // Fetch scheme count for this department
+    const fetchSchemeCount = async () => {
+      try {
+        const data = await fetchSchemes(department.id);
+        setSchemeCount(data.schemes?.length || 0);
+      } catch (error) {
+        console.error(`Error fetching schemes for ${department.id}:`, error);
+        setSchemeCount(0);
+      }
+    };
+
+    fetchSchemeCount();
+  }, [department.id]);
 
   return (
     <Card className="h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-3 border-0 bg-white rounded-2xl overflow-hidden group">
@@ -62,7 +65,7 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
               <div className="flex items-center justify-center mb-1">
                 <FileText className="w-4 h-4 text-blue-600" />
               </div>
-              <div className="text-lg font-bold text-blue-900">{department.schemes.length}</div>
+              <div className="text-lg font-bold text-blue-900">{schemeCount}</div>
               <div className="text-xs text-gray-600">{language === 'en' ? 'Schemes' : 'योजनाएं'}</div>
             </div>
             
@@ -83,19 +86,19 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
             </div>
           </div>
 
-          {/* Department Features */}
+          {/* Additional Contact Info */}
           <div className="space-y-2">
             <div className="flex items-center text-sm text-gray-600">
-              <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
-              <span>{language === 'en' ? 'Digital Application Process' : 'डिजिटल आवेदन प्रक्रिया'}</span>
+              <Phone className="w-4 h-4 mr-2 text-blue-500" />
+              <span className="font-medium">{department.contact.phone}</span>
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <div className="w-2 h-2 bg-blue-500 rounded-full mr-3"></div>
-              <span>{language === 'en' ? 'Real-time Status Tracking' : 'वास्तविक समय स्थिति ट्रैकिंग'}</span>
+              <Globe className="w-4 h-4 mr-2 text-orange-500" />
+              <span className="font-medium">{language === 'en' ? 'Official Website' : 'आधिकारिक वेबसाइट'}</span>
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <div className="w-2 h-2 bg-orange-500 rounded-full mr-3"></div>
-              <span>{language === 'en' ? 'Multi-language Support' : 'बहुभाषी समर्थन'}</span>
+              <MapPin className="w-4 h-4 mr-2 text-green-500" />
+              <span className="font-medium">{department.office.address[language]}</span>
             </div>
           </div>
           

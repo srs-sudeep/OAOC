@@ -1,0 +1,104 @@
+{
+  "schemes": [
+    {
+      "id": "crop-insurance",
+      "name": {
+        "en": "Crop Insurance Scheme",
+        "hi": "फसल बीमा योजना"
+      },
+      "description": {
+        "en": "Comprehensive insurance coverage for crops against natural calamities and weather risks.",
+        "hi": "प्राकृतिक आपदाओं और मौसम जोखिमों के खिलाफ फसलों के लिए व्यापक बीमा कवरेज।"
+      },
+      "benefits": {
+        "en": ["Up to 100% crop loss coverage", "Premium subsidy", "Quick claim settlement", "Coverage for all major crops"],
+        "hi": ["100% तक फसल नुकसान कवरेज", "प्रीमियम सब्सिडी", "त्वरित दावा निपटान", "सभी प्रमुख फसलों के लिए कवरेज"]
+      },
+      "eligibility": {
+        "en": ["Registered farmers", "Land ownership documents", "Aadhaar card mandatory"],
+        "hi": ["पंजीकृत किसान", "भूमि स्वामित्व दस्तावेज", "आधार कार्ड अनिवार्य"]
+      },
+      "process": {
+        "en": ["Online registration", "Premium payment", "Inspection and verification", "Policy issuance"],
+        "hi": ["ऑनलाइन पंजीकरण", "प्रीमियम भुगतान", "निरीक्षण और सत्यापन", "पॉलिसी जारी करना"]
+      },
+      "contact": {
+        "phone": "0771-2234-568",
+        "email": "cropinsurance@cg.gov.in",
+        "office": {
+          "en": "District Agriculture Office",
+          "hi": "जिला कृषि कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Land Records", "Aadhaar Card", "Bank Details", "Crop Details", "Previous Insurance Records"],
+        "hi": ["भूमि रिकॉर्ड", "आधार कार्ड", "बैंक विवरण", "फसल विवरण", "पिछला बीमा रिकॉर्ड"]
+      },
+      "guidelines": {
+        "en": "https://agriculture.cg.gov.in/crop-insurance-guidelines.pdf",
+        "hi": "https://agriculture.cg.gov.in/crop-insurance-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://agriculture.cg.gov.in/forms/crop-insurance-application.pdf",
+        "hi": "https://agriculture.cg.gov.in/forms/crop-insurance-application-hindi.pdf"
+      },
+      "website": "https://agriculture.cg.gov.in/schemes/crop-insurance",
+      "status": "active",
+      "lastUpdated": "2025-07-05",
+      "notices": {
+        "en": ["Registration must be done before sowing season", "Premium rates vary by crop and region"],
+        "hi": ["बुआई के मौसम से पहले पंजीकरण कराना आवश्यक", "प्रीमियम दरें फसल और क्षेत्र के अनुसार अलग होती हैं"]
+      }
+    },
+    {
+      "id": "organic-farming",
+      "name": {
+        "en": "Organic Farming Promotion",
+        "hi": "जैविक कृषि प्रोत्साहन"
+      },
+      "description": {
+        "en": "Financial assistance and technical support for farmers adopting organic farming practices.",
+        "hi": "जैविक कृषि प्रथाओं को अपनाने वाले किसानों के लिए वित्तीय सहायता और तकनीकी सहायता।"
+      },
+      "benefits": {
+        "en": ["50% subsidy on organic inputs", "Certification assistance", "Premium price for organic produce", "Training programs"],
+        "hi": ["जैविक आदानों पर 50% सब्सिडी", "प्रमाणन सहायता", "जैविक उत्पादों के लिए प्रीमियम मूल्य", "प्रशिक्षण कार्यक्रम"]
+      },
+      "eligibility": {
+        "en": ["Small and marginal farmers", "Minimum 0.5 acres of land", "Commitment for 3 years"],
+        "hi": ["छोटे और सीमांत किसान", "न्यूनतम 0.5 एकड़ भूमि", "3 वर्ष की प्रतिबद्धता"]
+      },
+      "process": {
+        "en": ["Apply at Agriculture Office", "Soil testing", "Training completion", "Implementation and monitoring"],
+        "hi": ["कृषि कार्यालय में आवेदन करें", "मिट्टी परीक्षण", "प्रशिक्षण पूर्णता", "कार्यान्वयन और निगरानी"]
+      },
+      "contact": {
+        "phone": "0771-2234-568",
+        "email": "organicfarming@cg.gov.in",
+        "office": {
+          "en": "District Agriculture Office",
+          "hi": "जिला कृषि कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Land Records", "Farmer ID", "Bank Details", "Soil Test Report", "Training Certificate"],
+        "hi": ["भूमि रिकॉर्ड", "किसान आईडी", "बैंक विवरण", "मिट्टी परीक्षण रिपोर्ट", "प्रशिक्षण प्रमाणपत्र"]
+      },
+      "guidelines": {
+        "en": "https://agriculture.cg.gov.in/organic-farming-guidelines.pdf",
+        "hi": "https://agriculture.cg.gov.in/organic-farming-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://agriculture.cg.gov.in/forms/organic-farming-application.pdf",
+        "hi": "https://agriculture.cg.gov.in/forms/organic-farming-application-hindi.pdf"
+      },
+      "website": "https://agriculture.cg.gov.in/schemes/organic-farming",
+      "status": "active",
+      "lastUpdated": "2025-06-20",
+      "notices": {
+        "en": ["3-year transition period required", "Regular monitoring and inspection conducted"],
+        "hi": ["3 साल की संक्रमण अवधि आवश्यक", "नियमित निगरानी और निरीक्षण किया जाता है"]
+      }
+    }
+  ]
+}

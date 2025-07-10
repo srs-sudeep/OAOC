@@ -1,0 +1,104 @@
+{
+  "schemes": [
+    {
+      "id": "fish-seed-scheme",
+      "name": {
+        "en": "Fish Seed Production Scheme",
+        "hi": "स्पान संवर्धन योजना"
+      },
+      "description": {
+        "en": "This scheme provides assistance to eligible fishermen for seasonal pond fish seed production with support for spawn promotion.",
+        "hi": "योजनान्तर्गत पात्र मछुआरों को मौसमी तालाब में मत्स्य बीज संवर्धन हेतु स्पान संवर्धन में सहायता प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": ["Financial assistance up to Rs. 30,000 per beneficiary", "Support for spawn/fish seed production", "Technical guidance and training"],
+        "hi": ["30 हजार रु. तक की राशि/मछली जाल प्रति हितग्राही", "स्पान/मछली बीज उत्पादन में सहायता", "तकनीकी मार्गदर्शन और प्रशिक्षण"]
+      },
+      "eligibility": {
+        "en": ["Must belong to scheduled tribes/castes", "Should be engaged in fish seed production", "Must have access to suitable water body"],
+        "hi": ["अनुसूचित जनजाति के मछुआरे", "मछली बीज उत्पादन में संलग्न होना चाहिए", "उपयुक्त जल निकाय तक पहुंच होनी चाहिए"]
+      },
+      "process": {
+        "en": ["Submit application to Assistant Director of Fisheries", "Provide necessary documents", "Technical verification", "Approval and fund disbursement"],
+        "hi": ["सहायक संचालक मछली पालन के जिला कार्यालय द्वारा ऑफ लाइन आवेदन", "आवश्यक दस्तावेज प्रस्तुत करें", "तकनीकी सत्यापन", "अनुमोदन और धन वितरण"]
+      },
+      "contact": {
+        "phone": "0771-2234-567",
+        "email": "fishseed@cg.gov.in",
+        "office": {
+          "en": "District Fisheries Office",
+          "hi": "जिला मत्स्य कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Caste Certificate", "Identity Proof", "Address Proof", "Bank Details", "Land/Water Body Documents"],
+        "hi": ["जाति प्रमाण पत्र", "पहचान प्रमाण", "पता प्रमाण", "बैंक विवरण", "भूमि/जल निकाय दस्तावेज"]
+      },
+      "guidelines": {
+        "en": "https://fisheries.cg.gov.in/fish-seed-guidelines.pdf",
+        "hi": "https://fisheries.cg.gov.in/fish-seed-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://fisheries.cg.gov.in/forms/fish-seed-application.pdf",
+        "hi": "https://fisheries.cg.gov.in/forms/fish-seed-application-hindi.pdf"
+      },
+      "website": "https://fisheries.cg.gov.in/schemes/fish-seed-production",
+      "status": "active",
+      "lastUpdated": "2025-07-01",
+      "notices": {
+        "en": ["Applications are accepted throughout the year", "Technical training is mandatory before fund disbursement"],
+        "hi": ["साल भर आवेदन स्वीकार किए जाते हैं", "धन वितरण से पहले तकनीकी प्रशिक्षण अनिवार्य है"]
+      }
+    },
+    {
+      "id": "fish-pond-scheme",
+      "name": {
+        "en": "Fish Pond Development Scheme",
+        "hi": "नाव/जाल प्रदाय योजना"
+      },
+      "description": {
+        "en": "Providing fishing equipment and materials to all categories of fishermen for livelihood enhancement.",
+        "hi": "सभी श्रेणी के मछुआरों को मत्स्यावेट हेतु सामग्री उपलब्ध कराया जाता है।"
+      },
+      "benefits": {
+        "en": ["Free fishing nets and boats", "Quality fishing equipment", "Livelihood support", "Training on modern techniques"],
+        "hi": ["मुफ्त मछली पकड़ने के जाल और नाव", "गुणवत्तापूर्ण मछली पकड़ने का उपकरण", "आजीविका सहायता", "आधुनिक तकनीकों पर प्रशिक्षण"]
+      },
+      "eligibility": {
+        "en": ["All categories of fishermen", "Should have valid fishing license", "Must be resident of the state"],
+        "hi": ["सभी श्रेणी के मछुआरे", "वैध मछली पकड़ने का लाइसेंस होना चाहिए", "राज्य का निवासी होना चाहिए"]
+      },
+      "process": {
+        "en": ["Apply through District Fisheries Office", "Document verification", "Selection process", "Equipment distribution"],
+        "hi": ["जिला मत्स्य कार्यालय के माध्यम से आवेदन करें", "दस्तावेज सत्यापन", "चयन प्रक्रिया", "उपकरण वितरण"]
+      },
+      "contact": {
+        "phone": "0771-2234-567",
+        "email": "fishequipment@cg.gov.in",
+        "office": {
+          "en": "District Fisheries Office",
+          "hi": "जिला मत्स्य कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Fishing License", "Identity Proof", "Address Proof", "Bank Details"],
+        "hi": ["मछली पकड़ने का लाइसेंस", "पहचान प्रमाण", "पता प्रमाण", "बैंक विवरण"]
+      },
+      "guidelines": {
+        "en": "https://fisheries.cg.gov.in/equipment-guidelines.pdf",
+        "hi": "https://fisheries.cg.gov.in/equipment-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://fisheries.cg.gov.in/forms/equipment-application.pdf",
+        "hi": "https://fisheries.cg.gov.in/forms/equipment-application-hindi.pdf"
+      },
+      "website": "https://fisheries.cg.gov.in/schemes/equipment-distribution",
+      "status": "active",
+      "lastUpdated": "2025-06-15",
+      "notices": {
+        "en": ["Equipment distribution happens twice a year", "Beneficiaries must maintain equipment properly"],
+        "hi": ["उपकरण वितरण साल में दो बार होता है", "लाभार्थियों को उपकरण का उचित रखरखाव करना चाहिए"]
+      }
+    }
+  ]
+}

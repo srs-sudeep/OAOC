@@ -1,0 +1,54 @@
+{
+  "schemes": [
+    {
+      "id": "mgnrega",
+      "name": {
+        "en": "Employment Guarantee Scheme",
+        "hi": "रोजगार गारंटी योजना"
+      },
+      "description": {
+        "en": "Guaranteed employment for rural households to enhance livelihood security.",
+        "hi": "आजीविका सुरक्षा बढ़ाने के लिए ग्रामीण परिवारों के लिए गारंटीशुदा रोजगार।"
+      },
+      "benefits": {
+        "en": ["100 days guaranteed work", "Minimum wage payment", "Work near residence", "Skill development"],
+        "hi": ["100 दिन गारंटीशुदा काम", "न्यूनतम मजदूरी भुगतान", "निवास के पास काम", "कौशल विकास"]
+      },
+      "eligibility": {
+        "en": ["Rural households", "Adult members", "Job card holders"],
+        "hi": ["ग्रामीण परिवार", "व्यस्क सदस्य", "जॉब कार्ड धारक"]
+      },
+      "process": {
+        "en": ["Job card registration", "Work demand application", "Work allocation", "Wage payment"],
+        "hi": ["जॉब कार्ड पंजीकरण", "कार्य मांग आवेदन", "कार्य आवंटन", "मजदूरी भुगतान"]
+      },
+      "contact": {
+        "phone": "0771-2234-571",
+        "email": "mgnrega@cg.gov.in",
+        "office": {
+          "en": "Block Development Office",
+          "hi": "ब्लॉक विकास कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Aadhaar Card", "Address Proof", "Bank Details", "Photograph", "Age Proof"],
+        "hi": ["आधार कार्ड", "पता प्रमाण", "बैंक विवरण", "फोटोग्राफ", "आयु प्रमाण"]
+      },
+      "guidelines": {
+        "en": "https://ruraldevelopment.cg.gov.in/mgnrega-guidelines.pdf",
+        "hi": "https://ruraldevelopment.cg.gov.in/mgnrega-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://ruraldevelopment.cg.gov.in/forms/mgnrega-application.pdf",
+        "hi": "https://ruraldevelopment.cg.gov.in/forms/mgnrega-application-hindi.pdf"
+      },
+      "website": "https://ruraldevelopment.cg.gov.in/schemes/mgnrega",
+      "status": "active",
+      "lastUpdated": "2025-07-02",
+      "notices": {
+        "en": ["Work demand can be applied throughout the year", "Wages paid within 15 days of work completion"],
+        "hi": ["साल भर काम की मांग की जा सकती है", "काम पूरा होने के 15 दिनों के भीतर मजदूरी का भुगतान"]
+      }
+    }
+  ]
+}

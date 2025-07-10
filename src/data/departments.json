@@ -1,4 +1,3 @@
-
 {
   "departments": [
     {
@@ -12,52 +11,28 @@
         "en": "Promoting sustainable fisheries development and aquaculture",
         "hi": "स्थायी मत्स्य विकास और मत्स्य पालन को बढ़ावा देना"
       },
-      "schemes": [
-        {
-          "id": "fish-seed-scheme",
-          "name": {
-            "en": "Fish Seed Production Scheme",
-            "hi": "स्पान संवर्धन योजना"
-          },
-          "description": {
-            "en": "This scheme provides assistance to eligible fishermen for seasonal pond fish seed production with support for spawn promotion.",
-            "hi": "योजनान्तर्गत पात्र मछुआरों को मौसमी तालाब में मत्स्य बीज संवर्धन हेतु स्पान संवर्धन में सहायता प्रदान की जाती है।"
-          },
-          "benefits": {
-            "en": ["Financial assistance up to Rs. 30,000 per beneficiary", "Support for spawn/fish seed production", "Technical guidance and training"],
-            "hi": ["30 हजार रु. तक की राशि/मछली जाल प्रति हितग्राही", "स्पान/मछली बीज उत्पादन में सहायता", "तकनीकी मार्गदर्शन और प्रशिक्षण"]
-          },
-          "eligibility": {
-            "en": ["Must belong to scheduled tribes/castes", "Should be engaged in fish seed production", "Must have access to suitable water body"],
-            "hi": ["अनुसूचित जनजाति के मछुआरे", "मछली बीज उत्पादन में संलग्न होना चाहिए", "उपयुक्त जल निकाय तक पहुंच होनी चाहिए"]
-          },
-          "process": {
-            "en": ["Submit application to Assistant Director of Fisheries", "Provide necessary documents", "Technical verification", "Approval and fund disbursement"],
-            "hi": ["सहायक संचालक मछली पालन के जिला कार्यालय द्वारा ऑफ लाइन आवेदन", "आवश्यक दस्तावेज प्रस्तुत करें", "तकनीकी सत्यापन", "अनुमोदन और धन वितरण"]
-          }
+      "website": "https://fisheries.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-567",
+        "email": "fisheries@cg.gov.in",
+        "helpline": "1800-233-4567"
+      },
+      "office": {
+        "address": {
+          "en": "Fisheries Department, Secretariat Complex, Raipur",
+          "hi": "मत्स्य विभाग, सचिवालय परिसर, रायपुर"
         },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
         {
-          "id": "fish-pond-scheme",
-          "name": {
-            "en": "Fish Pond Development Scheme",
-            "hi": "नाव/जाल प्रदाय योजना"
+          "name": "Dr. Rajesh Kumar",
+          "designation": {
+            "en": "Director, Fisheries",
+            "hi": "निदेशक, मत्स्य पालन"
           },
-          "description": {
-            "en": "Providing fishing equipment and materials to all categories of fishermen for livelihood enhancement.",
-            "hi": "सभी श्रेणी के मछुआरों को मत्स्यावेट हेतु सामग्री उपलब्ध कराया जाता है।"
-          },
-          "benefits": {
-            "en": ["Free fishing nets and boats", "Quality fishing equipment", "Livelihood support", "Training on modern techniques"],
-            "hi": ["मुफ्त मछली पकड़ने के जाल और नाव", "गुणवत्तापूर्ण मछली पकड़ने का उपकरण", "आजीविका सहायता", "आधुनिक तकनीकों पर प्रशिक्षण"]
-          },
-          "eligibility": {
-            "en": ["All categories of fishermen", "Should have valid fishing license", "Must be resident of the state"],
-            "hi": ["सभी श्रेणी के मछुआरे", "वैध मछली पकड़ने का लाइसेंस होना चाहिए", "राज्य का निवासी होना चाहिए"]
-          },
-          "process": {
-            "en": ["Apply through District Fisheries Office", "Document verification", "Selection process", "Equipment distribution"],
-            "hi": ["जिला मत्स्य कार्यालय के माध्यम से आवेदन करें", "दस्तावेज सत्यापन", "चयन प्रक्रिया", "उपकरण वितरण"]
-          }
+          "phone": "0771-2234-567",
+          "email": "director.fisheries@cg.gov.in"
         }
       ]
     },
@@ -72,52 +47,28 @@
         "en": "Supporting farmers with modern agricultural practices and subsidies",
         "hi": "आधुनिक कृषि प्रथाओं और सब्सिडी के साथ किसानों का समर्थन"
       },
-      "schemes": [
-        {
-          "id": "crop-insurance",
-          "name": {
-            "en": "Crop Insurance Scheme",
-            "hi": "फसल बीमा योजना"
-          },
-          "description": {
-            "en": "Comprehensive insurance coverage for crops against natural calamities and weather risks.",
-            "hi": "प्राकृतिक आपदाओं और मौसम जोखिमों के खिलाफ फसलों के लिए व्यापक बीमा कवरेज।"
-          },
-          "benefits": {
-            "en": ["Up to 100% crop loss coverage", "Premium subsidy", "Quick claim settlement", "Coverage for all major crops"],
-            "hi": ["100% तक फसल नुकसान कवरेज", "प्रीमियम सब्सिडी", "त्वरित दावा निपटान", "सभी प्रमुख फसलों के लिए कवरेज"]
-          },
-          "eligibility": {
-            "en": ["Registered farmers", "Land ownership documents", "Aadhaar card mandatory"],
-            "hi": ["पंजीकृत किसान", "भूमि स्वामित्व दस्तावेज", "आधार कार्ड अनिवार्य"]
-          },
-          "process": {
-            "en": ["Online registration", "Premium payment", "Inspection and verification", "Policy issuance"],
-            "hi": ["ऑनलाइन पंजीकरण", "प्रीमियम भुगतान", "निरीक्षण और सत्यापन", "पॉलिसी जारी करना"]
-          }
+      "website": "https://agriculture.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-568",
+        "email": "agriculture@cg.gov.in",
+        "helpline": "1800-233-4568"
+      },
+      "office": {
+        "address": {
+          "en": "Agriculture Department, Krishi Bhawan, Raipur",
+          "hi": "कृषि विभाग, कृषि भवन, रायपुर"
         },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
         {
-          "id": "organic-farming",
-          "name": {
-            "en": "Organic Farming Promotion",
-            "hi": "जैविक कृषि प्रोत्साहन"
+          "name": "Dr. Sunita Sharma",
+          "designation": {
+            "en": "Director, Agriculture",
+            "hi": "निदेशक, कृषि"
           },
-          "description": {
-            "en": "Financial assistance and technical support for farmers adopting organic farming practices.",
-            "hi": "जैविक कृषि प्रथाओं को अपनाने वाले किसानों के लिए वित्तीय सहायता और तकनीकी सहायता।"
-          },
-          "benefits": {
-            "en": ["50% subsidy on organic inputs", "Certification assistance", "Premium price for organic produce", "Training programs"],
-            "hi": ["जैविक आदानों पर 50% सब्सिडी", "प्रमाणन सहायता", "जैविक उत्पादों के लिए प्रीमियम मूल्य", "प्रशिक्षण कार्यक्रम"]
-          },
-          "eligibility": {
-            "en": ["Small and marginal farmers", "Minimum 0.5 acres of land", "Commitment for 3 years"],
-            "hi": ["छोटे और सीमांत किसान", "न्यूनतम 0.5 एकड़ भूमि", "3 वर्ष की प्रतिबद्धता"]
-          },
-          "process": {
-            "en": ["Apply at Agriculture Office", "Soil testing", "Training completion", "Implementation and monitoring"],
-            "hi": ["कृषि कार्यालय में आवेदन करें", "मिट्टी परीक्षण", "प्रशिक्षण पूर्णता", "कार्यान्वयन और निगरानी"]
-          }
+          "phone": "0771-2234-568",
+          "email": "director.agriculture@cg.gov.in"
         }
       ]
     },
@@ -132,52 +83,28 @@
         "en": "Ensuring quality education and skill development for all citizens",
         "hi": "सभी नागरिकों के लिए गुणवत्तापूर्ण शिक्षा और कौशल विकास सुनिश्चित करना"
       },
-      "schemes": [
-        {
-          "id": "scholarship-scheme",
-          "name": {
-            "en": "Merit Scholarship Scheme",
-            "hi": "मेधा छात्रवृत्ति योजना"
-          },
-          "description": {
-            "en": "Financial assistance to meritorious students from economically weaker sections for higher education.",
-            "hi": "उच्च शिक्षा के लिए आर्थिक रूप से कमजोर वर्गों के मेधावी छात्रों को वित्तीय सहायता।"
-          },
-          "benefits": {
-            "en": ["Tuition fee support", "Maintenance allowance", "Book allowance", "Hostel facility"],
-            "hi": ["ट्यूशन फीस सहायता", "भरण-पोषण भत्ता", "पुस्तक भत्ता", "हॉस्टल सुविधा"]
-          },
-          "eligibility": {
-            "en": ["Minimum 60% marks", "Family income below Rs. 2 lakhs", "Regular attendance"],
-            "hi": ["न्यूनतम 60% अंक", "2 लाख रुपये से कम पारिवारिक आय", "नियमित उपस्थिति"]
-          },
-          "process": {
-            "en": ["Online application", "Document submission", "Merit list preparation", "Scholarship disbursement"],
-            "hi": ["ऑनलाइन आवेदन", "दस्तावेज जमा करना", "मेरिट लिस्ट तैयार करना", "छात्रवृत्ति वितरण"]
-          }
+      "website": "https://education.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-569",
+        "email": "education@cg.gov.in",
+        "helpline": "1800-233-4569"
+      },
+      "office": {
+        "address": {
+          "en": "Education Department, Shiksha Sadan, Raipur",
+          "hi": "शिक्षा विभाग, शिक्षा सदन, रायपुर"
         },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
         {
-          "id": "digital-education",
-          "name": {
-            "en": "Digital Education Initiative",
-            "hi": "डिजिटल शिक्षा पहल"
+          "name": "Prof. Amit Verma",
+          "designation": {
+            "en": "Director, Education",
+            "hi": "निदेशक, शिक्षा"
           },
-          "description": {
-            "en": "Providing digital devices and internet connectivity to students for online learning.",
-            "hi": "ऑनलाइन सीखने के लिए छात्रों को डिजिटल उपकरण और इंटरनेट कनेक्टिविटी प्रदान करना।"
-          },
-          "benefits": {
-            "en": ["Free tablets/laptops", "Free internet for 1 year", "Digital learning content", "Technical support"],
-            "hi": ["मुफ्त टैबलेट/लैपटॉप", "1 वर्ष के लिए मुफ्त इंटरनेट", "डिजिटल शिक्षण सामग्री", "तकनीकी सहायता"]
-          },
-          "eligibility": {
-            "en": ["Students in class 9-12", "Government school students", "Family income below Rs. 3 lakhs"],
-            "hi": ["कक्षा 9-12 के छात्र", "सरकारी स्कूल के छात्र", "3 लाख रुपये से कम पारिवारिक आय"]
-          },
-          "process": {
-            "en": ["School nomination", "Application verification", "Device distribution", "Usage monitoring"],
-            "hi": ["स्कूल नामांकन", "आवेदन सत्यापन", "उपकरण वितरण", "उपयोग निगरानी"]
-          }
+          "phone": "0771-2234-569",
+          "email": "director.education@cg.gov.in"
         }
       ]
     },
@@ -192,52 +119,28 @@
         "en": "Providing accessible healthcare services to all citizens",
         "hi": "सभी नागरिकों को सुलभ स्वास्थ्य सेवाएं प्रदान करना"
       },
-      "schemes": [
-        {
-          "id": "health-insurance",
-          "name": {
-            "en": "Universal Health Insurance",
-            "hi": "सार्वभौमिक स्वास्थ्य बीमा"
-          },
-          "description": {
-            "en": "Comprehensive health insurance coverage for all citizens with cashless treatment facility.",
-            "hi": "कैशलेस उपचार सुविधा के साथ सभी नागरिकों के लिए व्यापक स्वास्थ्य बीमा कवरेज।"
-          },
-          "benefits": {
-            "en": ["Cashless treatment", "Coverage up to Rs. 5 lakhs", "Pre and post hospitalization", "Emergency services"],
-            "hi": ["कैशलेस उपचार", "5 लाख रुपये तक कवरेज", "अस्पताल में भर्ती से पहले और बाद", "आपातकालीन सेवाएं"]
-          },
-          "eligibility": {
-            "en": ["All residents", "Aadhaar card required", "Valid address proof"],
-            "hi": ["सभी निवासी", "आधार कार्ड आवश्यक", "वैध पता प्रमाण"]
-          },
-          "process": {
-            "en": ["Registration at nearest center", "Biometric verification", "Card issuance", "Hospital enrollment"],
-            "hi": ["निकटतम केंद्र पर पंजीकरण", "बायोमेट्रिक सत्यापन", "कार्ड जारी करना", "अस्पताल नामांकन"]
-          }
+      "website": "https://health.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-570",
+        "email": "health@cg.gov.in",
+        "helpline": "1800-233-4570"
+      },
+      "office": {
+        "address": {
+          "en": "Health Department, Swasthya Bhawan, Raipur",
+          "hi": "स्वास्थ्य विभाग, स्वास्थ्य भवन, रायपुर"
         },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
         {
-          "id": "maternal-health",
-          "name": {
-            "en": "Maternal Health Support",
-            "hi": "मातृ स्वास्थ्य सहायता"
+          "name": "Dr. Priya Singh",
+          "designation": {
+            "en": "Director, Health Services",
+            "hi": "निदेशक, स्वास्थ्य सेवाएं"
           },
-          "description": {
-            "en": "Comprehensive healthcare support for pregnant women and new mothers.",
-            "hi": "गर्भवती महिलाओं और नई माताओं के लिए व्यापक स्वास्थ्य सेवा सहायता।"
-          },
-          "benefits": {
-            "en": ["Free antenatal care", "Delivery assistance", "Postnatal care", "Nutritional support"],
-            "hi": ["मुफ्त प्रसवपूर्व देखभाल", "प्रसव सहायता", "प्रसवोत्तर देखभाल", "पोषण सहायता"]
-          },
-          "eligibility": {
-            "en": ["Pregnant women", "Lactating mothers", "Below poverty line families"],
-            "hi": ["गर्भवती महिलाएं", "स्तनपान कराने वाली माताएं", "गरीबी रेखा से नीचे के परिवार"]
-          },
-          "process": {
-            "en": ["Registration at PHC", "Regular checkups", "Institutional delivery", "Follow-up care"],
-            "hi": ["PHC में पंजीकरण", "नियमित जांच", "संस्थागत प्रसव", "अनुवर्ती देखभाल"]
-          }
+          "phone": "0771-2234-570",
+          "email": "director.health@cg.gov.in"
         }
       ]
     },
@@ -252,29 +155,28 @@
         "en": "Comprehensive development of rural areas and employment generation",
         "hi": "ग्रामीण क्षेत्रों का व्यापक विकास और रोजगार सृजन"
       },
-      "schemes": [
+      "website": "https://ruraldevelopment.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-571",
+        "email": "ruraldevelopment@cg.gov.in",
+        "helpline": "1800-233-4571"
+      },
+      "office": {
+        "address": {
+          "en": "Rural Development Department, Panchayat Bhawan, Raipur",
+          "hi": "ग्रामीण विकास विभाग, पंचायत भवन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
         {
-          "id": "mgnrega",
-          "name": {
-            "en": "Employment Guarantee Scheme",
-            "hi": "रोजगार गारंटी योजना"
+          "name": "Shri Ramesh Gupta",
+          "designation": {
+            "en": "Director, Rural Development",
+            "hi": "निदेशक, ग्रामीण विकास"
           },
-          "description": {
-            "en": "Guaranteed employment for rural households to enhance livelihood security.",
-            "hi": "आजीविका सुरक्षा बढ़ाने के लिए ग्रामीण परिवारों के लिए गारंटीशुदा रोजगार।"
-          },
-          "benefits": {
-            "en": ["100 days guaranteed work", "Minimum wage payment", "Work near residence", "Skill development"],
-            "hi": ["100 दिन गारंटीशुदा काम", "न्यूनतम मजदूरी भुगतान", "निवास के पास काम", "कौशल विकास"]
-          },
-          "eligibility": {
-            "en": ["Rural households", "Adult members", "Job card holders"],
-            "hi": ["ग्रामीण परिवार", "व्यस्क सदस्य", "जॉब कार्ड धारक"]
-          },
-          "process": {
-            "en": ["Job card registration", "Work demand application", "Work allocation", "Wage payment"],
-            "hi": ["जॉब कार्ड पंजीकरण", "कार्य मांग आवेदन", "कार्य आवंटन", "मजदूरी भुगतान"]
-          }
+          "phone": "0771-2234-571",
+          "email": "director.ruraldevelopment@cg.gov.in"
         }
       ]
     },
@@ -289,29 +191,28 @@
         "en": "Empowering women and ensuring child welfare and development",
         "hi": "महिलाओं का सशक्तिकरण और बाल कल्याण एवं विकास सुनिश्चित करना"
       },
-      "schemes": [
+      "website": "https://womendevelopment.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-572",
+        "email": "womendevelopment@cg.gov.in",
+        "helpline": "1800-233-4572"
+      },
+      "office": {
+        "address": {
+          "en": "Women & Child Development, Mahila Bhawan, Raipur",
+          "hi": "महिला एवं बाल विकास, महिला भवन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
         {
-          "id": "women-entrepreneurship",
-          "name": {
-            "en": "Women Entrepreneurship Support",
-            "hi": "महिला उद्यमिता सहायता"
+          "name": "Mrs. Kavita Jain",
+          "designation": {
+            "en": "Director, Women & Child Development",
+            "hi": "निदेशक, महिला एवं बाल विकास"
           },
-          "description": {
-            "en": "Financial and technical support for women to start their own businesses.",
-            "hi": "महिलाओं को अपना व्यवसाय शुरू करने के लिए वित्तीय और तकनीकी सहायता।"
-          },
-          "benefits": {
-            "en": ["Subsidized loans", "Business training", "Marketing support", "Mentorship programs"],
-            "hi": ["सब्सिडी युक्त ऋण", "व्यापारिक प्रशिक्षण", "विपणन सहायता", "परामर्श कार्यक्रम"]
-          },
-          "eligibility": {
-            "en": ["Women aged 18-45", "Basic education", "No existing business"],
-            "hi": ["18-45 आयु की महिलाएं", "बुनियादी शिक्षा", "कोई मौजूदा व्यवसाय नहीं"]
-          },
-          "process": {
-            "en": ["Business plan submission", "Training completion", "Loan approval", "Business setup"],
-            "hi": ["व्यापारिक योजना प्रस्तुतीकरण", "प्रशिक्षण पूर्णता", "ऋण अनुमोदन", "व्यापार स्थापना"]
-          }
+          "phone": "0771-2234-572",
+          "email": "director.womendevelopment@cg.gov.in"
         }
       ]
     }

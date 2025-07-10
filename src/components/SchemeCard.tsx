@@ -3,38 +3,15 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
-  CardFooter,
 } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { ExternalLink } from "lucide-react";
+import { Scheme } from "@/lib/departmentUtils";
+import { Clock, ExternalLink, Shield } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
-
-interface Scheme {
-  id: string;
-  name: {
-    en: string;
-    hi: string;
-  };
-  description: {
-    en: string;
-    hi: string;
-  };
-  benefits: {
-    en: string[];
-    hi: string[];
-  };
-  eligibility: {
-    en: string[];
-    hi: string[];
-  };
-  process: {
-    en: string[];
-    hi: string[];
-  };
-}
 
 interface SchemeCardProps {
   scheme: Scheme;
@@ -52,8 +29,12 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
           <div className="bg-blue-100 p-3 rounded-full group-hover:bg-blue-200 transition-colors duration-300">
             <ExternalLink className="w-6 h-6 text-blue-600" />
           </div>
-          <div className="bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full">
-            {language === "en" ? "ACTIVE" : "सक्रिय"}
+          <div className="bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full flex items-center">
+            <Shield className="w-3 h-3 mr-1" />
+            {scheme.status === 'active' 
+              ? (language === "en" ? "ACTIVE" : "सक्रिय")
+              : (language === "en" ? "INACTIVE" : "निष्क्रिय")
+            }
           </div>
         </div>
         <CardTitle className="text-xl text-blue-900 mb-3 group-hover:text-blue-700 transition-colors duration-300 leading-tight">
@@ -86,6 +67,24 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
                 {language === "en" ? "more benefits" : "और लाभ"}
               </p>
             )}
+          </div>
+
+          {/* Last Updated Info */}
+          <div className="flex items-center justify-between text-xs text-gray-500 mt-4 pt-4 border-t border-gray-100">
+            <div className="flex items-center">
+              <Clock className="w-3 h-3 mr-1" />
+              <span>{language === "en" ? "Updated:" : "अपडेट:"} {scheme.lastUpdated}</span>
+            </div>
+            <span className={`px-2 py-1 rounded-full text-xs font-medium ${
+              scheme.status === 'active' 
+                ? 'bg-green-100 text-green-700' 
+                : 'bg-red-100 text-red-700'
+            }`}>
+              {scheme.status === 'active' 
+                ? (language === "en" ? "Active" : "सक्रिय")
+                : (language === "en" ? "Inactive" : "निष्क्रिय")
+              }
+            </span>
           </div>
         </div>
       </CardContent>

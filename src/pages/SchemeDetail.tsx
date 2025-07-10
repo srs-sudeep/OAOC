@@ -2,16 +2,52 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
-import departmentsData from '@/data/departments.json';
+import { Department, getDepartmentById, getSchemeById, Scheme } from '@/lib/departmentUtils';
 import { AlertCircle, ArrowLeft, CheckCircle, Clock, Download, FileText, Mail, Phone, Settings, Star, Users } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const SchemeDetail = () => {
   const { departmentId, schemeId } = useParams();
   const { language, t } = useLanguage();
+  const [department, setDepartment] = useState<Department | null>(null);
+  const [scheme, setScheme] = useState<Scheme | null>(null);
+  const [loading, setLoading] = useState(true);
   
-  const department = departmentsData.departments.find(dept => dept.id === departmentId);
-  const scheme = department?.schemes.find(s => s.id === schemeId);
+  useEffect(() => {
+    const loadData = async () => {
+      if (!departmentId || !schemeId) return;
+      
+      try {
+        const [departmentData, schemeData] = await Promise.all([
+          getDepartmentById(departmentId),
+          getSchemeById(departmentId, schemeId)
+        ]);
+        
+        setDepartment(departmentData);
+        setScheme(schemeData);
+      } catch (error) {
+        console.error('Error loading scheme data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, [departmentId, schemeId]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-900 mx-auto"></div>
+          <p className="mt-4 text-blue-900 font-medium">
+            {language === 'en' ? 'Loading scheme details...' : 'योजना विवरण लोड हो रहे हैं...'}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!department || !scheme) {
     return (
@@ -102,14 +138,18 @@ const SchemeDetail = () => {
                   <FileText className="w-5 h-5 mr-2" />
                   {t('button.applyNow')}
                 </Button>
-                <Button variant="outline" className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300">
-                  <Download className="w-5 h-5 mr-2" />
-                  {language === 'en' ? 'Download Form' : 'फॉर्म डाउनलोड'}
-                </Button>
-                <Button variant="outline" className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300">
-                  <Phone className="w-5 h-5 mr-2" />
-                  {language === 'en' ? 'Contact Help' : 'सहायता संपर्क'}
-                </Button>
+                <a href={scheme.applicationForm[language]} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline" className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300">
+                    <Download className="w-5 h-5 mr-2" />
+                    {language === 'en' ? 'Download Form' : 'फॉर्म डाउनलोड'}
+                  </Button>
+                </a>
+                <a href={`tel:${scheme.contact.phone}`}>
+                  <Button variant="outline" className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300">
+                    <Phone className="w-5 h-5 mr-2" />
+                    {language === 'en' ? 'Contact Help' : 'सहायता संपर्क'}
+                  </Button>
+                </a>
               </div>
             </div>
           </div>
@@ -239,6 +279,29 @@ const SchemeDetail = () => {
                 </div>
               </CardContent>
             </Card>
+
+            {/* Required Documents */}
+            <Card className="border-0 shadow-xl rounded-2xl overflow-hidden">
+              <div className="bg-gradient-to-r from-purple-600 to-purple-700 h-2"></div>
+              <CardHeader className="bg-purple-50">
+                <CardTitle className="flex items-center text-purple-700 text-2xl">
+                  <FileText className="w-7 h-7 mr-3" />
+                  {language === 'en' ? 'Required Documents' : 'आवश्यक दस्तावेज'}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="p-8">
+                <div className="grid gap-4">
+                  {scheme.documents[language].map((document, index) => (
+                    <div key={index} className="flex items-start space-x-4 p-4 bg-purple-50 rounded-lg border border-purple-100 hover:bg-purple-100 transition-colors duration-300">
+                      <div className="bg-purple-500 rounded-full p-1 mt-1">
+                        <FileText className="w-4 h-4 text-white" />
+                      </div>
+                      <span className="text-gray-700 leading-relaxed font-medium">{document}</span>
+                    </div>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
           </div>
 
           {/* Sidebar */}
@@ -254,18 +317,11 @@ const SchemeDetail = () => {
               </CardHeader>
               <CardContent className="p-6">
                 <div className="space-y-3 text-sm text-gray-700">
-                  <p className="font-medium">
-                    {language === 'en' 
-                      ? 'Please ensure all documents are valid and up-to-date before applying.'
-                      : 'कृपया आवेदन करने से पहले सुनिश्चित करें कि सभी दस्तावेज वैध और अद्यतन हैं।'
-                    }
-                  </p>
-                  <p>
-                    {language === 'en' 
-                      ? 'Incomplete applications will be rejected automatically.'
-                      : 'अधूरे आवेदन स्वचालित रूप से अस्वीकार कर दिए जाएंगे।'
-                    }
-                  </p>
+                  {scheme.notices[language].map((notice, index) => (
+                    <p key={index} className={index === 0 ? "font-medium" : ""}>
+                      {notice}
+                    </p>
+                  ))}
                 </div>
               </CardContent>
             </Card>
@@ -283,15 +339,20 @@ const SchemeDetail = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 text-sm">
                     <Phone className="w-4 h-4 text-purple-600" />
-                    <span className="text-gray-700 font-medium">1800-233-4567</span>
+                    <span className="text-gray-700 font-medium">{scheme.contact.phone}</span>
                   </div>
                   <div className="flex items-center space-x-3 text-sm">
                     <Mail className="w-4 h-4 text-purple-600" />
-                    <span className="text-gray-700 font-medium">{department.id}@cg.gov.in</span>
+                    <span className="text-gray-700 font-medium">{scheme.contact.email}</span>
                   </div>
-                  <Button variant="outline" className="w-full mt-4 border-purple-600 text-purple-600 hover:bg-purple-50">
-                    {language === 'en' ? 'Contact Support' : 'सहायता संपर्क'}
-                  </Button>
+                  <div className="text-sm text-gray-600">
+                    <strong>{language === 'en' ? 'Office:' : 'कार्यालय:'}</strong> {scheme.contact.office[language]}
+                  </div>
+                  <a href={`tel:${scheme.contact.phone}`}>
+                    <Button variant="outline" className="w-full mt-4 border-purple-600 text-purple-600 hover:bg-purple-50">
+                      {language === 'en' ? 'Contact Support' : 'सहायता संपर्क'}
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>
@@ -307,17 +368,21 @@ const SchemeDetail = () => {
               </CardHeader>
               <CardContent className="p-6">
                 <div className="space-y-3">
-                  <Button variant="outline" className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50">
-                    <FileText className="w-4 h-4 mr-2" />
-                    {language === 'en' ? 'Application Form' : 'आवेदन फॉर्म'}
-                  </Button>
+                  <a href={scheme.applicationForm[language]} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50">
+                      <FileText className="w-4 h-4 mr-2" />
+                      {language === 'en' ? 'Application Form' : 'आवेदन फॉर्म'}
+                    </Button>
+                  </a>
+                  <a href={scheme.guidelines[language]} target="_blank" rel="noopener noreferrer">
+                    <Button variant="outline" className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50">
+                      <FileText className="w-4 h-4 mr-2" />
+                      {language === 'en' ? 'Guidelines' : 'दिशानिर्देश'}
+                    </Button>
+                  </a>
                   <Button variant="outline" className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50">
                     <FileText className="w-4 h-4 mr-2" />
                     {language === 'en' ? 'Document Checklist' : 'दस्तावेज सूची'}
-                  </Button>
-                  <Button variant="outline" className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50">
-                    <FileText className="w-4 h-4 mr-2" />
-                    {language === 'en' ? 'Guidelines' : 'दिशानिर्देश'}
                   </Button>
                 </div>
               </CardContent>
@@ -337,14 +402,18 @@ const SchemeDetail = () => {
             }
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
-              <FileText className="w-5 h-5 mr-2" />
-              {t('button.applyNow')}
-            </Button>
-            <Button size="lg" variant="outline" className="border-white/30 text-black hover:bg-white/10 px-8 py-4 rounded-lg font-medium transition-all duration-300">
-              <Download className="w-5 h-5 mr-2" />
-              {language === 'en' ? 'Download Form' : 'फॉर्म डाउनलोड'}
-            </Button>
+            <a href={scheme.website} target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
+                <FileText className="w-5 h-5 mr-2" />
+                {t('button.applyNow')}
+              </Button>
+            </a>
+            <a href={scheme.applicationForm[language]} target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="border-white/30 text-black hover:bg-white/10 px-8 py-4 rounded-lg font-medium transition-all duration-300">
+                <Download className="w-5 h-5 mr-2" />
+                {language === 'en' ? 'Download Form' : 'फॉर्म डाउनलोड'}
+              </Button>
+            </a>
           </div>
           <p className="text-xs text-blue-300 mt-4">
             {language === 'en' 

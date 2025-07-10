@@ -1,0 +1,104 @@
+{
+  "schemes": [
+    {
+      "id": "health-insurance",
+      "name": {
+        "en": "Universal Health Insurance",
+        "hi": "सार्वभौमिक स्वास्थ्य बीमा"
+      },
+      "description": {
+        "en": "Comprehensive health insurance coverage for all citizens with cashless treatment facility.",
+        "hi": "कैशलेस उपचार सुविधा के साथ सभी नागरिकों के लिए व्यापक स्वास्थ्य बीमा कवरेज।"
+      },
+      "benefits": {
+        "en": ["Cashless treatment", "Coverage up to Rs. 5 lakhs", "Pre and post hospitalization", "Emergency services"],
+        "hi": ["कैशलेस उपचार", "5 लाख रुपये तक कवरेज", "अस्पताल में भर्ती से पहले और बाद", "आपातकालीन सेवाएं"]
+      },
+      "eligibility": {
+        "en": ["All residents", "Aadhaar card required", "Valid address proof"],
+        "hi": ["सभी निवासी", "आधार कार्ड आवश्यक", "वैध पता प्रमाण"]
+      },
+      "process": {
+        "en": ["Registration at nearest center", "Biometric verification", "Card issuance", "Hospital enrollment"],
+        "hi": ["निकटतम केंद्र पर पंजीकरण", "बायोमेट्रिक सत्यापन", "कार्ड जारी करना", "अस्पताल नामांकन"]
+      },
+      "contact": {
+        "phone": "0771-2234-570",
+        "email": "healthinsurance@cg.gov.in",
+        "office": {
+          "en": "District Health Office",
+          "hi": "जिला स्वास्थ्य कार्यालय"
+        }
+      },
+      "documents": {
+        "en": ["Aadhaar Card", "Address Proof", "Family Details", "Income Certificate", "Photograph"],
+        "hi": ["आधार कार्ड", "पता प्रमाण", "पारिवारिक विवरण", "आय प्रमाण पत्र", "फोटोग्राफ"]
+      },
+      "guidelines": {
+        "en": "https://health.cg.gov.in/health-insurance-guidelines.pdf",
+        "hi": "https://health.cg.gov.in/health-insurance-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://health.cg.gov.in/forms/health-insurance-application.pdf",
+        "hi": "https://health.cg.gov.in/forms/health-insurance-application-hindi.pdf"
+      },
+      "website": "https://health.cg.gov.in/schemes/universal-health-insurance",
+      "status": "active",
+      "lastUpdated": "2025-07-08",
+      "notices": {
+        "en": ["Registration open throughout the year", "Benefits available immediately after enrollment"],
+        "hi": ["साल भर पंजीकरण खुला रहता है", "नामांकन के तुरंत बाद लाभ उपलब्ध"]
+      }
+    },
+    {
+      "id": "maternal-health",
+      "name": {
+        "en": "Maternal Health Support",
+        "hi": "मातृ स्वास्थ्य सहायता"
+      },
+      "description": {
+        "en": "Comprehensive healthcare support for pregnant women and new mothers.",
+        "hi": "गर्भवती महिलाओं और नई माताओं के लिए व्यापक स्वास्थ्य सेवा सहायता।"
+      },
+      "benefits": {
+        "en": ["Free antenatal care", "Delivery assistance", "Postnatal care", "Nutritional support"],
+        "hi": ["मुफ्त प्रसवपूर्व देखभाल", "प्रसव सहायता", "प्रसवोत्तर देखभाल", "पोषण सहायता"]
+      },
+      "eligibility": {
+        "en": ["Pregnant women", "Lactating mothers", "Below poverty line families"],
+        "hi": ["गर्भवती महिलाएं", "स्तनपान कराने वाली माताएं", "गरीबी रेखा से नीचे के परिवार"]
+      },
+      "process": {
+        "en": ["Registration at PHC", "Regular checkups", "Institutional delivery", "Follow-up care"],
+        "hi": ["PHC में पंजीकरण", "नियमित जांच", "संस्थागत प्रसव", "अनुवर्ती देखभाल"]
+      },
+      "contact": {
+        "phone": "0771-2234-570",
+        "email": "maternalhealth@cg.gov.in",
+        "office": {
+          "en": "Primary Health Center",
+          "hi": "प्राथमिक स्वास्थ्य केंद्र"
+        }
+      },
+      "documents": {
+        "en": ["Aadhaar Card", "BPL Card", "Husband's Details", "Previous Medical Records", "Address Proof"],
+        "hi": ["आधार कार्ड", "BPL कार्ड", "पति का विवरण", "पिछले मेडिकल रिकॉर्ड", "पता प्रमाण"]
+      },
+      "guidelines": {
+        "en": "https://health.cg.gov.in/maternal-health-guidelines.pdf",
+        "hi": "https://health.cg.gov.in/maternal-health-guidelines-hindi.pdf"
+      },
+      "applicationForm": {
+        "en": "https://health.cg.gov.in/forms/maternal-health-application.pdf",
+        "hi": "https://health.cg.gov.in/forms/maternal-health-application-hindi.pdf"
+      },
+      "website": "https://health.cg.gov.in/schemes/maternal-health",
+      "status": "active",
+      "lastUpdated": "2025-06-25",
+      "notices": {
+        "en": ["Registration within first trimester recommended", "All services provided free of cost"],
+        "hi": ["पहली तिमाही में पंजीकरण की सिफारिश", "सभी सेवाएं मुफ्त प्रदान की जाती हैं"]
+      }
+    }
+  ]
+}

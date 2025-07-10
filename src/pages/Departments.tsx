@@ -1,13 +1,47 @@
 
 import DepartmentCard from '@/components/DepartmentCard';
 import { useLanguage } from '@/contexts/LanguageContext';
-import departmentsData from '@/data/departments.json';
+import { Department, fetchDepartments, getTotalSchemeCount } from '@/lib/departmentUtils';
 import { Building2, FileText, Shield, Users } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 const Departments = () => {
   const { language, t } = useLanguage();
+  const [departments, setDepartments] = useState<Department[]>([]);
+  const [totalSchemes, setTotalSchemes] = useState(0);
+  const [loading, setLoading] = useState(true);
 
-  const totalSchemes = departmentsData.departments.reduce((total, dept) => total + dept.schemes.length, 0);
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [departmentsData, totalSchemesCount] = await Promise.all([
+          fetchDepartments(),
+          getTotalSchemeCount()
+        ]);
+        setDepartments(departmentsData.departments);
+        setTotalSchemes(totalSchemesCount);
+      } catch (error) {
+        console.error('Error loading departments data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-900 mx-auto"></div>
+          <p className="mt-4 text-blue-900 font-medium">
+            {language === 'en' ? 'Loading departments...' : 'विभाग लोड हो रहे हैं...'}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
@@ -28,7 +62,7 @@ const Departments = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-6 mt-8">
               <div className="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
-                <span className="text-orange-300 font-bold text-lg">{departmentsData.departments.length}</span>
+                <span className="text-orange-300 font-bold text-lg">{departments.length}</span>
                 <span className="text-blue-200 ml-2">{language === 'en' ? 'Departments' : 'विभाग'}</span>
               </div>
               <div className="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
@@ -111,7 +145,7 @@ const Departments = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {departmentsData.departments.map((department) => (
+            {departments.map((department) => (
               <DepartmentCard key={department.id} department={department} />
             ))}
           </div>

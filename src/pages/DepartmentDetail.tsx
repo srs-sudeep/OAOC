@@ -2,15 +2,52 @@
 import SchemeCard from '@/components/SchemeCard';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-import departmentsData from '@/data/departments.json';
+import { Department, fetchSchemes, getDepartmentById, Scheme } from '@/lib/departmentUtils';
 import { ArrowLeft, Clock, FileText, MapPin, Phone, Users } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const DepartmentDetail = () => {
   const { id } = useParams();
   const { language, t } = useLanguage();
+  const [department, setDepartment] = useState<Department | null>(null);
+  const [schemes, setSchemes] = useState<Scheme[]>([]);
+  const [loading, setLoading] = useState(true);
   
-  const department = departmentsData.departments.find(dept => dept.id === id);
+  useEffect(() => {
+    const loadData = async () => {
+      if (!id) return;
+      
+      try {
+        const [departmentData, schemesData] = await Promise.all([
+          getDepartmentById(id),
+          fetchSchemes(id)
+        ]);
+        
+        setDepartment(departmentData);
+        setSchemes(schemesData.schemes);
+      } catch (error) {
+        console.error('Error loading department data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadData();
+  }, [id]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-900 mx-auto"></div>
+          <p className="mt-4 text-blue-900 font-medium">
+            {language === 'en' ? 'Loading department details...' : 'विभाग विवरण लोड हो रहे हैं...'}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!department) {
     return (
@@ -63,7 +100,7 @@ const DepartmentDetail = () => {
               <div className="flex flex-wrap gap-4">
                 <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
                   <span className="text-blue-200 font-medium">
-                    {department.schemes.length} {language === 'en' ? 'Schemes Available' : 'योजनाएं उपलब्ध'}
+                    {schemes.length} {language === 'en' ? 'Schemes Available' : 'योजनाएं उपलब्ध'}
                   </span>
                 </div>
                 <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
@@ -90,8 +127,9 @@ const DepartmentDetail = () => {
               </h3>
             </div>
             <div className="space-y-2 text-sm text-gray-600">
-              <p className="font-medium">📞 0771-2234-567</p>
-              <p className="font-medium">✉️ {department.id}@cg.gov.in</p>
+              <p className="font-medium">📞 {department.contact.phone}</p>
+              <p className="font-medium">✉️ {department.contact.email}</p>
+              <p className="font-medium">☎️ {language === 'en' ? 'Helpline:' : 'हेल्पलाइन:'} {department.contact.helpline}</p>
               <p>{language === 'en' ? 'Available: Mon-Fri 10AM-6PM' : 'उपलब्ध: सोम-शुक्र 10AM-6PM'}</p>
             </div>
           </div>
@@ -106,9 +144,11 @@ const DepartmentDetail = () => {
               </h3>
             </div>
             <div className="text-sm text-gray-600">
-              <p>{language === 'en' ? 'Secretariat Complex' : 'सचिवालय परिसर'}</p>
-              <p>{language === 'en' ? 'Raipur, Chhattisgarh' : 'रायपुर, छत्तीसगढ़'}</p>
-              <p>492001</p>
+              <p>{department.office.address[language]}</p>
+              <p>{language === 'en' ? 'Pincode:' : 'पिन कोड:'} {department.office.pincode}</p>
+              <a href={department.website} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                {language === 'en' ? 'Visit Website' : 'वेबसाइट देखें'}
+              </a>
             </div>
           </div>
 
@@ -122,9 +162,14 @@ const DepartmentDetail = () => {
               </h3>
             </div>
             <div className="text-sm text-gray-600">
-              <p className="font-medium">{language === 'en' ? 'Secretary' : 'सचिव'}</p>
-              <p>{department.name[language]}</p>
-              <p>{language === 'en' ? 'Chhattisgarh Government' : 'छत्तीसगढ़ सरकार'}</p>
+              {department.personsOfContact.length > 0 && (
+                <>
+                  <p className="font-medium">{department.personsOfContact[0].designation[language]}</p>
+                  <p>{department.personsOfContact[0].name}</p>
+                  <p>📞 {department.personsOfContact[0].phone}</p>
+                  <p>✉️ {department.personsOfContact[0].email}</p>
+                </>
+              )}
             </div>
           </div>
         </div>
@@ -143,10 +188,10 @@ const DepartmentDetail = () => {
             </p>
           </div>
           
-          {department.schemes.length > 0 ? (
+          {schemes.length > 0 ? (
             <>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {department.schemes.map((scheme) => (
+                {schemes.map((scheme) => (
                   <SchemeCard 
                     key={scheme.id} 
                     scheme={scheme} 
@@ -159,7 +204,7 @@ const DepartmentDetail = () => {
               <div className="mt-16 bg-gradient-to-r from-blue-900 to-indigo-800 text-white rounded-2xl p-8">
                 <div className="grid md:grid-cols-4 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-orange-300 mb-2">{department.schemes.length}</div>
+                    <div className="text-3xl font-bold text-orange-300 mb-2">{schemes.length}</div>
                     <div className="text-blue-200">{language === 'en' ? 'Active Schemes' : 'सक्रिय योजनाएं'}</div>
                   </div>
                   <div>
