@@ -1,42 +1,6 @@
 {
   "departments": [
     {
-      "id": "fisheries",
-      "name": {
-        "en": "Fisheries Department",
-        "hi": "मत्स्य विभाग"
-      },
-      "icon": "🐟",
-      "description": {
-        "en": "Promoting sustainable fisheries development and aquaculture",
-        "hi": "स्थायी मत्स्य विकास और मत्स्य पालन को बढ़ावा देना"
-      },
-      "website": "https://fisheries.cg.gov.in",
-      "contact": {
-        "phone": "0771-2234-567",
-        "email": "fisheries@cg.gov.in",
-        "helpline": "1800-233-4567"
-      },
-      "office": {
-        "address": {
-          "en": "Fisheries Department, Secretariat Complex, Raipur",
-          "hi": "मत्स्य विभाग, सचिवालय परिसर, रायपुर"
-        },
-        "pincode": "492001"
-      },
-      "personsOfContact": [
-        {
-          "name": "Dr. Rajesh Kumar",
-          "designation": {
-            "en": "Director, Fisheries",
-            "hi": "निदेशक, मत्स्य पालन"
-          },
-          "phone": "0771-2234-567",
-          "email": "director.fisheries@cg.gov.in"
-        }
-      ]
-    },
-    {
       "id": "agriculture",
       "name": {
         "en": "Agriculture Department",

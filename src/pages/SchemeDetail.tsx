@@ -127,12 +127,12 @@ const SchemeDetail = () => {
               </div>
 
               <h1 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-                {scheme.name[language]}
-              </h1>
+  {scheme.name?.[language] || ""}
+</h1>
 
               <p className="text-xl text-blue-100 leading-relaxed mb-6">
-                {scheme.description[language]}
-              </p>
+  {scheme.description?.[language] || ""}
+</p>
 
               <div className="flex flex-wrap gap-4">
                 <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20 flex items-center">
@@ -158,24 +158,11 @@ const SchemeDetail = () => {
                 {language === "en" ? "Quick Actions" : "त्वरित कार्य"}
               </h3>
               <div className="space-y-3">
-                <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
+                <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 my-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
                   <FileText className="w-5 h-5 mr-2" />
                   {t("button.applyNow")}
                 </Button>
-                <a
-                  href={scheme.applicationForm[language]}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button
-                    variant="outline"
-                    className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300"
-                  >
-                    <Download className="w-5 h-5 mr-2" />
-                    {language === "en" ? "Download Form" : "फॉर्म डाउनलोड"}
-                  </Button>
-                </a>
-                <a href={`tel:${scheme.contact.phone}`}>
+                <a href={`tel:${scheme?.contact?.phone}`}>
                   <Button
                     variant="outline"
                     className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300"
@@ -192,7 +179,7 @@ const SchemeDetail = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Key Information Cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-16">
+        <div className="grid md:grid-cols-2 gap-6 mb-16">
           <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
             <div className="flex items-center mb-4">
               <div className="bg-green-100 p-3 rounded-full">
@@ -203,11 +190,11 @@ const SchemeDetail = () => {
               </h3>
             </div>
             <p className="text-sm text-gray-600">
-              {Array.isArray(scheme.benefits[language])
-                ? scheme.benefits[language].length
-                : 0}{" "}
-              {language === "en" ? "benefits available" : "लाभ उपलब्ध"}
-            </p>
+  {Array.isArray(scheme.benefits?.[language])
+    ? scheme.benefits[language].length
+    : 0}{" "}
+  {language === "en" ? "benefits available" : "लाभ उपलब्ध"}
+</p>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
@@ -220,24 +207,11 @@ const SchemeDetail = () => {
               </h3>
             </div>
             <p className="text-sm text-gray-600">
-              {scheme.eligibility[language].length}{" "}
-              {language === "en" ? "criteria to meet" : "मापदंड पूरे करें"}
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-orange-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-            <div className="flex items-center mb-4">
-              <div className="bg-orange-100 p-3 rounded-full">
-                <Settings className="w-6 h-6 text-orange-600" />
-              </div>
-              <h3 className="ml-3 text-lg font-semibold text-gray-800">
-                {language === "en" ? "Application Steps" : "आवेदन चरण"}
-              </h3>
-            </div>
-            <p className="text-sm text-gray-600">
-              {scheme.process[language].length}{" "}
-              {language === "en" ? "simple steps" : "आसान चरण"}
-            </p>
+  {Array.isArray(scheme.eligibility?.[language])
+    ? scheme.eligibility[language].length
+    : 0}{" "}
+  {language === "en" ? "criteria to meet" : "मापदंड पूरे करें"}
+</p>
           </div>
         </div>
 
@@ -303,42 +277,6 @@ const SchemeDetail = () => {
                       </span>
                     </div>
                   ))}
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Application Process */}
-            <Card className="border-0 shadow-xl rounded-2xl overflow-hidden">
-              <div className="bg-gradient-to-r from-orange-600 to-orange-700 h-2"></div>
-              <CardHeader className="bg-orange-50">
-                <CardTitle className="flex items-center text-orange-700 text-2xl">
-                  <Settings className="w-7 h-7 mr-3" />
-                  {t("scheme.process")}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-8">
-                <div className="relative">
-                  <div className="absolute left-6 top-0 bottom-0 w-0.5 bg-gradient-to-b from-orange-300 to-orange-500"></div>
-                  <div className="space-y-6">
-                    {(Array.isArray(scheme.process[language])
-                      ? scheme.process[language]
-                      : []
-                    ).map((step, index) => (
-                      <div
-                        key={index}
-                        className="relative flex items-start space-x-6"
-                      >
-                        <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-full w-12 h-12 flex items-center justify-center text-lg font-bold shadow-lg z-10">
-                          {index + 1}
-                        </div>
-                        <div className="flex-1 bg-orange-50 p-6 rounded-lg border border-orange-100 hover:bg-orange-100 transition-colors duration-300">
-                          <span className="text-gray-700 leading-relaxed font-medium">
-                            {step}
-                          </span>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -440,54 +378,6 @@ const SchemeDetail = () => {
                 </div>
               </CardContent>
             </Card>
-
-            {/* Download Documents */}
-            <Card className="border-0 shadow-xl rounded-2xl overflow-hidden">
-              <div className="bg-gradient-to-r from-indigo-600 to-indigo-700 h-2"></div>
-              <CardHeader className="bg-indigo-50">
-                <CardTitle className="flex items-center text-indigo-700">
-                  <Download className="w-6 h-6 mr-3" />
-                  {language === "en" ? "Downloads" : "डाउनलोड"}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-6">
-                <div className="space-y-3">
-                  <a
-                    href={scheme.applicationForm[language]}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      variant="outline"
-                      className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50"
-                    >
-                      <FileText className="w-4 h-4 mr-2" />
-                      {language === "en" ? "Application Form" : "आवेदन फॉर्म"}
-                    </Button>
-                  </a>
-                  <a
-                    href={scheme.guidelines[language]}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <Button
-                      variant="outline"
-                      className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50"
-                    >
-                      <FileText className="w-4 h-4 mr-2" />
-                      {language === "en" ? "Guidelines" : "दिशानिर्देश"}
-                    </Button>
-                  </a>
-                  <Button
-                    variant="outline"
-                    className="w-full justify-start border-indigo-200 text-indigo-600 hover:bg-indigo-50"
-                  >
-                    <FileText className="w-4 h-4 mr-2" />
-                    {language === "en" ? "Document Checklist" : "दस्तावेज सूची"}
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
 
@@ -509,20 +399,6 @@ const SchemeDetail = () => {
               >
                 <FileText className="w-5 h-5 mr-2" />
                 {t("button.applyNow")}
-              </Button>
-            </a>
-            <a
-              href={scheme.applicationForm[language]}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-white/30 text-black hover:bg-white/10 px-8 py-4 rounded-lg font-medium transition-all duration-300"
-              >
-                <Download className="w-5 h-5 mr-2" />
-                {language === "en" ? "Download Form" : "फॉर्म डाउनलोड"}
               </Button>
             </a>
           </div>
