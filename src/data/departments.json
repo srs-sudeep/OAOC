@@ -215,6 +215,185 @@
           "email": "director.womendevelopment@cg.gov.in"
         }
       ]
+    },
+    {
+      "id": "district_trade_industry",
+      "name": {
+        "en": "District Trade and Industry centre",
+        "hi": "जिला व्यापार और उद्योग केंद्र"
+      },
+      "icon": "🏭",
+      "description": {
+        "en": "Prime Minister Employment generation Programme (PMEGP)",
+        "hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम (PMEGP)"
+      },
+      "website": "https://www.industries.cg.gov.in",
+      "contact": {
+        "phone": "0771-2436-450",
+        "email": "",
+        "helpline": ""
+      }, 
+      "office": {
+        "address": {
+          "en": "3rd Floor, Udyog Bhawan, Telibandha, Raipur",
+          "hi": "तीसरी मंजिल, उद्योग भवन, तेलीबांधा, रायपुर"
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "",
+          "designation": {
+            "en": "Chief General Manager",
+            "hi": "मुख्य महाप्रबंधक"
+          },
+          "phone": "",
+          "email": ""
+          }
+        ]
+    },
+    {
+      "id": "bank",
+      "name": {
+        "en": "Bank",
+        "hi": "बैंक"},
+      "icon": "🏦",
+      "description": {
+        "en": "Stand-Up India Scheme for financing SC/ST and/or Women Entrepreneurs",
+        "hi": "एससी/एसटी और/या महिला उद्यमियों को वित्तपोषण के लिए स्टैंड-अप इंडिया योजना"
+      },
+      "website":[ "https://www.mudra.org.in/", "https://www.standupmitra.in/","https://www.startupindia.gov.in/"],
+      "contact": {
+        "phone": "",
+        "email": "",
+        "helpline": ""
+      }, 
+      "office": {
+        "address": {
+          "en": "",
+          "hi": ""
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "",
+          "designation": {
+            "en": "",
+            "hi": ""
+          },
+          "phone": "",
+          "email": ""
+          }
+        ]
+    },
+    {
+      "id": "transport",
+      "name": {
+        "en": "Chhattisgarh department of Transport",
+        "hi": "छत्तीसगढ़ परिवहन विभाग"
+      },
+      "icon": "🚍",
+      "description": {
+        "en": "",
+        "hi": ""
+      },
+      "website":"https://cgtransport.gov.in/",
+      "contact": {
+        "phone": " 0771-2511-085",
+        "email": "",
+        "helpline": ""
+      }, 
+      "office": {
+        "address": {
+          "en": "",
+          "hi": ""
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "",
+          "designation": {
+            "en": "",
+            "hi": ""
+          },
+          "phone": "",
+          "email": ""
+          }
+        ]
+    },
+    {
+      "id": "panchayat_rural_development",
+      "name": {
+        "en": "Department of Panchayat and Rural Development",
+        "hi": "पंचायत एवं ग्रामीण विकास विभाग"
+      },
+      "icon": "🏡",
+      "description": {
+        "en": "",
+        "hi": ""
+      },
+      "website":"https://prd.cg.gov.in/",
+      "contact": {
+        "phone": "0771 2426-739",
+        "email": "",
+        "helpline": ""
+      }, 
+      "office": {
+        "address": {
+          "en": "Office of District Panchayat Raipur, Collectorate Campus, Ghadi Chowk, Raipur (C.G.)",
+          "hi": "कार्यालय जिला पंचायत रायपुर, क्लेकट्रेट परिसर, घड़ी चौक, रायपुर (छ.ग.)"
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "",
+          "designation": {
+            "en": "Chief Executive Officer, District Panchayat Raipur",
+            "hi": "मुख्य कार्यपालन अधिकारी, जिला पंचायत रायपुर"
+          },
+          "phone": "",
+          "email": ""
+          }
+        ]
+    },
+    {
+      "id":"labour-department",
+      "name": {
+        "en":"Labour Department",
+        "hi": "श्रम विभाग"
+      },
+      "icon": "👷",
+      "description": {
+        "en": "Under the scheme, registered female construction workers are provided assistance for the first two deliveries.",
+        "hi": "योजनांतर्गत पंजीकृत निर्माणी महिला श्रमिक को प्रथम दो प्रसव हेतु सहायता राशि दी जाती है। "
+      },
+      "website":"https://shramevjayate.cg.gov.in",
+      "contact": {
+        "phone": "0771-4913-850",
+        "email": "",
+        "helpline": ""
+      }, 
+      "office": {
+        "address": {
+          "en": "Angela Cottage, Near Sihawa Bhawan, Civil Lines, Raipur",
+          "hi": "एंजिला कॉटेज सिहावा भवन के पास सिविल लाईन रायपुर"
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "",
+          "designation": {
+            "en": "Office of the Assistant Labour Commissioner, Raipur",
+            "hi": "कार्यालय सहायक श्रमायुक्‍त रायपुर"
+          },
+          "phone": "",
+          "email": ""
+          }
+        ]
     }
   ]
 }

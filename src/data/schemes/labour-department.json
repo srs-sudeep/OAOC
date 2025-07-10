@@ -1,0 +1,169 @@
+{
+  "schemes": [
+    {
+      "id": "mmjsy",
+      "name": {
+        "en": "Minimata Mahtari Jatan Sahayata Yojana (MMJSY)",
+        "hi": "मिनीमाता महतारी जतन सहायता योजना (MMJSY)"
+      },
+      "description": {
+        "en": "Under the scheme, registered female construction workers are provided assistance for the first two deliveries.",
+        "hi": "योजनांतर्गत पंजीकृत निर्माणी महिला श्रमिक को प्रथम दो प्रसव हेतु सहायता राशि दी जाती है। "
+      },
+      "benefits": {
+        "en": [
+          "A lump sum payment of ₹20,000 is provided after the birth of the child."
+        ],
+        "hi": ["बच्चे के जन्म पश्चात 20,000 हजार रूपये एक मुश्त भुगतान। "]
+      },
+      "eligibility": {
+        "en": [
+          "A registered female construction worker, whose registration is at least one year old from the date of the child’s birth, is eligible.",
+          "Applicable only for the first two deliveries.",
+          "It is mandatory to apply within 90 days after the birth of the child."
+        ],
+        "hi": [
+          "पंजीकृत निर्माणी महिला श्रमिक, जिसके पंजीयन को बच्चे के जन्म दिनांक से 01 वर्ष पूर्ण हो।",
+          "केवल प्रथम दो प्रसव हेतु।",
+          " बच्चे के जन्म पश्चात 90 दिवस के भीतर आवेदन करना अनिवार्य है।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Birth Certificate"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "जन्म प्रमाण पत्र"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Birth Certificate"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "जन्म प्रमाण पत्र"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/MINI%20MATA%20MAHATARI%20JATAN%20YOJANA.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/MINI%20MATA%20MAHATARI%20JATAN%20YOJANA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "mukhyamantri-naunihal-scholarship",
+      "name": {
+        "en": "Mukhyamantri Naunihal Scholarship Scheme",
+        "hi": "मुख्यमंत्री नौनिहाल छात्रवृत्ति योजना "
+      },
+      "description": {
+        "en": "Scholarship is provided for the first two studying children of a registered construction worker.",
+        "hi": "पंजीकृत निर्माणी श्रमिक के प्रथम दो अध्ययनरत संतान हेतु छात्रवृत्ति प्रदान की जाती है"
+      },
+      "benefits": {
+        "en": [
+          "An amount ranging from ₹1,000 to ₹10,000 is provided for children studying from Class 1 up to all vocational and professional education courses."
+        ],
+        "hi": [
+          "कक्षा 1ली से समस्त व्यवसायिक शिक्षा एवं प्रोफेशनल शिक्षा में अध्ययनरत होने पर 1000-10000/- तक राशि प्रदान किया जाता है। "
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Only for the first two studying children of a registered construction worker."
+        ],
+        "hi": ["पंजीकृत निर्माणी श्रमिक के केेवल प्रथम दो अध्ययनरत संतान हेतु।"]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Certificate from the Principal of the School",
+          "Marksheet"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "प्राचार्य का प्रमाण पत्र स्कूल से",
+          "अंकसूची"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Certificate from the Principal of the School",
+          "Marksheet"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "प्राचार्य का प्रमाण पत्र स्कूल से",
+          "अंकसूची"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+      "notices": {
+        "en": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"],
+        "hi": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"]
+      }
+    }
+    
+  ]
+}
