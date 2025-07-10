@@ -11,16 +11,36 @@
         "hi": "कैशलेस उपचार सुविधा के साथ सभी नागरिकों के लिए व्यापक स्वास्थ्य बीमा कवरेज।"
       },
       "benefits": {
-        "en": ["Cashless treatment", "Coverage up to Rs. 5 lakhs", "Pre and post hospitalization", "Emergency services"],
-        "hi": ["कैशलेस उपचार", "5 लाख रुपये तक कवरेज", "अस्पताल में भर्ती से पहले और बाद", "आपातकालीन सेवाएं"]
+        "en": [
+          "Cashless treatment",
+          "Coverage up to Rs. 5 lakhs",
+          "Pre and post hospitalization",
+          "Emergency services"
+        ],
+        "hi": [
+          "कैशलेस उपचार",
+          "5 लाख रुपये तक कवरेज",
+          "अस्पताल में भर्ती से पहले और बाद",
+          "आपातकालीन सेवाएं"
+        ]
       },
       "eligibility": {
         "en": ["All residents", "Aadhaar card required", "Valid address proof"],
         "hi": ["सभी निवासी", "आधार कार्ड आवश्यक", "वैध पता प्रमाण"]
       },
       "process": {
-        "en": ["Registration at nearest center", "Biometric verification", "Card issuance", "Hospital enrollment"],
-        "hi": ["निकटतम केंद्र पर पंजीकरण", "बायोमेट्रिक सत्यापन", "कार्ड जारी करना", "अस्पताल नामांकन"]
+        "en": [
+          "Registration at nearest center",
+          "Biometric verification",
+          "Card issuance",
+          "Hospital enrollment"
+        ],
+        "hi": [
+          "निकटतम केंद्र पर पंजीकरण",
+          "बायोमेट्रिक सत्यापन",
+          "कार्ड जारी करना",
+          "अस्पताल नामांकन"
+        ]
       },
       "contact": {
         "phone": "0771-2234-570",
@@ -31,8 +51,20 @@
         }
       },
       "documents": {
-        "en": ["Aadhaar Card", "Address Proof", "Family Details", "Income Certificate", "Photograph"],
-        "hi": ["आधार कार्ड", "पता प्रमाण", "पारिवारिक विवरण", "आय प्रमाण पत्र", "फोटोग्राफ"]
+        "en": [
+          "Aadhaar Card",
+          "Address Proof",
+          "Family Details",
+          "Income Certificate",
+          "Photograph"
+        ],
+        "hi": [
+          "आधार कार्ड",
+          "पता प्रमाण",
+          "पारिवारिक विवरण",
+          "आय प्रमाण पत्र",
+          "फोटोग्राफ"
+        ]
       },
       "guidelines": {
         "en": "https://health.cg.gov.in/health-insurance-guidelines.pdf",
@@ -46,7 +78,10 @@
       "status": "active",
       "lastUpdated": "2025-07-08",
       "notices": {
-        "en": ["Registration open throughout the year", "Benefits available immediately after enrollment"],
+        "en": [
+          "Registration open throughout the year",
+          "Benefits available immediately after enrollment"
+        ],
         "hi": ["साल भर पंजीकरण खुला रहता है", "नामांकन के तुरंत बाद लाभ उपलब्ध"]
       }
     },
@@ -61,16 +96,44 @@
         "hi": "गर्भवती महिलाओं और नई माताओं के लिए व्यापक स्वास्थ्य सेवा सहायता।"
       },
       "benefits": {
-        "en": ["Free antenatal care", "Delivery assistance", "Postnatal care", "Nutritional support"],
-        "hi": ["मुफ्त प्रसवपूर्व देखभाल", "प्रसव सहायता", "प्रसवोत्तर देखभाल", "पोषण सहायता"]
+        "en": [
+          "Free antenatal care",
+          "Delivery assistance",
+          "Postnatal care",
+          "Nutritional support"
+        ],
+        "hi": [
+          "मुफ्त प्रसवपूर्व देखभाल",
+          "प्रसव सहायता",
+          "प्रसवोत्तर देखभाल",
+          "पोषण सहायता"
+        ]
       },
       "eligibility": {
-        "en": ["Pregnant women", "Lactating mothers", "Below poverty line families"],
-        "hi": ["गर्भवती महिलाएं", "स्तनपान कराने वाली माताएं", "गरीबी रेखा से नीचे के परिवार"]
+        "en": [
+          "Pregnant women",
+          "Lactating mothers",
+          "Below poverty line families"
+        ],
+        "hi": [
+          "गर्भवती महिलाएं",
+          "स्तनपान कराने वाली माताएं",
+          "गरीबी रेखा से नीचे के परिवार"
+        ]
       },
       "process": {
-        "en": ["Registration at PHC", "Regular checkups", "Institutional delivery", "Follow-up care"],
-        "hi": ["PHC में पंजीकरण", "नियमित जांच", "संस्थागत प्रसव", "अनुवर्ती देखभाल"]
+        "en": [
+          "Registration at PHC",
+          "Regular checkups",
+          "Institutional delivery",
+          "Follow-up care"
+        ],
+        "hi": [
+          "PHC में पंजीकरण",
+          "नियमित जांच",
+          "संस्थागत प्रसव",
+          "अनुवर्ती देखभाल"
+        ]
       },
       "contact": {
         "phone": "0771-2234-570",
@@ -81,8 +144,20 @@
         }
       },
       "documents": {
-        "en": ["Aadhaar Card", "BPL Card", "Husband's Details", "Previous Medical Records", "Address Proof"],
-        "hi": ["आधार कार्ड", "BPL कार्ड", "पति का विवरण", "पिछले मेडिकल रिकॉर्ड", "पता प्रमाण"]
+        "en": [
+          "Aadhaar Card",
+          "BPL Card",
+          "Husband's Details",
+          "Previous Medical Records",
+          "Address Proof"
+        ],
+        "hi": [
+          "आधार कार्ड",
+          "BPL कार्ड",
+          "पति का विवरण",
+          "पिछले मेडिकल रिकॉर्ड",
+          "पता प्रमाण"
+        ]
       },
       "guidelines": {
         "en": "https://health.cg.gov.in/maternal-health-guidelines.pdf",
@@ -96,8 +171,298 @@
       "status": "active",
       "lastUpdated": "2025-06-25",
       "notices": {
-        "en": ["Registration within first trimester recommended", "All services provided free of cost"],
-        "hi": ["पहली तिमाही में पंजीकरण की सिफारिश", "सभी सेवाएं मुफ्त प्रदान की जाती हैं"]
+        "en": [
+          "Registration within first trimester recommended",
+          "All services provided free of cost"
+        ],
+        "hi": [
+          "पहली तिमाही में पंजीकरण की सिफारिश",
+          "सभी सेवाएं मुफ्त प्रदान की जाती हैं"
+        ]
+      }
+    },
+    {
+      "id": "u-win",
+      "name": {
+        "en": "U-WIN",
+        "hi": "U-WIN"
+      },
+      "description": {
+        "en": "A nationwide digital platform designed to fully manage immunization records under the Universal Immunization Programme (UIP)",
+        "hi": "यूनिवर्सल इम्यूनाइजेशन प्रोग्राम (UIP) के तहत टीकाकरण रिकॉर्ड को पूरी तरह से प्रबंधित करने के लिए डिज़ाइन किया गया एक राष्ट्रीय डिजिटल प्लेटफ़ॉर्म"
+      },
+      "benefits": {
+        "en": [
+          "Name-Based Digital Tracking of Every Child & Mother.",
+          "Mobile App Access for Parents and Health Workers.",
+          "Automated Reminders",
+          "Integrated with ABHA ID.",
+          "Anywhere Vaccination.",
+          "Real-Time Monitoring for Health Departments.",
+          "Digital Certificates.",
+          "Empowers Families"
+        ],
+        "hi": [
+          "हर बच्चे और मां का नाम-आधारित डिजिटल ट्रैकिंग।",
+          "माता-पिता और स्वास्थ्य कार्यकर्ताओं के लिए मोबाइल ऐप एक्सेस।",
+          "स्वचालित अनुस्मारक",
+          "ABHA ID के साथ एकीकृत।",
+          "कहीं भी टीकाकरण।",
+          "स्वास्थ्य विभागों के लिए वास्तविक समय की निगरानी।",
+          "डिजिटल प्रमाणपत्र।",
+          "परिवारों को सशक्त बनाता है"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Health Facilities",
+          "Health Worker",
+          "Pregnant Women",
+          "Children aged 0 - 16 years"
+        ],
+        "hi": [
+          "स्वास्थ्य सुविधाएं",
+          "स्वास्थ्य कार्यकर्ता",
+          "गर्भवती महिलाएं",
+          "0 - 16 वर्ष के बच्चे"
+        ]
+      },
+      "contact": {
+        "name": "Mr. Kajeshwar Singh",
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "District Immunisation Officer",
+          "hi": "जिला टीकाकरण अधिकारी"
+        }
+      },
+      "documents": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "guidelines": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "website": "https://uwin.mohfw.gov.in/home",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+      "notices": {
+        "en": [
+          "Every pregnant woman and child (0–16 years) must be registered by name in U-WIN.",
+          "Duplicate entries are strictly prohibited. Data validation is done through Aadhaar or other ID.",
+          "ABHA ID creation is encouraged but not mandatory."
+        ],
+        "hi": [
+          "हर गर्भवती महिला और बच्चे (0–16 वर्ष) को U-WIN में नाम के साथ पंजीकृत किया जाना चाहिए।",
+          "डुप्लिकेट प्रविष्टियां सख्त वर्जित हैं। डेटा सत्यापन आधार या अन्य आईडी के माध्यम से किया जाता है।",
+          "ABHA ID बनाना प्रोत्साहित किया जाता है लेकिन अनिवार्य नहीं है।"
+        ]
+      }
+    },
+    {
+      "id": "ayushman-card",
+      "name": {
+        "en": "Ayushman Card",
+        "hi": "आयुष्मान कार्ड"
+      },
+      "description": {
+        "en": "The Ayushman Card is a health ID card issued to eligible beneficiaries of Ayushman Bharat - PMJAY, India's flagship health insurance scheme. It enables cashless and paperless treatment at empaneled public and private hospitals across India.",
+        "hi": "आयुष्मान कार्ड आयुष्मान भारत - पीएमजेएवाई के पात्र लाभार्थियों को जारी किया जाने वाला एक स्वास्थ्य आईडी कार्ड है, जो भारत की प्रमुख स्वास्थ्य बीमा योजना है। यह भारत भर के पैनल वाले सार्वजनिक और निजी अस्पतालों में कैशलेस और पेपरलेस उपचार सक्षम करता है।"
+      },
+      "benefits": {
+        "en": [
+          "Covers 1,500+ treatment packages (including surgeries, medical and day-care treatments)",
+          " Covers pre- and post-hospitalization expenses (up to 15 days)",
+          "No money paid at point of service (cashless at empaneled hospitals)",
+          "PAN-India portability.",
+          "Anywhere Vaccination.",
+          "Digital record tracking via ABHA and BIS (Beneficiary Identification System)"
+        ],
+        "hi": [
+          "1,500+ उपचार पैकेज (सर्जरी, चिकित्सा और डे-केयर उपचार सहित) को कवर करता है",
+          "अस्पताल में भर्ती से पहले और बाद के खर्चों को कवर करता है (15 दिन तक)",
+          "सेवा के बिंदु पर कोई पैसा नहीं दिया जाता (पैनल वाले अस्पतालों में कैशलेस)",
+          "PAN-India पोर्टेबिलिटी।",
+          "कहीं भी टीकाकरण।",
+          "ABHA और BIS (लाभार्थी पहचान प्रणाली) के माध्यम से डिजिटल रिकॉर्ड ट्रैकिंग"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Eligible families under state-specific health schemes integrated with PMJAY."
+        ],
+        "hi": [
+          "पीएमजेएवाई के साथ एकीकृत राज्य-विशिष्ट स्वास्थ्य योजनाओं के तहत पात्र परिवार।"
+        ]
+      },
+      "contact": {
+        "name": "Mr. Amit Patel ",
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Nodal Officer ABDM",
+          "hi": "नोडल अधिकारी ABDM"
+        }
+      },
+      "documents": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "guidelines": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "website": "https://beneficiary.nha.gov.in/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+      "notices": {
+        "en": [
+          "No Cost to Beneficiaries",
+          "Eligibility Must Be Verified",
+          "Cashless Services Only at Empaneled Hospitals.",
+          "Rs. 5 Lakh Family Coverage - Not Per Person.",
+          " Portability Across India.",
+          "No Sharing or Misuse Allowed.",
+          "Keep Your Mobile Number Updated.",
+          "One-Time Card Creation, Valid for Life.",
+          "Claims Are Cashless - No Reimbursement Needed"
+        ],
+        "hi": [
+          "लाभार्थियों के लिए कोई लागत नहीं",
+          "पात्रता की पुष्टि होनी चाहिए",
+          "केवल पैनल वाले अस्पतालों में कैशलेस सेवाएं।",
+          "5 लाख रुपये का परिवार कवरेज - प्रति व्यक्ति नहीं।",
+          "भारत भर में पोर्टेबिलिटी।",
+          "कोई साझा या दुरुपयोग की अनुमति नहीं है।",
+          "अपना मोबाइल नंबर अपडेट रखें।",
+          "एक बार का कार्ड निर्माण, जीवन भर के लिए मान्य।",
+          "दावे कैशलेस हैं - कोई प्रतिपूर्ति की आवश्यकता नहीं है"
+        ]
+      }
+    },
+    {
+      "id": "ayushman-card-1",
+      "name": {
+        "en": "Ayushman Card",
+        "hi": "आयुष्मान कार्ड"
+      },
+      "description": {
+        "en": "ABHA is a 14-digit unique health ID that enables individuals in India to access, share, and manage their digital health records securely and seamlessly across hospitals, labs, doctors, and health apps.",
+        "hi": "ABHA एक 14-अंकीय अद्वितीय स्वास्थ्य आईडी है जो भारत में व्यक्तियों को अस्पतालों, प्रयोगशालाओं, डॉक्टरों और स्वास्थ्य ऐप्स के बीच अपने डिजिटल स्वास्थ्य रिकॉर्ड को सुरक्षित और निर्बाध रूप से एक्सेस, साझा और प्रबंधित करने में सक्षम बनाती है।"
+      },
+      "benefits": {
+        "en": [
+          "Organized Digital Health History",
+          "Use Across Hospitals and States",
+          " Privacy Controlled",
+          "Create for Entire Family",
+          "Linked with Ayushman Card & U-WIN"
+        ],
+        "hi": [
+          "संगठित डिजिटल स्वास्थ्य इतिहास",
+          "अस्पतालों और राज्यों में उपयोग करें",
+          "निजता नियंत्रित",
+          "पूरे परिवार के लिए बनाएं",
+          "आयुष्मान कार्ड और U-WIN से जुड़ा हुआ"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Every individual in India can create an ABHA number. There are no restrictions based on income, age, gender, or health insurance status"
+        ],
+        "hi": [
+          "भारत में हर व्यक्ति ABHA नंबर बना सकता है। आय, आयु, लिंग या स्वास्थ्य बीमा स्थिति के आधार पर कोई प्रतिबंध नहीं है"
+        ]
+      },
+      "contact": {
+        "name": "Mr. Amit Patel ",
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Nodal Officer ABDM",
+          "hi": "नोडल अधिकारी ABDM"
+        }
+      },
+      "documents": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "guidelines": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "website": "https://abha.abdm.gov.in/abha/v3/register",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+      "notices": {
+        "en": "Voluntary and Free of Cost Privacy and Data Protection Consent-Based Sharing Only One ABHA ID per Person Minors Require Guardian Consent Linking with Health Records",
+        "hi": "स्वैच्छिक और मुफ्त गोपनीयता और डेटा सुरक्षा सहमति-आधारित साझाकरण केवल प्रति व्यक्ति एक ABHA ID नाबालिगों को अभिभावक की सहमति की आवश्यकता होती है स्वास्थ्य रिकॉर्ड के साथ लिंक करना"
+      }
+    },
+    {
+      "id": "nextgen-e-hospital",
+      "name": {
+        "en": "NextGen e-Hospital",
+        "hi": "नेक्स्टजेन ई-हॉस्पिटल"
+      },
+      "description": {
+        "en": "NextGen eHospital is a cloud-based, microservices-enabled hospital management system designed to streamline operations and improve patient care. It's the upgraded version of the legacy eHospital platform, aligning with the Ayushman Bharat Digital Mission (ABDM) standards",
+        "hi": "नेक्स्टजेन ई-हॉस्पिटल एक क्लाउड-आधारित, माइक्रोसर्विसेज-सक्षम अस्पताल प्रबंधन प्रणाली है जिसे संचालन को सुव्यवस्थित करने और रोगी देखभाल में सुधार करने के लिए डिज़ाइन किया गया है। यह एब्डम (Ayushman Bharat Digital Mission) मानकों के साथ संरेखित विरासत ई-हॉस्पिटल प्लेटफ़ॉर्म का उन्नत संस्करण है"
+      },
+      "benefits": {
+        "en": [
+          "Streamlined Hospital Operations.",
+          "Improved Patient Experience.",
+          "Digital Health Interoperability",
+          "AI-Enabled Decision Support.",
+          "Cost & Time Savings",
+          "Accurate Billing & Finance",
+          "Secure & Scalable",
+          "Eco-Friendly & Paperless"
+        ],
+        "hi": [
+          "सुव्यवस्थित अस्पताल संचालन।",
+          "बेहतर रोगी अनुभव।",
+          "डिजिटल स्वास्थ्य अंतःक्रियाशीलता",
+          "एआई-सक्षम निर्णय समर्थन।",
+          "लागत और समय की बचत",
+          "सटीक बिलिंग और वित्त",
+          "सुरक्षित और स्केलेबल",
+          "पर्यावरण के अनुकूल और पेपरलेस"
+        ]
+      },
+      "eligibility": {
+        "en": ["DH", "CHC", "PHC"],
+        "hi": [
+          "जिला अस्पताल (DH)",
+          "ब्लॉक स्वास्थ्य केंद्र (CHC)",
+          "प्राथमिक स्वास्थ्य केंद्र (PHC)"
+        ]
+      },
+      "contact": {
+        "name": "Mr. Amit Patel ",
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "All health facility",
+          "hi": "सभी स्वास्थ्य सुविधा"
+        }
+      },
+      "documents": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "guidelines": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "website": "https://nextgen.ehospital.gov.in/home",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+      "notices": {
+        "en": "Mandatory for Public Health Institutions Data Privacy & Confidentiality Role-Based Access Control ABHA Integration is Mandator Pre-Implementation Checklist Must Be Cleared Digital Signature/Authentication Legal Accountability",
+        "hi": "सार्वजनिक स्वास्थ्य संस्थानों के लिए अनिवार्य डेटा गोपनीयता और गोपनीयता भूमिका-आधारित पहुंच नियंत्रण ABHA एकीकरण अनिवार्य है पूर्व-कार्यान्वयन चेकलिस्ट को साफ़ किया जाना चाहिए डिजिटल हस्ताक्षर/प्रमाणीकरण कानूनी जवाबदेही"
       }
     }
   ]

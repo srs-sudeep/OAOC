@@ -127,17 +127,17 @@
       },
       "office": {
         "address": {
-          "en": "Health Department, Swasthya Bhawan, Raipur",
-          "hi": "स्वास्थ्य विभाग, स्वास्थ्य भवन, रायपुर"
+          "en": "Chief Medical & Health Office",
+          "hi": "मुख्य चिकित्सा एवं स्वास्थ्य कार्यालय"
         },
-        "pincode": "492001"
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
-          "name": "Dr. Priya Singh",
+          "name": "Mr. Kajeshwar Singh",
           "designation": {
-            "en": "Director, Health Services",
-            "hi": "निदेशक, स्वास्थ्य सेवाएं"
+            "en": "Health Services",
+            "hi": "स्वास्थ्य सेवाएं"
           },
           "phone": "0771-2234-570",
           "email": "director.health@cg.gov.in"
@@ -213,6 +213,42 @@
           },
           "phone": "0771-2234-572",
           "email": "director.womendevelopment@cg.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "raipur-municipal-corporation",
+      "name": {
+        "en": "Raipur Municipal Corporation",
+        "hi": "रायपुर नगर निगम"
+      },
+      "icon": "🏛️",
+      "description": {
+        "en": "Pradhan Mantri Awas Yojana - Urban 2.0",
+        "hi": "प्रधानमंत्री आवास योजना - शहरी 2.0"
+      },
+      "website": "https://nagarnigamraipur.nic.in/",
+      "contact": {
+        "phone": "91-771-2535-780",
+        "email": "",
+        "helpline": ""
+      },
+      "office": {
+        "address": {
+          "en": "Municipal Corporation, Raipur (C.G.) Nagar Nigam Head Office, Near Mahila Police Thana,Gandhi Maidan , Raipur (C.G.)",
+          "hi": "नगर निगम, रायपुर (छ.ग.) नगर निगम मुख्यालय कार्यालय, महिला पुलिस थाना के पास, गांधी मैदान, रायपुर (छ.ग.)"
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "91-771-2535780-2535790",
+          "email": ""
         }
       ]
     }

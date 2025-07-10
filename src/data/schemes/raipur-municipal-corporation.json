@@ -1,0 +1,544 @@
+{
+  "schemes": [
+    {
+      "id": "pradhan-mantri-awas-yojana-urban-2.0",
+      "name": {
+        "en": "Pradhan Mantri Awas Yojana - Urban 2.0",
+        "hi": "प्रधानमंत्री आवास योजना - शहरी 2.0"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "eligibility": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Refer Document - RMC citizen-centric schemes",
+          "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://pmaymis.gov.in/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "pension",
+      "name": {
+        "en": "Pension",
+        "hi": "पेंशन"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "eligibility": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Refer Document - RMC citizen-centric schemes",
+          "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Rajendra Gupta",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://nagarnigamraipur.nic.in/en/citizen-facilities",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "swachh-bharat-mission",
+      "name": {
+        "en": "Swachh Bharat Mission (Urban)",
+        "hi": "स्वच्छ भारत मिशन (शहरी)"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "eligibility": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Refer Document - RMC citizen-centric schemes",
+          "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://nagarnigamraipur.nic.in/en/citizen-facilities",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "birth-death-marriage-certificates",
+      "name": {
+        "en": "Birth, death, and marriage certificates",
+        "hi": "जन्म, मृत्यु और विवाह प्रमाण पत्र"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "eligibility": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Refer Document - RMC citizen-centric schemes",
+          "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://edistrict.cgstate.gov.in/PACE/login.do",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "deendayal-antyodaya-yojana",
+      "name": {
+        "en": "Deendayal Antyodaya Yojana - DAY NULM",
+        "hi": "दीनदयाल अंत्योदय योजना - DAY NULM"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "eligibility": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "Refer Document - RMC citizen-centric schemes",
+          "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://nulm.gov.in/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "building-permission-management-system",
+      "name": {
+        "en": "Building Permission Management System",
+        "hi": "निर्माण अनुमति प्रबंधन प्रणाली"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "eligibility": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "NA",
+          "hi": "NA"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://bpms.sudacg.in/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "make-a-complaint-or-public-grievance",
+      "name": {
+        "en": "'Make a Complaint' or 'Public Grievance'",
+        "hi": "'शिकायत करें' या 'सार्वजनिक शिकायत'"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "eligibility": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "NA",
+          "hi": "NA"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Vinod Pandey",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://cgnidaan.com/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "online-namantaran",
+      "name": {
+        "en": "Online Namantaran",
+        "hi": "ऑनलाइन नामांतरण"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "eligibility": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "NA",
+          "hi": "NA"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri U.S. Aggarwal",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://nagarnigamprojects.in/rmc_water_conn/site/login",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "online-water-connection-system",
+      "name": {
+        "en": "Online Water Connection System",
+        "hi": "ऑनलाइन जल कनेक्शन प्रणाली"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "eligibility": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "NA",
+          "hi": "NA"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri U.S. Aggarwal",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://nagarnigamprojects.in/rmc_namantaran/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    },
+    {
+      "id": "property-tax-system",
+      "name": {
+        "en": "Property Tax System",
+        "hi": "संपत्ति कर प्रणाली"
+      },
+      "description": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "दस्तावेज़ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "benefits": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "eligibility": {
+        "en": "NA",
+        "hi": "NA"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "office": {
+          "en": "NA",
+          "hi": "NA"
+        }
+      },
+      "documents": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "guidelines": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri U.S. Aggarwal",
+          "designation": {
+            "en": "Additional Commissioner",
+            "hi": "अतिरिक्त आयुक्त"
+          },
+          "phone": "+91-771-2535780-2535790",
+          "email": ""
+        }
+      ],
+      "website": "https://mcraipur.in/",
+      "status": "active",
+      "lastUpdated": "2025-07-10",
+
+      "notices": {
+        "en": "Refer Document - RMC citizen-centric schemes",
+        "hi": "लाभ देखें - आरएमसी नागरिक-केंद्रित योजनाएँ"
+      }
+    }
+  ]
+}
