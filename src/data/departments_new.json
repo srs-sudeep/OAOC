@@ -1,0 +1,220 @@
+{
+  "departments": [
+    {
+      "id": "fisheries",
+      "name": {
+        "en": "Fisheries Department",
+        "hi": "मत्स्य विभाग"
+      },
+      "icon": "🐟",
+      "description": {
+        "en": "Promoting sustainable fisheries development and aquaculture",
+        "hi": "स्थायी मत्स्य विकास और मत्स्य पालन को बढ़ावा देना"
+      },
+      "website": "https://fisheries.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-567",
+        "email": "fisheries@cg.gov.in",
+        "helpline": "1800-233-4567"
+      },
+      "office": {
+        "address": {
+          "en": "Fisheries Department, Secretariat Complex, Raipur",
+          "hi": "मत्स्य विभाग, सचिवालय परिसर, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
+        {
+          "name": "Dr. Rajesh Kumar",
+          "designation": {
+            "en": "Director, Fisheries",
+            "hi": "निदेशक, मत्स्य पालन"
+          },
+          "phone": "0771-2234-567",
+          "email": "director.fisheries@cg.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": {
+        "en": "Agriculture Department",
+        "hi": "कृषि विभाग"
+      },
+      "icon": "🌾",
+      "description": {
+        "en": "Supporting farmers with modern agricultural practices and subsidies",
+        "hi": "आधुनिक कृषि प्रथाओं और सब्सिडी के साथ किसानों का समर्थन"
+      },
+      "website": "https://agriculture.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-568",
+        "email": "agriculture@cg.gov.in",
+        "helpline": "1800-233-4568"
+      },
+      "office": {
+        "address": {
+          "en": "Agriculture Department, Krishi Bhawan, Raipur",
+          "hi": "कृषि विभाग, कृषि भवन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
+        {
+          "name": "Dr. Sunita Sharma",
+          "designation": {
+            "en": "Director, Agriculture",
+            "hi": "निदेशक, कृषि"
+          },
+          "phone": "0771-2234-568",
+          "email": "director.agriculture@cg.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": {
+        "en": "Education Department",
+        "hi": "शिक्षा विभाग"
+      },
+      "icon": "📚",
+      "description": {
+        "en": "Ensuring quality education and skill development for all citizens",
+        "hi": "सभी नागरिकों के लिए गुणवत्तापूर्ण शिक्षा और कौशल विकास सुनिश्चित करना"
+      },
+      "website": "https://education.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-569",
+        "email": "education@cg.gov.in",
+        "helpline": "1800-233-4569"
+      },
+      "office": {
+        "address": {
+          "en": "Education Department, Shiksha Sadan, Raipur",
+          "hi": "शिक्षा विभाग, शिक्षा सदन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
+        {
+          "name": "Prof. Amit Verma",
+          "designation": {
+            "en": "Director, Education",
+            "hi": "निदेशक, शिक्षा"
+          },
+          "phone": "0771-2234-569",
+          "email": "director.education@cg.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": {
+        "en": "Health Department",
+        "hi": "स्वास्थ्य विभाग"
+      },
+      "icon": "🏥",
+      "description": {
+        "en": "Providing accessible healthcare services to all citizens",
+        "hi": "सभी नागरिकों को सुलभ स्वास्थ्य सेवाएं प्रदान करना"
+      },
+      "website": "https://health.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-570",
+        "email": "health@cg.gov.in",
+        "helpline": "1800-233-4570"
+      },
+      "office": {
+        "address": {
+          "en": "Health Department, Swasthya Bhawan, Raipur",
+          "hi": "स्वास्थ्य विभाग, स्वास्थ्य भवन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
+        {
+          "name": "Dr. Priya Singh",
+          "designation": {
+            "en": "Director, Health Services",
+            "hi": "निदेशक, स्वास्थ्य सेवाएं"
+          },
+          "phone": "0771-2234-570",
+          "email": "director.health@cg.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "rural-development",
+      "name": {
+        "en": "Rural Development",
+        "hi": "ग्रामीण विकास"
+      },
+      "icon": "🏘️",
+      "description": {
+        "en": "Comprehensive development of rural areas and employment generation",
+        "hi": "ग्रामीण क्षेत्रों का व्यापक विकास और रोजगार सृजन"
+      },
+      "website": "https://ruraldevelopment.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-571",
+        "email": "ruraldevelopment@cg.gov.in",
+        "helpline": "1800-233-4571"
+      },
+      "office": {
+        "address": {
+          "en": "Rural Development Department, Panchayat Bhawan, Raipur",
+          "hi": "ग्रामीण विकास विभाग, पंचायत भवन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
+        {
+          "name": "Shri Ramesh Gupta",
+          "designation": {
+            "en": "Director, Rural Development",
+            "hi": "निदेशक, ग्रामीण विकास"
+          },
+          "phone": "0771-2234-571",
+          "email": "director.ruraldevelopment@cg.gov.in"
+        }
+      ]
+    },
+    {
+      "id": "women-development",
+      "name": {
+        "en": "Women & Child Development",
+        "hi": "महिला एवं बाल विकास"
+      },
+      "icon": "👩‍👧‍👦",
+      "description": {
+        "en": "Empowering women and ensuring child welfare and development",
+        "hi": "महिलाओं का सशक्तिकरण और बाल कल्याण एवं विकास सुनिश्चित करना"
+      },
+      "website": "https://womendevelopment.cg.gov.in",
+      "contact": {
+        "phone": "0771-2234-572",
+        "email": "womendevelopment@cg.gov.in",
+        "helpline": "1800-233-4572"
+      },
+      "office": {
+        "address": {
+          "en": "Women & Child Development, Mahila Bhawan, Raipur",
+          "hi": "महिला एवं बाल विकास, महिला भवन, रायपुर"
+        },
+        "pincode": "492001"
+      },
+      "personsOfContact": [
+        {
+          "name": "Mrs. Kavita Jain",
+          "designation": {
+            "en": "Director, Women & Child Development",
+            "hi": "निदेशक, महिला एवं बाल विकास"
+          },
+          "phone": "0771-2234-572",
+          "email": "director.womendevelopment@cg.gov.in"
+        }
+      ]
+    }
+  ]
+}
