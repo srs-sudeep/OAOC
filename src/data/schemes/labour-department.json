@@ -160,10 +160,1419 @@
       "status": "active",
       "lastUpdated": "2025-07-10",
       "notices": {
-        "en": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"],
-        "hi": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"]
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "noni-babu-meritorious-education-assistance-scheme",
+      "name": {
+        "en": "Noni Babu Meritorious Education Assistance Scheme",
+        "hi": "नोनी बाबू मेधावी शिक्षा सहायता योजना"
+      },
+      "description": {
+        "en": "Incentive is provided for higher education to the first two studying children of a registered construction worker. Under the scheme, financial assistance will be given to support good and higher education. Additionally, meritorious students will be provided educational assistance by the board to pursue studies abroad.",
+        "hi": "पंजीकृत निर्माणी श्रमिक के प्रथम दो अध्ययनरत संतान को उच्च शिक्षा हेतु प्रोत्साहन राशि प्रदान की जाती है। , योजनांतर्गत प्रोत्साहन राशि दी जाएगी योजना के तहत अच्छी और उच्च शिक्षा प्राप्त करने एवं प्रतिभावान छात्र-छात्राओं को विदेश में शिक्षा प्राप्त करने के लिए मंडल द्वारा शिक्षा सहायता दी जाएगी।"
+      },
+      "benefits": {
+        "en": [
+          "Students who score more than 75% marks in Class 10th and 12th, and are pursuing any vocational or professional education, are provided an amount ranging from ₹5,000 to ₹12,500.",
+          "Students who secure a place in the Top 10 merit list at the state level in Class 10th or 12th board exams are awarded ₹1,00,000 and a grant of ₹1,00,000 for a two-wheeler.",
+          "For all technical courses, the tuition fee will be paid equivalent to that of a government institution.",
+          "For studying abroad, assistance of up to the actual admission fee per academic session or a maximum of ₹50,00,000 (Fifty Lakhs) will be provided."
+        ],
+        "hi": [
+          "कक्षा 10वी एवं कक्षा 12वी से समस्त व्यवसायिक शिक्षा एवं प्रोफेशनल शिक्षा में 75 प्रतिशत से अधिक अंक प्राप्त करने पर 5000-12500/- तक राशि प्रदान किया जाता है।",
+          "कक्षा 10वी एवं कक्षा 12वी में प्रदेश स्तरीय परीक्षा में मेरिट के टाॅप टेन में आने पर राशि रूपये 100000/-एवं दोपहिया वाहन हेतु अनुदान राशि रूपये 100000/- प्रदान किया जाता है।",
+          "समस्त टेक्निकल कोर्स में प्रवेश लेने पर शासकीय संस्था के बराबर शुल्क का भुगतान।",
+          "विदेश में शिक्षा प्राप्त करने हेतु प्रत्येक शिक्षा सत्र की वास्तविक प्रवेश शुल्क अथवा अधिकतम राशि रूपये 5000000/- (पचास लाख रू) सहायता राशि दी जावेगी।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "A registered construction worker, whose registration is at least 90 days old, is eligible.",
+          "To avail assistance for education abroad, the worker’s registration must be at least 3 years old, and the benefit is limited to the first two children only.",
+          "Under the scheme, assistance will be provided for pursuing a one-year Master’s course in any country outside India.",
+          "It is mandatory to qualify IELTS/TOEFL or any exam prescribed for studying in that country.",
+          "The exam fee for IELTS/TOEFL or the prescribed test (only once) will be borne by the department."
+        ],
+        "hi": [
+          "पंजीकृत निर्माणी श्रमिक, जिसके पंजीयन को 90 दिवस पूर्ण हो।",
+          "पंजीकृत निर्माणी श्रमिक के पंजीयन को 03 वर्ष पूर्ण होने उपरांत श्रमिक के बच्चे विदेश में शिक्षा प्राप्त करने के लिए पात्र होंगे।",
+          "केवल प्रथम दो संतान हेतु। योजनांतर्गत भारत के बाहर किसी भी देश में एक वष्र्षीय मास्टर कोर्स किए जाने हेतु सहायता प्रदान की जावेगी।",
+          "आईईएलटीएस/टीओईएफएल/उस देश में अध्ययन के लिए निर्धारित परीक्षा उत्तीर्ण करना अनिवार्य होगा।",
+          " एक बार का आईईएलटीएस/टीओईएफएल/उस देश में अध्ययन के लिए निर्धारित परीक्षा शुल्क विभाग द्वारा वहन किया जाएगा"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Certificate from the Principal of the School",
+          "Marksheet"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "प्राचार्य का प्रमाण पत्र स्कूल से",
+          "अंकसूची"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Certificate from the Principal of the School",
+          "Marksheet"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "प्राचार्य का प्रमाण पत्र स्कूल से",
+          "अंकसूची"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "excellence-in-sports-incentive-scheme-for-children-of-construction-workers",
+      "name": {
+        "en": "Excellence in Sports Incentive Scheme for Children of Construction Workers",
+        "hi": "निर्माणी श्रमिक के बच्चों हेतु उत्कृष्ट खेल प्रोत्साहन योजना"
+      },
+      "description": {
+        "en": "Incentive amounts are provided to the first two children of a registered construction worker for outstanding performance in sports identified under the Khelo India Scheme implemented by the Government of India.",
+        "hi": "पंजीकृत निर्माणी श्रमिक के प्रथम दो संतान को भारत सरकार द्वारा लागू खेलो इंडिया योजना के अंतर्गत चिन्हित खेलों में उत्कृष्ट प्रदर्शन करने पर प्रोत्साहन राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "At the district level, an amount of ₹1,000.",
+          "At the division level, an amount of ₹2,000.",
+          "At the state level, an amount of ₹5,000.",
+          "At the national level, an amount of ₹50,000."
+        ],
+        "hi": [
+          "जिला स्तर पर राशि रूपये 1 हजार।",
+          "संभाग स्तर पर राशि रूपये 2 हजार।",
+          "राज्य स्तर पर राशि रूपये 5 हजार।",
+          "राष्ष्ट्रीय स्तर पर राशि रूपये 50 हजार।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to employment",
+          "Sports Certificate",
+          "Certificate of Excellence issued by the Sports Department"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "खेल प्रमाण पत्रखेल प्रमाण पत्र",
+          "उत्कृष्टता प्रमाण पत्र खेल विभाग द्वारा जारी"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Certificate from the Principal of the School",
+          "Marksheet"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "प्राचार्य का प्रमाण पत्र स्कूल से",
+          "अंकसूची"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to the scheme",
+          "Self-declaration Certificate related to employment",
+          "Certificate from the Principal of the School",
+          "Marksheet"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "प्राचार्य का प्रमाण पत्र स्कूल से",
+          "अंकसूची"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/UTKRISTH%20KHEL%20PROTSAHAN%20YOJANA.pdf "
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/UTKRISTH%20KHEL%20PROTSAHAN%20YOJANA.pdf "
+        ]
+      }
+    },
+    {
+      "id": "mukhyamantri-nirman-shramik-deerghayu-sahayata-scheme",
+      "name": {
+        "en": "Mukhyamantri Nirman Shramik Deerghayu Sahayata Scheme",
+        "hi": "मुख्यमंत्री निर्माण श्रमिक दीर्घायु सहायता योजना"
+      },
+      "description": {
+        "en": "Under the scheme, registered construction workers are provided financial assistance in case of an accident.",
+        "hi": "योजनांतर्गत पंजीकृत निर्माणी श्रमिकों को दुर्घटना होने पर सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "A lump sum payment of ₹20,000 is provided. ₹1,000 for visual impairment glasses, ₹5,000 for artificial dentures, and ₹6,000 for hearing aids. If hospitalized for more than 15 days, wages equivalent to 15 days at the minimum wage rate are provided."
+        ],
+        "hi": [
+          "एवं दृष्ष्टिबाधित चश्मा हेतु 1000, कृत्रिम दन्त हेतु 5000 एवं श्रवन बाधित यंत्र हेतु 6000 प्रदान किया जाता है। एवं 15 दिनों से अधिकत अस्पताल में भर्ती होने पर न्यूनतम वेतन के मान से 15 दिवस के बराबर वेतन भुगतान"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "A registered construction worker whose registration is at least 90 days old."
+        ],
+        "hi": ["पंजीकृत निर्माणी श्रमिक, जिसके पंजीयन को 90 दिवस  पूर्ण हो।"]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to employment",
+          "Copy of FIR",
+          "Medical Certificate",
+          "Copy of Bill/Invoice"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "एफआईआर की कापी",
+          "चिकित्सा प्रमाण पत्र",
+          "बिल/देयक की कापी"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker Registration Card",
+          "Aadhaar Card",
+          "Bank Passbook",
+          "Self-declaration Certificate related to employment",
+          "Copy of FIR",
+          "Medical Certificate",
+          "Copy of Bill/Invoice"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "एफआईआर की कापी",
+          "चिकित्सा प्रमाण पत्र",
+          "बिल/देयक की कापी"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/DIRGHAYU%20SAHAYTA%20YOJANA.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/DIRGHAYU%20SAHAYTA%20YOJANA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "didi-e-rickshaw-assistance-scheme",
+      "name": {
+        "en": "Didi E-Rickshaw Assistance Scheme",
+        "hi": "दीदी ई-रिक्शा सहायता योजना"
+      },
+      "description": {
+        "en": "Registered female construction workers are provided a subsidy for purchasing an e-rickshaw.",
+        "hi": "पंजीकृत निर्माणी महिला श्रमिक को ई रिक्‍शा खरीदने पर अनुदान राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": ["Assistance amount of ₹1,00,000"],
+        "hi": ["राशि रू 01 लाख सहायता राशि"]
+      },
+      "eligibility": {
+        "en": [
+          "Registered female construction workers in the age group of 18 to 50 years who have been registered with the board for a minimum of 3 years."
+        ],
+        "hi": [
+          "18 से 50 आयु समूह के पंजीकृत निर्माण महिला श्रमिक, जो मंडल में न्युनतम 03 वर्षों से पंजीकृत हो।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Original scanned copy of the document related to loan approval from the bank",
+          "Beneficiary Registration Card",
+          "Copy of bank passbook",
+          "Original Scanned Copy of Aadhaar Card",
+          "Copy of Driving License"
+        ],
+        "hi": [
+          "बैंक से लोन प्राप्त करने सम्बन्धी दस्तावेज की ओरिजिनल स्कैन कॉपी",
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आधार कार्ड ओरिजिनल स्कैन कॉपी",
+          "ड्रायविंग लायसेंस की कॉपी"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Original scanned copy of the document related to loan approval from the bank",
+          "Beneficiary Registration Card",
+          "Copy of bank passbook",
+          "Original Scanned Copy of Aadhaar Card",
+          "Copy of Driving License"
+        ],
+        "hi": [
+          "बैंक से लोन प्राप्त करने सम्बन्धी दस्तावेज की ओरिजिनल स्कैन कॉपी",
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आधार कार्ड ओरिजिनल स्कैन कॉपी",
+          "ड्रायविंग लायसेंस की कॉपी"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/DIDI%20E-RIKSHWA%20SAHAYTA%20YOJANA.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/DIDI%20E-RIKSHWA%20SAHAYTA%20YOJANA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-noni-empowerment-assistance-scheme",
+      "name": {
+        "en": "Chief Minister Noni Empowerment Assistance Scheme",
+        "hi": "मुख्यमंत्री नोनी सशक्तिकरण सहायता योजना"
+      },
+      "description": {
+        "en": "Under the scheme, financial assistance is provided to the daughters of registered construction workers for education, employment, and marriage.",
+        "hi": "योजनांतर्गत पंजीकृत निर्माणी श्रमिक के पुत्रीयो को शिक्षा, रोजगार एवं विवाह हेतु सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": ["A one-time payment of ₹20,000 to the daughter."],
+        "hi": ["20,000 हजार रूपये एक मुश्त पुत्री को भुगतान।"]
+      },
+      "eligibility": {
+        "en": [
+          "The girl’s father or mother or both must be registered as construction workers with the board for at least 3 years. The daughter must be at least 18 years old and not more than 21 years old, must be unmarried, and must have passed at least the 10th standard."
+        ],
+        "hi": [
+          "लड़की के पिता या माता अथवा दोनों, कम से कम 03 वर्ष की अवधि से मण्डल में निर्माण श्रमिक के रूप में पंजीकृत हों तथा पुत्री की आयु न्यूनतम् 18 वर्ष हो तथा अधिकतम 21 वर्ष से अधिक ना हो तथा वह अविवाहित हो एवं कम से कम 10 वीं कक्षा उत्तीर्ण हो।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card (of the daughter)",
+          "Bank passbook (of the daughter)",
+          "Self-declaration certificate related to the scheme",
+          "Self-declaration certificate related to employment",
+          "Birth certificate (of the daughter)",
+          "Class 10th marksheet (of the daughter)"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड, (पुत्री का)",
+          "बैंक पासबुक, (पुत्री का)",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "जन्म प्रमाण पत्र (पुत्री का)",
+          "कक्षा 10वीं अंकसूची (पुत्री का)"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card (of the daughter)",
+          "Bank passbook (of the daughter)",
+          "Self-declaration certificate related to the scheme",
+          "Self-declaration certificate related to employment",
+          "Birth certificate (of the daughter)",
+          "Class 10th marksheet (of the daughter)"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड, (पुत्री का)",
+          "बैंक पासबुक, (पुत्री का)",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "जन्म प्रमाण पत्र (पुत्री का)",
+          "कक्षा 10वीं अंकसूची (पुत्री का)"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/MUKHYAMANTRI%20NONI%20SHASKTIKARAN%20SAHAYATA%20YOJANA.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/MUKHYAMANTRI%20NONI%20SHASKTIKARAN%20SAHAYATA%20YOJANA.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-free-coaching-assistance-scheme-for-children-of-construction-workers",
+      "name": {
+        "en": "Chief Minister Free Coaching Assistance Scheme for Children of Construction Workers",
+        "hi": "मुख्यमंत्री निर्माण श्रमिकों के बच्चों हेतु निःशुल्क कोचिंग सहायता योजना"
+      },
+      "description": {
+        "en": "Free coaching will be provided through selected coaching institutes to registered construction workers and their children under the board, based on their educational qualifications for competitive examinations.",
+        "hi": "मंडल अंतर्गत पंजीकृत निर्माण श्रमिकों एवं उनके संतानों को शैक्षणिक योग्यता अनुरूप प्रतियोगिता परीक्षाओं हेतु चयनित कोचिंग संस्थानांे के माध्यम से निःशुल्क कोचिंग प्रदान किया जाना"
+      },
+      "benefits": {
+        "en": [
+          "Free coaching is provided through selected coaching institutes for exams conducted by the Public Service Commission, Chhattisgarh Professional Examination Board, Staff Selection Commission, Banking, Railway, Police Recruitment, and others."
+        ],
+        "hi": [
+          "लोक सेवा आयोग, छ0ग0 व्यावसायिक परीक्षा मंडल, कर्मचारी चयन आयोग, बैंकिंग, रेल्वे, पुलिस भर्ती परीक्षा आदि चयनित कोचिंग संस्थानांे के माध्यम से निःशुल्क कोचिंग प्रदान किया जाता है।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "The worker must have at least one year of regular membership with the board. Under the scheme, only the registered worker or their first two children will be eligible for the benefit. The registered worker or their child must possess the minimum qualification required for the respective competitive examination to be eligible under the scheme."
+        ],
+        "hi": [
+          "मंडल में पंजीकृत श्रमिक की एक वर्ष की नियमित सदस्यता होना आवश्यक है, योजना के तहत् पंजीकृत श्रमिक अथवा उनके प्रथम दो संतानों को ही योजना का लाभ देय होगा पंजीकृत श्रमिक अथवा उनके संतान संबंधित प्रतियोगी परीक्षा हेतु निर्धारित न्यूनतम अर्हता रखता/रखती हो योजनांतर्गत पात्र होंगे।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card",
+          "Bank passbook",
+          "Self-declaration certificate related to the scheme",
+          "Marksheet",
+          "Counselling certificate"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "अंकसूची",
+          "काउंसलिंग प्रमाण पत्र"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card",
+          "Bank passbook",
+          "Self-declaration certificate related to the scheme",
+          "Marksheet",
+          "Counselling certificate"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "अंकसूची",
+          "काउंसलिंग प्रमाण पत्र"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/716519_04_09_2023.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/716519_04_09_2023.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-construction-workers-housing-assistance-scheme",
+      "name": {
+        "en": "Chief Minister Construction Workers Housing Assistance Scheme",
+        "hi": "मुख्यमंत्री निर्माण श्रमिक आवास सहायता योजना"
+      },
+      "description": {
+        "en": "Registered construction workers will be provided a one-time grant for constructing a house on their own land or for purchasing a new house.",
+        "hi": "पंजीकृत निर्माण श्रमिकों को स्वयं के भूखंड पर आवास निर्माण अथवा नवीन आवास क्रय के लिए एकमुश्त अनुदान के रूप में देय होगा।"
+      },
+      "benefits": {
+        "en": ["One-time payment of ₹1,00,000"],
+        "hi": ["1,00,000/- रूपये एक मुश्त भुगतान।"]
+      },
+      "eligibility": {
+        "en": [
+          "The benefit of the scheme will be provided to construction workers who have been continuously registered with the board for the past 3 years. In case both husband and wife are registered beneficiaries under the board, only one of them will be eligible to receive the one-time housing grant under the scheme."
+        ],
+        "hi": [
+          "मंडल अंतर्गत गत् 03 वर्ष से निरंतर पंजीकृत निर्माण श्रमिकों को योजना का लाभ प्रदाय किया जावेगा।  पति व पत्नी दोनों के मंडल में पंजीकृत हितग्राही होने की स्थिति में योजना के तहत् केवल एक ही हितग्राही को आवास के लिए एकमुश्त अनुदान राशि प्राप्त हो सकेगा।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Aadhaar card",
+          "Worker registration card",
+          "Employer certificate",
+          "Land documents such as Khasra map / B1 / lease-related documents",
+          "Bank passbook",
+          "For construction on own land – Building permit copy / lease-related documents or For purchasing a new house - Registry copy / Builder agreement copy",
+          "Declaration on ₹10 stamp paper stating no existing house",
+          "For urban areas – Original scanned copy of construction agreement/permission for new house or For rural areas - No Objection Certificate (NOC) issued by the Gram Panchayat"
+        ],
+        "hi": [
+          "आधार कार्ड",
+          "श्रमिक पंजीयन कार्ड",
+          "नियोजक प्रमाण पत्र",
+          "भूखंड का खसरा नक्शा / B1 / पट्टे से सम्बन्धित दस्तावेज",
+          "बैंक पासबूक",
+          "स्वयं की जमीन मे निर्माण करने पर - भवन अनुज्ञप्ति कॉपी /पट्टा संबंधित दस्तावेज अथवा नवीन आवास क्रय करने में - रजिस्ट्री कॉपी / बिल्डर अग्रीमन्ट कॉपी",
+          "10 रु के स्टाम्प में कोई आवास नहीं होने की घोषणा",
+          "शहरी क्षेत्र के लिए - नविन आवास निर्माण की अनुबंध / अनुज्ञा की मूल स्कैन प्रति अथवा ग्रामीण क्षेत्र के लिए - ग्राम पंचायत द्वारा जारी अनापत्ति (NOC) प्रमाण पत्र"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Aadhaar card",
+          "Worker registration card",
+          "Employer certificate",
+          "Land documents such as Khasra map / B1 / lease-related documents",
+          "Bank passbook",
+          "For construction on own land – Building permit copy / lease-related documents or For purchasing a new house - Registry copy / Builder agreement copy",
+          "Declaration on ₹10 stamp paper stating no existing house",
+          "For urban areas – Original scanned copy of construction agreement/permission for new house or For rural areas - No Objection Certificate (NOC) issued by the Gram Panchayat"
+        ],
+        "hi": [
+          "आधार कार्ड",
+          "श्रमिक पंजीयन कार्ड",
+          "नियोजक प्रमाण पत्र",
+          "भूखंड का खसरा नक्शा / B1 / पट्टे से सम्बन्धित दस्तावेज",
+          "बैंक पासबूक",
+          "स्वयं की जमीन मे निर्माण करने पर - भवन अनुज्ञप्ति कॉपी /पट्टा संबंधित दस्तावेज अथवा नवीन आवास क्रय करने में - रजिस्ट्री कॉपी / बिल्डर अग्रीमन्ट कॉपी",
+          "10 रु के स्टाम्प में कोई आवास नहीं होने की घोषणा",
+          "शहरी क्षेत्र के लिए - नविन आवास निर्माण की अनुबंध / अनुज्ञा की मूल स्कैन प्रति अथवा ग्रामीण क्षेत्र के लिए - ग्राम पंचायत द्वारा जारी अनापत्ति (NOC) प्रमाण पत्र"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/397467_04_09_2023.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/397467_04_09_2023.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-worker-senior-citizen-assistance-scheme",
+      "name": {
+        "en": "Chief Minister Worker Senior Citizen Assistance Scheme",
+        "hi": "मुख्यमंत्री श्रमिक सियान सहायता योजना"
+      },
+      "description": {
+        "en": "Under the scheme, registered construction workers are provided the benefits of the Siyan Yojana (Senior Citizen Scheme).",
+        "hi": "योजनांतर्गत पंजीकृत निर्माणी श्रमिक को सियान योजना का लाभ प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": ["One-time payment of ₹1,00,000"],
+        "hi": ["1,00,000/- रूपये एक मुश्त भुगतान।"]
+      },
+      "eligibility": {
+        "en": [
+          "Under the scheme, construction workers aged between 59 and 60 years who have been registered with the board for the past 3 years are eligible."
+        ],
+        "hi": [
+          "योजनांतर्गत न्यूनतम आयु 59 वर्ष एवं अधिकतम आयु 60 वर्ष के निर्माण श्रमिक जो मंडल अंतर्गत विगत 03 वर्ष से पंजीकृत हो।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card",
+          "Bank passbook",
+          "Self-declaration certificate related to the scheme",
+          "Self-declaration certificate related to employment"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card",
+          "Bank passbook",
+          "Self-declaration certificate related to the scheme",
+          "Self-declaration certificate related to employment"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/899629_04_09_2023.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/899629_04_09_2023.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-construction-workers-death-and-disability-assistance-scheme",
+      "name": {
+        "en": "Chief Minister Construction Workers Death and Disability Assistance Scheme",
+        "hi": "मुख्यमंत्री निर्माण श्रमिक मृत्यु एवं दिव्यांग सहायता योजना"
+      },
+      "description": {
+        "en": "Under the scheme, in case of permanent disability or death of a registered construction worker, a one-time assistance amount is provided to the nominee.",
+        "hi": "योजनान्तर्गत पंजीकृत निर्माणी श्रमिक को स्थाई दिव्यांगता अथवा मृत्यु होने पर नामिनी को एकमुश्त सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "In case of natural death, a one-time payment of ₹1,00,000 is given to the nominee.",
+          "In case of death due to a workplace accident, a one-time payment of ₹5,00,000 is given to the nominee.",
+          "In case of permanent disability due to a workplace accident, a one-time payment of ₹2,50,000 is given to the beneficiary.",
+          "In case of death due to a workplace accident, a one-time payment of ₹5,00,000 is given to the nominee."
+        ],
+        "hi": [
+          "अमान्य मृत्यु होने पर राशि रूपये 1,00,000/-  नामिनी को एक मुश्त भुगतान।",
+          "कार्यस्थल पर दुर्घटना से मृत्यु होने पर राशि रूपये 5,00,000/-  नामिनी को एक मुश्त भुगतान।",
+          "कार्यस्थल पर दुर्घटना से स्थायी अपंगता होने पर राशि रूपये 2,50,000/-  हितग्राही को एक मुश्त भुगतान।",
+          "कार्यस्थल पर दुर्घटना से मृत्यु होने पर राशि रूपये 5,00,000/-  नामिनी को एक मुश्त भुगतान"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Registered construction workers between the ages of 18 and 60 years, whose registration has been valid for at least 90 days, are eligible.",
+          " However, in cases of death due to suicide, consumption of intoxicating substances, involvement in criminal activity, or assault, they will not be eligible for the assistance amount."
+        ],
+        "hi": [
+          "18 से 60 वर्ष की उम्र के पंजीकृत निर्माणी श्रमिक जिनके पंजीयन को 90 दिवस पूर्ण हो। ",
+          "आत्महत्या, मादक द्रव्यों या पदार्थो के सेवन अथवा अपराध करने पर, मार पीट से हुई मृत्यु की स्थिति में सहायता राशि हेतु पात्र नहीं होंगे।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card (of the beneficiary)",
+          "Aadhaar card (of the nominee)",
+          "Bank passbook (of the nominee)",
+          "Death certificate",
+          "Copy of FIR (only in case of accidental death)",
+          "Post-mortem report (only in case of accidental death)",
+          "Site report related to employment (only in case of accidental death)"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड, (हितग्राही का)",
+          "आधार कार्ड, (नामिनी का)",
+          "बैंक पासबुक, (नामिनी का)",
+          "मृत्यु प्रमाण पत्र",
+          "एफआईआर की कॉपी (केवल दुर्घटना मृत्यु में)",
+          "पोस्ट मार्टम रिपोर्ट (केवल दुर्घटना मृत्यु में)",
+          " नियोजन संबंधी स्थल रिपार्ट (केवल दुर्घटना मृत्यु में)"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card (of the beneficiary)",
+          "Aadhaar card (of the nominee)",
+          "Bank passbook (of the nominee)",
+          "Death certificate",
+          "Copy of FIR (only in case of accidental death)",
+          "Post-mortem report (only in case of accidental death)",
+          "Site report related to employment (only in case of accidental death)"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड, (हितग्राही का)",
+          "आधार कार्ड, (नामिनी का)",
+          "बैंक पासबुक, (नामिनी का)",
+          "मृत्यु प्रमाण पत्र",
+          "एफआईआर की कॉपी (केवल दुर्घटना मृत्यु में)",
+          "पोस्ट मार्टम रिपोर्ट (केवल दुर्घटना मृत्यु में)",
+          " नियोजन संबंधी स्थल रिपार्ट (केवल दुर्घटना मृत्यु में)"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/779246_04_09_2023.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/779246_04_09_2023.pdf"
+        ]
+      }
+    },
+    {
+      "id": "special-education-assistance-scheme",
+      "name": {
+        "en": "Special Education Assistance Scheme",
+        "hi": "विशेष शिक्षा सहायता योजना"
+      },
+      "description": {
+        "en": "In the event of the death of a registered worker after one year of registration, the benefit of the scheme is provided to their first two children.",
+        "hi": "पंजीकृत श्रमिक की पंजीयन के एक वर्ष पश्चात् मृत्यु की दशा में उनके प्रथम 02 संतान हेतु योजना का लाभ प्रदान किया जाता है।"
+      },
+      "benefits": {
+        "en": [
+          "A special registration card will be issued to them, and they will be provided the benefits of all provisions under the Naunihal Scholarship Scheme, Meritorious Student Education Incentive Scheme, and Technical Education Assistance Scheme."
+        ],
+        "hi": [
+          "विशेष पंजीयन कार्ड जारी कर उन्हें नौनिहाल छात्रवृत्ति योजना/मेधावी छात्र-छात्रा शिक्षा प्रोत्साहन योजना/तकनीकी शिक्षा सहायता योजना के समस्त प्रावधानों का लाभ प्रदान किया जाएगा।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Under the scheme, children (sons/daughters) of such registered construction workers whose both parents have passed away, and where at least one of the deceased parents was registered as a construction worker with the board for a minimum of 1 year, will be eligible. However, if there is any other registered construction worker in the family (among the parents), the children will not be eligible for the scheme."
+        ],
+        "hi": [
+          "योजनांतर्गत मंडल अंतर्गत ऐसे पंजीकृत निर्माण श्रमिक के ऐसे (पुत्र-पुत्री) जिनके (माता-पिता) दोनों की मृत्यु हो चुकी है एवं मृतक (माता-पिता) में से कोई भी मंडल अंतर्गत न्यूनतम 01 वष्र्ष से निर्माण श्रमिक के रूप में पंजीकृत मृतक श्रमिक के अतिरिक्त परिवार (माता-पिता) में कोई और पंजीकृत श्रमिक होने पर बच्चों को उस योजना की पात्रता नहीं होगी।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Aadhaar card of the child (boy/girl)",
+          "Worker registration card of the parents",
+          "Death certificate of the deceased beneficiary",
+          "Bank passbook",
+          "Self-declaration certificate",
+          "Live photo"
+        ],
+        "hi": [
+          "बालक/बालिका का आधार कार्ड",
+          "माता पिता का श्रमिक पंजीयन कार्ड",
+          "मृतक हितग्राही के मृत्यु प्रमाण पत्र",
+          "बैंक पासबुक",
+          "स्व-घोषणा प्रमाण पत्र",
+          "लाईव फोटो"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Aadhaar card of the child (boy/girl)",
+          "Worker registration card of the parents",
+          "Death certificate of the deceased beneficiary",
+          "Bank passbook",
+          "Self-declaration certificate",
+          "Live photo"
+        ],
+        "hi": [
+          "बालक/बालिका का आधार कार्ड",
+          "माता पिता का श्रमिक पंजीयन कार्ड",
+          "मृतक हितग्राही के मृत्यु प्रमाण पत्र",
+          "बैंक पासबुक",
+          "स्व-घोषणा प्रमाण पत्र",
+          "लाईव फोटो"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/264307_04_09_2023.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/264307_04_09_2023.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-construction-workers-pension-assistance-scheme",
+      "name": {
+        "en": "Chief Minister Construction Workers Pension Assistance Scheme",
+        "hi": "मुख्यमंत्री निर्माण श्रमिक पेंशन सहायता योजना"
+      },
+      "description": {
+        "en": "A monthly pension is provided to the registered worker.",
+        "hi": "पंजीकृत श्रमिक को प्रतिमाह पेंशन प्रदान किया जाता है।"
+      },
+      "benefits": {
+        "en": [
+          "A monthly pension of ₹1,500 is provided to the registered worker."
+        ],
+        "hi": [
+          "पंजीकृत श्रमिक को प्रतिमाह पेंशन के रूप में 1500/- रूपये प्रदान किया जाता है।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Under the scheme, registered construction workers who have been registered as construction workers with the board for a minimum of 10 years will be eligible."
+        ],
+        "hi": [
+          "योजनांतर्गत मंडल अंतर्गत ऐसे पंजीकृत निर्माण श्रमिक न्यूनतम 10 वर्ष से निर्माण श्रमिक के रूप में पंजीकृत हो।"
+        ]
+      },
+      "contact": {
+        "phone": "8770374056",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card (of both husband and wife)",
+          "Bank passbook",
+          "Self-declaration certificate related to the scheme",
+          "Self-declaration certificate related to employment",
+          "Life certificate",
+          "Live photo"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड (पति एवं पत्नि दोनो)",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "जीवित प्रमाण पत्र",
+          "लाईव फोटो"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Worker registration card",
+          "Aadhaar card (of both husband and wife)",
+          "Bank passbook",
+          "Self-declaration certificate related to the scheme",
+          "Self-declaration certificate related to employment",
+          "Life certificate",
+          "Live photo"
+        ],
+        "hi": [
+          "श्रमिक पंजीयन कार्ड",
+          "आधार कार्ड (पति एवं पत्नि दोनो)",
+          "बैंक पासबुक",
+          "योजना संबंधी स्व घोषणा प्रमाण पत्र",
+          "नियोजन संबंधी स्व घोषणा प्रमाण पत्र",
+          "जीवित प्रमाण पत्र",
+          "लाईव फोटो"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationBOC_public.aspx",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/904754_14_12_2023.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/904754_14_12_2023.pdf"
+        ]
+      }
+    },
+    {
+      "id": "unorganized-workers-mahatari-jatan-scheme",
+      "name": {
+        "en": "Unorganized Workers Mahatari Jatan Scheme",
+        "hi": "असंगठित कर्मकार महतारी जतन योजना"
+      },
+      "description": {
+        "en": "Financial assistance is provided to women registered as unorganized workers for their first two deliveries.",
+        "hi": "असंगठित कर्मकार के रूप में पंजीकृत महिला को प्रथम दो प्रसव पर सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "A one-time payment of ₹20,000 is provided if the application is submitted within 90 days of delivery."
+        ],
+        "hi": [
+          "प्रसव के 90 दिवस के भीतर आवेदन करनें पर रूपये 20 हजार का एकमुश्त भुगतान।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "The registered unorganized woman worker must have been registered at least 1 year prior to the date of childbirth.",
+          "Applicable only for the first two deliveries."
+        ],
+        "hi": [
+          "पंजीकृत असंगठित महिला कर्मकार को जिसका पंजीयन बच्चे जन्म दिनांक से 1 वर्ष पूर्व हो। ",
+          "केवल प्रथम दो प्रसव हेतु।"
+        ]
+      },
+      "contact": {
+        "phone": "9009450042  ",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": ["Birth certificate", "Copy of bank passbook"],
+        "hi": ["जन्‍म प्रमाण पत्र", "बैंक पासबुक कापी"]
+      },
+      "guidelines": {
+        "en": ["Birth certificate", "Copy of bank passbook"],
+        "hi": ["जन्‍म प्रमाण पत्र", "बैंक पासबुक कापी"]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/uow_prasuti.pdf"
+        ],
+        "hi": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/4/uow_prasuti.pdf"]
+      }
+    },
+    {
+      "id": "scholarship-scheme-for-children-of-unorganized-workers",
+      "name": {
+        "en": "Scholarship Scheme for Children of Unorganized Workers",
+        "hi": "असंगठित कर्मकार के बच्चों हेतु छात्रवृत्ति योजना"
+      },
+      "description": {
+        "en": "Scholarship is provided for the first two studying children of registered unorganized workers.",
+        "hi": "पंजीकृत असंगठित कर्मकारों के प्रथम दो अध्ययनरत संतान हेतु छात्रवृत्ति प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "Class-wise scholarships ranging from ₹500 to ₹5,000 per year are provided for students from Class 1 up to Postgraduate and Ph.D. levels."
+        ],
+        "hi": [
+          "कक्षा पहली से स्नातकोत्तर, पी.एच.डी. तक रूपये 500/- से 5000/- वार्षिक कक्षावार छात्रवृत्ति प्रदान की जाती है।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Workers registered as unorganized workers.",
+          "Only for the first two studying children who are not receiving a scholarship under any other scheme."
+        ],
+        "hi": [
+          "असंगठित कर्मकार के रूप में पंजीकृत श्रमिक। ",
+          "केवल प्रथम दो अध्ययनरत संतान हेतु जिन्हें अन्य किसी योजनान्तर्गत छात्रवृत्ति नहीं मिलती हो।"
+        ]
+      },
+      "contact": {
+        "phone": "9009450042",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Income certificate (issued by Patwari/Sarpanch or Councilor)",
+          "Study certificate issued by the Principal/Institution",
+          "Marksheet"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)",
+          "प्राचार्य/संस्था व्दारा जारी अध्ययन प्रमाण पत्र",
+          "अंक सूची"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Income certificate (issued by Patwari/Sarpanch or Councilor)",
+          "Study certificate issued by the Principal/Institution",
+          "Marksheet"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)",
+          "प्राचार्य/संस्था व्दारा जारी अध्ययन प्रमाण पत्र",
+          "अंक सूची"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/asangathit%20karmakaaron%20ke%20bachchon%20hetu%20chhaatravrtti%20yojana.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/asangathit%20karmakaaron%20ke%20bachchon%20hetu%20chhaatravrtti%20yojana.pdf"
+        ]
+      }
+    },
+    {
+      "id": "chief-minister-medical-assistance-scheme-for-serious-illnesses-of-unorganized-workers",
+      "name": {
+        "en": "Chief Minister Medical Assistance Scheme for Serious Illnesses of Unorganized Workers",
+        "hi": "मुख्यमंत्री असंगठित कर्मकार गंभीर बीमारी चिकित्सा सहायता योजना"
+      },
+      "description": {
+        "en": "Registered unorganized workers are provided financial assistance for the treatment of kidney disease, cancer, sickle cell anemia, heart disease, AIDS, and paralysis.",
+        "hi": "असंगठित कर्मकार के रूप में पंजीकृत श्रमिक को किडनी, कैंसर, सिकलिंग(सिकलसेल एनीमिया), ह्नदयरोग, एड्स एवं लकवा रोग के ईलाज हेतु सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "An amount of ₹50,000 or the actual cost of treatment, whichever is lower, is provided."
+        ],
+        "hi": [
+          "ईलाज हेतु राशि रूपये 50 हजार अथवा ईलाज में हुए वास्तविक व्यय जो भी कम हो।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Workers registered as unorganized workers who have completed 90 days of registration."
+        ],
+        "hi": [
+          "असंगठित कर्मकार के रूप में पंजीकृत श्रमिक जिनके पंजीयन को 90 दिवस पूर्ण हो।"
+        ]
+      },
+      "contact": {
+        "phone": "9009450042",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Age proof (any one of: marksheet / voter ID card / birth certificate / Aadhaar card)",
+          "Income certificate (issued by Patwari / Sarpanch or Councilor)",
+          "Hospital certificate"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आयु प्रमाण पत्र(अंकसुची/वोटर कार्ड/जन्म प्रमाण पत्र/आधार कार्ड मे से कोई एक",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)",
+          "अस्पताल सर्टिफिकेट"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Age proof (any one of: marksheet / voter ID card / birth certificate / Aadhaar card)",
+          "Income certificate (issued by Patwari / Sarpanch or Councilor)",
+          "Hospital certificate"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आयु प्रमाण पत्र(अंकसुची/वोटर कार्ड/जन्म प्रमाण पत्र/आधार कार्ड मे से कोई एक",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)",
+          "अस्पताल सर्टिफिकेट"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/mukhyamantree%20asangathit%20karmakaar%20gambheer%20beemaari%20chikitsa%20sahaayata%20yojana.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/mukhyamantree%20asangathit%20karmakaar%20gambheer%20beemaari%20chikitsa%20sahaayata%20yojana.pdf"
+        ]
+      }
+    },
+    {
+      "id": "unorganized-workers-death-and-disability-assistance-scheme",
+      "name": {
+        "en": "Unorganized Workers Death and Disability Assistance Scheme",
+        "hi": "असंगठित कर्मकार मृत्यु एवं दिव्यांग सहायता योजना"
+      },
+      "description": {
+        "en": "In case of permanent disability or death of an unorganized worker, financial assistance is provided.",
+        "hi": "असंगठित कर्मकार की स्थाई दिव्यांगता अथवा मृत्यु की स्थिति में सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "In case of permanent disability, assistance of ₹50,000 is provided.",
+          "In case of death, a payment of ₹1,00,000 is given to the legal heir of the worker."
+        ],
+        "hi": [
+          "स्‍थाई दिव्यांगता पर राशि रूपये-50 हजार की सहायता।",
+          "मृत्यु होने पर श्रमिक के उत्तराधिकारी को राशि रूपये-1 लाख का भुगतान।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Registered unorganized workers between the ages of 18 and 60 years.",
+          "Workers will not be eligible for assistance in cases of death due to suicide, consumption of intoxicating substances, involvement in criminal activities, or assault.",
+          "Workers must have completed 90 days of registration as unorganized workers."
+        ],
+        "hi": [
+          "18 से 60 वर्ष की उम्र के पंजीकृत असंगठित कर्मकार।",
+          "आत्महत्या, मादक द्रव्यों या पदार्थो के सेवन अथवा अपराध करने पर, मार पीट से हुई मृत्यु की स्थिति में सहायता राशि हेतु पात्र नहीं होंगे। ",
+          "असंगठित कर्मकार के रूप में पंजीकृत श्रमिक जिनके पंजीयन को 90 दिवस पूर्ण हो।"
+        ]
+      },
+      "contact": {
+        "phone": "9009450042",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Aadhaar card",
+          "Nominee's Aadhaar card",
+          "Address proof certificate",
+          "Death certificate",
+          "Disability certificate issued by a doctor",
+          "Documents related to the nominee"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आधार कार्ड",
+          "नॉमिनी आधार कार्ड",
+          "स्थायी पता के सम्बन्ध में प्रमाण पत्र",
+          "मृत्यु प्रमाण पत्र",
+          "डॉक्टर द्वारा जारी दिव्यांग प्रमाण पत्र",
+          "नामीनी संबंधित दस्तावेज"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Aadhaar card",
+          "Nominee's Aadhaar card",
+          "Address proof certificate",
+          "Death certificate",
+          "Disability certificate issued by a doctor",
+          "Documents related to the nominee"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आधार कार्ड",
+          "नॉमिनी आधार कार्ड",
+          "स्थायी पता के सम्बन्ध में प्रमाण पत्र",
+          "मृत्यु प्रमाण पत्र",
+          "डॉक्टर द्वारा जारी दिव्यांग प्रमाण पत्र",
+          "नामीनी संबंधित दस्तावेज"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/Rajpatra_Divyang_merged.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/Rajpatra_Divyang_merged.pdf"
+        ]
+      }
+    },
+    {
+      "id": "essential-equipment-assistance-scheme-for-sanitation-workers",
+      "name": {
+        "en": "Essential Equipment Assistance Scheme for Sanitation Workers",
+        "hi": "सफाई कर्मकार हेतु आवश्यक उपकरण सहायता योजना"
+      },
+      "description": {
+        "en": "Financial assistance is provided to sanitation workers registered under the Unorganized Workers Board.",
+        "hi": "असंगठित कर्मकार मंडल अंतर्गत सफाई कामगार को सहायता राशि प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": ["Assistance amount of ₹1,000 is provided per beneficiary."],
+        "hi": ["प्रति हितग्राही 1000/- रूपये सहायता राशि प्रदान की जाती है।"]
+      },
+      "eligibility": {
+        "en": [
+          "The sanitation worker must be registered and between 18 to 60 years of age"
+        ],
+        "hi": ["18 से 60 वर्ष की उम्र के पंजीकृत सफाई कामगार हो।"]
+      },
+      "contact": {
+        "phone": "9009450042",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Age proof (any one of: marksheet / voter ID card / birth certificate / Aadhaar card)",
+          "Income certificate (issued by Patwari / Sarpanch or Councilor)"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आयु प्रमाण पत्र(अंकसुची/वोटर कार्ड/जन्म प्रमाण पत्र/आधार कार्ड मे से कोई एक)",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Age proof (any one of: marksheet / voter ID card / birth certificate / Aadhaar card)",
+          "Income certificate (issued by Patwari / Sarpanch or Councilor)"
+        ],
+        "hi": [
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आयु प्रमाण पत्र(अंकसुची/वोटर कार्ड/जन्म प्रमाण पत्र/आधार कार्ड मे से कोई एक)",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/safai_upkaran.pdf"
+        ],
+        "hi": [
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/4/safai_upkaran.pdf"
+        ]
+      }
+    },
+    {
+      "id": "e-rickshaw-assistance-scheme",
+      "name": {
+        "en": "E-Rickshaw Assistance Scheme",
+        "hi": "ई-रिक्शा सहायता योजना"
+      },
+      "description": {
+        "en": "Provided to workers in the rickshaw driver/auto driver category who are registered as unorganized workers.",
+        "hi": "पंजीकृत असंगठित कर्मकारों के रिक्शा चालकW@आWWटो चालक प्रवर्ग के कामगार को प्रदान की जाती है।"
+      },
+      "benefits": {
+        "en": [
+          "Registered cycle rickshaw/auto drivers are provided a grant of ₹50,000 under the scheme by the board, only upon submission of loan documents obtained from the bank for the purchase of an e-rickshaw."
+        ],
+        "hi": [
+          "पंजीकृत सायकल रिक्शा/ऑटो चालकों को ई-रिक्शा हेतु मंडल द्वारा अनुदान राशि योजनांतर्गत बैंक से ऋण प्राप्ति का अभिलेख प्रस्तुत करने पर ही मंडल द्वारा राशि रूपये 50,000/- हितग्राही को प्रदान किया जाता है।"
+        ]
+      },
+      "eligibility": {
+        "en": [
+          "Registered cycle rickshaw/auto drivers or registered groups of workers between the age group of 18 to 50 years."
+        ],
+        "hi": [
+          "18से 50आयु समूह के पंजीकृत सायकल रिक्शा चालक/ऑटो चालक अथवा पंजीकृत श्रमिकों के पंजीकृत समूह।"
+        ]
+      },
+      "contact": {
+        "phone": "9009450042",
+        "email": "",
+        "office": {
+          "en": "",
+          "hi": ""
+        }
+      },
+      "documents": {
+        "en": [
+          "Original scanned copy of loan-related documents from the bank",
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Age proof (marksheet / voter ID card / birth certificate / Aadhaar card)",
+          "Income certificate (issued by Patwari / Sarpanch or Councilor)",
+          "Original scanned copy of Aadhaar card"
+        ],
+        "hi": [
+          "बैंक से लोन प्राप्त करने सम्बन्धी दस्तावेज की ओरिजिनल स्कैन कॉपी",
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आयु प्रमाण पत्र(अंकसुची/वोटर कार्ड/जन्म प्रमाण पत्र/आधार कार्ड",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)",
+          "आधार कार्ड ओरिजिनल स्कैन कॉपी"
+        ]
+      },
+      "guidelines": {
+        "en": [
+          "Original scanned copy of loan-related documents from the bank",
+          "Beneficiary registration card",
+          "Copy of bank passbook",
+          "Age proof (marksheet / voter ID card / birth certificate / Aadhaar card)",
+          "Income certificate (issued by Patwari / Sarpanch or Councilor)",
+          "Original scanned copy of Aadhaar card"
+        ],
+        "hi": [
+          "बैंक से लोन प्राप्त करने सम्बन्धी दस्तावेज की ओरिजिनल स्कैन कॉपी",
+          "हितग्राही पंजियन कार्ड",
+          "बैंक पासबुक कापी",
+          "आयु प्रमाण पत्र(अंकसुची/वोटर कार्ड/जन्म प्रमाण पत्र/आधार कार्ड",
+          "आय प्रमाण पत्र(पटवारी/सरपंच अथवा पार्षद व्दारा जारी)",
+          "आधार कार्ड ओरिजिनल स्कैन कॉपी"
+        ]
+      },
+      "website": "https://shramevjayate.cg.gov.in/Public/ApplicationUOC",
+      "status": "active",
+      "lastUpdated": "2025-07-11",
+      "notices": {
+        "en": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/4/e-Rikshaw.pdf"],
+        "hi": ["https://shramevjayate.cg.gov.in/WebDocs/Acts/4/e-Rikshaw.pdf"]
       }
     }
-    
   ]
 }

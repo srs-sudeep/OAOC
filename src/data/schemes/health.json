@@ -28,20 +28,6 @@
         "en": ["All residents", "Aadhaar card required", "Valid address proof"],
         "hi": ["सभी निवासी", "आधार कार्ड आवश्यक", "वैध पता प्रमाण"]
       },
-      "process": {
-        "en": [
-          "Registration at nearest center",
-          "Biometric verification",
-          "Card issuance",
-          "Hospital enrollment"
-        ],
-        "hi": [
-          "निकटतम केंद्र पर पंजीकरण",
-          "बायोमेट्रिक सत्यापन",
-          "कार्ड जारी करना",
-          "अस्पताल नामांकन"
-        ]
-      },
       "contact": {
         "phone": "0771-2234-570",
         "email": "healthinsurance@cg.gov.in",
@@ -67,12 +53,20 @@
         ]
       },
       "guidelines": {
-        "en": "https://health.cg.gov.in/health-insurance-guidelines.pdf",
-        "hi": "https://health.cg.gov.in/health-insurance-guidelines-hindi.pdf"
-      },
-      "applicationForm": {
-        "en": "https://health.cg.gov.in/forms/health-insurance-application.pdf",
-        "hi": "https://health.cg.gov.in/forms/health-insurance-application-hindi.pdf"
+        "en": [
+          "Aadhaar Card",
+          "Address Proof",
+          "Family Details",
+          "Income Certificate",
+          "Photograph"
+        ],
+        "hi": [
+          "आधार कार्ड",
+          "पता प्रमाण",
+          "पारिवारिक विवरण",
+          "आय प्रमाण पत्र",
+          "फोटोग्राफ"
+        ]
       },
       "website": "https://health.cg.gov.in/schemes/universal-health-insurance",
       "status": "active",
@@ -121,20 +115,6 @@
           "गरीबी रेखा से नीचे के परिवार"
         ]
       },
-      "process": {
-        "en": [
-          "Registration at PHC",
-          "Regular checkups",
-          "Institutional delivery",
-          "Follow-up care"
-        ],
-        "hi": [
-          "PHC में पंजीकरण",
-          "नियमित जांच",
-          "संस्थागत प्रसव",
-          "अनुवर्ती देखभाल"
-        ]
-      },
       "contact": {
         "phone": "0771-2234-570",
         "email": "maternalhealth@cg.gov.in",
@@ -160,12 +140,20 @@
         ]
       },
       "guidelines": {
-        "en": "https://health.cg.gov.in/maternal-health-guidelines.pdf",
-        "hi": "https://health.cg.gov.in/maternal-health-guidelines-hindi.pdf"
-      },
-      "applicationForm": {
-        "en": "https://health.cg.gov.in/forms/maternal-health-application.pdf",
-        "hi": "https://health.cg.gov.in/forms/maternal-health-application-hindi.pdf"
+        "en": [
+          "Aadhaar Card",
+          "BPL Card",
+          "Husband's Details",
+          "Previous Medical Records",
+          "Address Proof"
+        ],
+        "hi": [
+          "आधार कार्ड",
+          "BPL कार्ड",
+          "पति का विवरण",
+          "पिछले मेडिकल रिकॉर्ड",
+          "पता प्रमाण"
+        ]
       },
       "website": "https://health.cg.gov.in/schemes/maternal-health",
       "status": "active",
@@ -237,12 +225,12 @@
         }
       },
       "documents": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "guidelines": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "website": "https://uwin.mohfw.gov.in/home",
       "status": "active",
@@ -306,12 +294,12 @@
         }
       },
       "documents": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "guidelines": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "website": "https://beneficiary.nha.gov.in/",
       "status": "active",
@@ -385,19 +373,23 @@
         }
       },
       "documents": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "guidelines": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "website": "https://abha.abdm.gov.in/abha/v3/register",
       "status": "active",
       "lastUpdated": "2025-07-10",
       "notices": {
-        "en": "Voluntary and Free of Cost Privacy and Data Protection Consent-Based Sharing Only One ABHA ID per Person Minors Require Guardian Consent Linking with Health Records",
-        "hi": "स्वैच्छिक और मुफ्त गोपनीयता और डेटा सुरक्षा सहमति-आधारित साझाकरण केवल प्रति व्यक्ति एक ABHA ID नाबालिगों को अभिभावक की सहमति की आवश्यकता होती है स्वास्थ्य रिकॉर्ड के साथ लिंक करना"
+        "en": [
+          "Voluntary and Free of Cost Privacy and Data Protection Consent-Based Sharing Only One ABHA ID per Person Minors Require Guardian Consent Linking with Health Records"
+        ],
+        "hi": [
+          "स्वैच्छिक और मुफ्त गोपनीयता और डेटा सुरक्षा सहमति-आधारित साझाकरण केवल प्रति व्यक्ति एक ABHA ID नाबालिगों को अभिभावक की सहमति की आवश्यकता होती है स्वास्थ्य रिकॉर्ड के साथ लिंक करना"
+        ]
       }
     },
     {
@@ -450,19 +442,23 @@
         }
       },
       "documents": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "guidelines": {
-        "en": "NA",
-        "hi": "NA"
+        "en": [],
+        "hi": []
       },
       "website": "https://nextgen.ehospital.gov.in/home",
       "status": "active",
       "lastUpdated": "2025-07-10",
       "notices": {
-        "en": "Mandatory for Public Health Institutions Data Privacy & Confidentiality Role-Based Access Control ABHA Integration is Mandator Pre-Implementation Checklist Must Be Cleared Digital Signature/Authentication Legal Accountability",
-        "hi": "सार्वजनिक स्वास्थ्य संस्थानों के लिए अनिवार्य डेटा गोपनीयता और गोपनीयता भूमिका-आधारित पहुंच नियंत्रण ABHA एकीकरण अनिवार्य है पूर्व-कार्यान्वयन चेकलिस्ट को साफ़ किया जाना चाहिए डिजिटल हस्ताक्षर/प्रमाणीकरण कानूनी जवाबदेही"
+        "en": [
+          "Mandatory for Public Health Institutions Data Privacy & Confidentiality Role-Based Access Control ABHA Integration is Mandator Pre-Implementation Checklist Must Be Cleared Digital Signature/Authentication Legal Accountability"
+        ],
+        "hi": [
+          "सार्वजनिक स्वास्थ्य संस्थानों के लिए अनिवार्य डेटा गोपनीयता और गोपनीयता भूमिका-आधारित पहुंच नियंत्रण ABHA एकीकरण अनिवार्य है पूर्व-कार्यान्वयन चेकलिस्ट को साफ़ किया जाना चाहिए डिजिटल हस्ताक्षर/प्रमाणीकरण कानूनी जवाबदेही"
+        ]
       }
     }
   ]

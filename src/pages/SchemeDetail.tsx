@@ -127,12 +127,12 @@ const SchemeDetail = () => {
               </div>
 
               <h1 className="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-  {scheme.name?.[language] || ""}
-</h1>
+                {scheme.name?.[language] || ""}
+              </h1>
 
               <p className="text-xl text-blue-100 leading-relaxed mb-6">
-  {scheme.description?.[language] || ""}
-</p>
+                {scheme.description?.[language] || ""}
+              </p>
 
               <div className="flex flex-wrap gap-4">
                 <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20 flex items-center">
@@ -159,10 +159,10 @@ const SchemeDetail = () => {
               </h3>
               <div className="space-y-3">
                 <a href={scheme.website}>
-                <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 my-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
-                  <FileText className="w-5 h-5 mr-2" />
-                  {t("button.applyNow")}
-                </Button>
+                  <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 my-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
+                    <FileText className="w-5 h-5 mr-2" />
+                    {t("button.applyNow")}
+                  </Button>
                 </a>
                 <a href={`tel:${scheme?.contact?.phone}`}>
                   <Button
@@ -192,11 +192,11 @@ const SchemeDetail = () => {
               </h3>
             </div>
             <p className="text-sm text-gray-600">
-  {Array.isArray(scheme.benefits?.[language])
-    ? scheme.benefits[language].length
-    : 0}{" "}
-  {language === "en" ? "benefits available" : "लाभ उपलब्ध"}
-</p>
+              {Array.isArray(scheme.benefits?.[language])
+                ? scheme.benefits[language].length
+                : 0}{" "}
+              {language === "en" ? "benefits available" : "लाभ उपलब्ध"}
+            </p>
           </div>
 
           <div className="bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-500 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
@@ -209,11 +209,11 @@ const SchemeDetail = () => {
               </h3>
             </div>
             <p className="text-sm text-gray-600">
-  {Array.isArray(scheme.eligibility?.[language])
-    ? scheme.eligibility[language].length
-    : 0}{" "}
-  {language === "en" ? "criteria to meet" : "मापदंड पूरे करें"}
-</p>
+              {Array.isArray(scheme.eligibility?.[language])
+                ? scheme.eligibility[language].length
+                : 0}{" "}
+              {language === "en" ? "criteria to meet" : "मापदंड पूरे करें"}
+            </p>
           </div>
         </div>
 
@@ -327,49 +327,54 @@ const SchemeDetail = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-6">
-  <div className="space-y-3 text-sm text-gray-700 text-wrap">
-    {(Array.isArray(scheme.notices?.[language])
-      ? scheme.notices[language]
-      : scheme.notices?.[language]
-        ? [scheme.notices[language]]
-        : scheme.notices?.[language === "en" ? "en" : "hi"]
-          ? [scheme.notices[language === "en" ? "en" : "hi"]]
-          : []
-    ).map((notice, index) => {
-      // Simple URL detection
-      const urlMatch = notice.match(/https?:\/\/[^\s]+/);
-      return (
-        <p key={index} className={index === 0 ? "font-medium" : ""}>
-          {urlMatch ? (
-            <a
-              href={urlMatch[0]}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-700 underline hover:text-blue-900 transition"
-            >
-              {notice}
-            </a>
-          ) : (
-            <>
-              {notice}
-              {/* Optionally, add a default link if you want */}
-              {scheme.website && (
-                <a
-                  href={scheme.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="ml-2 text-blue-700 underline hover:text-blue-900 transition"
-                >
-                  {language === "en" ? "View Document" : "दस्तावेज़ देखें"}
-                </a>
-              )}
-            </>
-          )}
-        </p>
-      );
-    })}
-  </div>
-</CardContent>
+                <div className="space-y-3 text-sm text-gray-700 text-wrap">
+                  {(Array.isArray(scheme.notices?.[language])
+                    ? scheme.notices[language]
+                    : scheme.notices?.[language]
+                    ? [scheme.notices[language]]
+                    : scheme.notices?.[language === "en" ? "en" : "hi"]
+                    ? [scheme.notices[language === "en" ? "en" : "hi"]]
+                    : []
+                  ).map((notice, index) => {
+                    // Simple URL detection
+                    const urlMatch = notice.match(/https?:\/\/[^\s]+/);
+                    return (
+                      <p
+                        key={index}
+                        className={index === 0 ? "font-medium" : ""}
+                      >
+                        {urlMatch ? (
+                          <a
+                            href={urlMatch[0]}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-blue-700 underline hover:text-blue-900 transition"
+                          >
+                            {notice}
+                          </a>
+                        ) : (
+                          <>
+                            {notice}
+                            {/* Optionally, add a default link if you want */}
+                            {scheme.website && (
+                              <a
+                                href={scheme.website}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="ml-2 text-blue-700 underline hover:text-blue-900 transition"
+                              >
+                                {language === "en"
+                                  ? "View Document"
+                                  : "दस्तावेज़ देखें"}
+                              </a>
+                            )}
+                          </>
+                        )}
+                      </p>
+                    );
+                  })}
+                </div>
+              </CardContent>
             </Card>
 
             {/* Contact Support */}
@@ -386,7 +391,9 @@ const SchemeDetail = () => {
                   <div className="flex items-center space-x-3 text-sm">
                     <Phone className="w-4 h-4 text-purple-600" />
                     <span className="text-gray-700 font-medium">
-                      {scheme.contact.phone}
+                      {Array.isArray(scheme.contact.phone)
+                        ? scheme.contact.phone.join(", ")
+                        : scheme.contact.phone}
                     </span>
                   </div>
                   <div className="flex items-center space-x-3 text-sm">

@@ -124,7 +124,7 @@
         "phone": "0771-2436-450",
         "email": "",
         "helpline": ""
-      }, 
+      },
       "office": {
         "address": {
           "en": "3rd Floor, Udyog Bhawan, Telibandha, Raipur",
@@ -141,25 +141,30 @@
           },
           "phone": "",
           "email": ""
-          }
-        ]
+        }
+      ]
     },
     {
       "id": "bank",
       "name": {
         "en": "Bank",
-        "hi": "बैंक"},
+        "hi": "बैंक"
+      },
       "icon": "🏦",
       "description": {
         "en": "Stand-Up India Scheme for financing SC/ST and/or Women Entrepreneurs",
         "hi": "एससी/एसटी और/या महिला उद्यमियों को वित्तपोषण के लिए स्टैंड-अप इंडिया योजना"
       },
-      "website":[ "https://www.mudra.org.in/", "https://www.standupmitra.in/","https://www.startupindia.gov.in/"],
+      "website": [
+        "https://www.mudra.org.in/",
+        "https://www.standupmitra.in/",
+        "https://www.startupindia.gov.in/"
+      ],
       "contact": {
         "phone": "",
         "email": "",
         "helpline": ""
-      }, 
+      },
       "office": {
         "address": {
           "en": "",
@@ -176,8 +181,8 @@
           },
           "phone": "",
           "email": ""
-          }
-        ]
+        }
+      ]
     },
     {
       "id": "transport",
@@ -190,12 +195,12 @@
         "en": "",
         "hi": ""
       },
-      "website":"https://cgtransport.gov.in/",
+      "website": "https://cgtransport.gov.in/",
       "contact": {
-        "phone": " 0771-2511-085",
+        "phone": "0771-2511-085",
         "email": "",
         "helpline": ""
-      }, 
+      },
       "office": {
         "address": {
           "en": "",
@@ -212,8 +217,8 @@
           },
           "phone": "",
           "email": ""
-          }
-        ]
+        }
+      ]
     },
     {
       "id": "panchayat_rural_development",
@@ -226,12 +231,12 @@
         "en": "",
         "hi": ""
       },
-      "website":"https://prd.cg.gov.in/",
+      "website": "https://prd.cg.gov.in/",
       "contact": {
         "phone": "0771 2426-739",
         "email": "",
         "helpline": ""
-      }, 
+      },
       "office": {
         "address": {
           "en": "Office of District Panchayat Raipur, Collectorate Campus, Ghadi Chowk, Raipur (C.G.)",
@@ -248,13 +253,13 @@
           },
           "phone": "",
           "email": ""
-          }
-        ]
+        }
+      ]
     },
     {
-      "id":"labour-department",
+      "id": "labour-department",
       "name": {
-        "en":"Labour Department",
+        "en": "Labour Department",
         "hi": "श्रम विभाग"
       },
       "icon": "👷",
@@ -262,12 +267,12 @@
         "en": "Under the scheme, registered female construction workers are provided assistance for the first two deliveries.",
         "hi": "योजनांतर्गत पंजीकृत निर्माणी महिला श्रमिक को प्रथम दो प्रसव हेतु सहायता राशि दी जाती है। "
       },
-      "website":"https://shramevjayate.cg.gov.in",
+      "website": "https://shramevjayate.cg.gov.in",
       "contact": {
         "phone": "0771-4913-850",
         "email": "",
         "helpline": ""
-      }, 
+      },
       "office": {
         "address": {
           "en": "Angela Cottage, Near Sihawa Bhawan, Civil Lines, Raipur",
@@ -284,8 +289,44 @@
           },
           "phone": "",
           "email": ""
-          }
-        ]
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": {
+        "en": "Health Department",
+        "hi": "स्वास्थ्य विभाग"
+      },
+      "icon": "🏥",
+      "description": {
+        "en": "A nationwide digital platform designed to fully manage immunization records under the Universal Immunization Programme (UIP)",
+        "hi": "एक राष्ट्रीय डिजिटल प्लेटफॉर्म जो सार्वभौमिक टीकाकरण कार्यक्रम (UIP) के तहत टीकाकरण रिकॉर्ड को पूरी तरह से प्रबंधित करने के लिए डिज़ाइन किया गया है।"
+      },
+      "website": "https://uwin.mohfw.gov.in/home",
+      "contact": {
+        "phone": "",
+        "email": "",
+        "helpline": ""
+      },
+      "office": {
+        "address": {
+          "en": "Chief Medical & Health Office",
+          "hi": "मुख्य चिकित्सा एवं स्वास्थ्य कार्यालय"
+        },
+        "pincode": ""
+      },
+      "personsOfContact": [
+        {
+          "name": "Mr. Kajeshwar Singh",
+          "designation": {
+            "en": "",
+            "hi": ""
+          },
+          "phone": "",
+          "email": ""
+        }
+      ]
     }
   ]
 }

@@ -11,11 +11,27 @@
         "hi": "प्रधानमंत्री मुद्रा योजना (PMMY) एक ऐसी योजना है जो गैर-कॉर्पोरेट, गैर-कृषि छोटे/सूक्ष्म उद्यमों को 20 लाख रुपये तक के ऋण प्रदान करने के लिए शुरू की गई है। इन ऋणों को पीएमएमवाई के तहत मुद्रा ऋण के रूप में वर्गीकृत किया जाता है। ये ऋण वाणिज्यिक बैंकों, क्षेत्रीय ग्रामीण बैंकों, लघु वित्त बैंकों, माइक्रो फाइनेंस संस्थानों और एनबीएफसी द्वारा दिए जाते हैं।"
       },
       "benefits": {
-        "en": ["Collateral-free loans under different categories:", "Shishu – Loans up to ₹50,000","Kishor – Loans between ₹50,000 and ₹5 lakh","Tarun – Loans between ₹5 lakh and ₹10 lakh","Tarun Plus – Loans between ₹10 lakh and ₹20 lakh"],
-        "hi": ["विभिन्न श्रेणियों के तहत बिना संपार्श्विक ऋण:", "शिशु – ₹50,000 तक के ऋण","किशोर – ₹50,000 से ₹5 लाख के बीच के ऋण","तरुण – ₹5 लाख से ₹10 लाख के बीच के ऋण","तरुण प्लस – ₹10 लाख से ₹20 लाख के बीच के ऋण"]},
+        "en": [
+          "Shishu – Loans up to ₹50,000",
+          "Kishor – Loans between ₹50,000 and ₹5 lakh",
+          "Tarun – Loans between ₹5 lakh and ₹10 lakh",
+          "Tarun Plus – Loans between ₹10 lakh and ₹20 lakh"
+        ],
+        "hi": [
+          "विभिन्न श्रेणियों के तहत बिना संपार्श्विक ऋण:",
+          "शिशु – ₹50,000 तक के ऋण",
+          "किशोर – ₹50,000 से ₹5 लाख के बीच के ऋण",
+          "तरुण – ₹5 लाख से ₹10 लाख के बीच के ऋण",
+          "तरुण प्लस – ₹10 लाख से ₹20 लाख के बीच के ऋण"
+        ]
+      },
       "eligibility": {
-        "en": ["Any Indian citizen involved in non-agricultural activities, such as manufacturing, trading or services, can apply for a PMMY loan. Both, new and existing enterprises, whose credit needs are up to Rs.20 lakh, are eligible."],
-        "hi": ["कोई भी भारतीय नागरिक जो गैर-कृषि गतिविधियों में शामिल है, जैसे कि विनिर्माण, व्यापार या सेवाएं, पीएमएमवाई ऋण के लिए आवेदन कर सकता है। नए और मौजूदा दोनों उद्यम, जिनकी क्रेडिट आवश्यकताएं 20 लाख रुपये तक हैं, पात्र हैं।"]
+        "en": [
+          "Any Indian citizen involved in non-agricultural activities, such as manufacturing, trading or services, can apply for a PMMY loan. Both, new and existing enterprises, whose credit needs are up to Rs.20 lakh, are eligible."
+        ],
+        "hi": [
+          "कोई भी भारतीय नागरिक जो गैर-कृषि गतिविधियों में शामिल है, जैसे कि विनिर्माण, व्यापार या सेवाएं, पीएमएमवाई ऋण के लिए आवेदन कर सकता है। नए और मौजूदा दोनों उद्यम, जिनकी क्रेडिट आवश्यकताएं 20 लाख रुपये तक हैं, पात्र हैं।"
+        ]
       },
       "contact": {
         "phone": "",
@@ -30,8 +46,8 @@
         "hi": []
       },
       "guidelines": {
-        "en": "",
-        "hi": ""
+        "en": [],
+        "hi": []
       },
       "website": "https://www.udyamimitra.in/",
       "status": "active",
@@ -49,13 +65,19 @@
       },
       "description": {
         "en": "The objective of the Stand-Up India scheme is to facilitate bank loans between ₹ 10 lakh and ₹ 1 Crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch for setting up a greenfield enterprise. This enterprise may be in manufacturing, services, agri-allied activities or the trading sector In case of non-individual enterprises at least 51% of the shareholding and controlling stake should be held by either an SC/ST or Woman entrepreneur.",
-        "hi": "स्टैंड-अप इंडिया योजना का उद्देश्य हर बैंक शाखा में कम से कम एक अनुसूचित जाति (एससी) या अनुसूचित जनजाति (एसटी) उधारकर्ता और कम से कम एक महिला उधारकर्ता को ग्रीनफील्ड उद्यम स्थापित करने के लिए ₹ 10 लाख से ₹ 1 करोड़ के बीच बैंक ऋण प्रदान करना है। यह उद्यम विनिर्माण, सेवाओं, कृषि-संबंधित गतिविधियों या व्यापार क्षेत्र में हो सकता है। गैर-व्यक्तिगत उद्यमों के मामले में, शेयरधारिता और नियंत्रक हिस्सेदारी का कम से कम 51% हिस्सा एससी/एसटी या महिला उद्यमी के पास होना चाहिए।"},
+        "hi": "स्टैंड-अप इंडिया योजना का उद्देश्य हर बैंक शाखा में कम से कम एक अनुसूचित जाति (एससी) या अनुसूचित जनजाति (एसटी) उधारकर्ता और कम से कम एक महिला उधारकर्ता को ग्रीनफील्ड उद्यम स्थापित करने के लिए ₹ 10 लाख से ₹ 1 करोड़ के बीच बैंक ऋण प्रदान करना है। यह उद्यम विनिर्माण, सेवाओं, कृषि-संबंधित गतिविधियों या व्यापार क्षेत्र में हो सकता है। गैर-व्यक्तिगत उद्यमों के मामले में, शेयरधारिता और नियंत्रक हिस्सेदारी का कम से कम 51% हिस्सा एससी/एसटी या महिला उद्यमी के पास होना चाहिए।"
+      },
       "benefits": {
         "en": ["Sheme for First Generation Entreprenure"],
-        "hi": ["पहली पीढ़ी के उद्यमियों के लिए योजना"]},
+        "hi": ["पहली पीढ़ी के उद्यमियों के लिए योजना"]
+      },
       "eligibility": {
-        "en": ["SC/ST and/or woman entrepreneurs, above 18 years of age. Loans under the scheme is available for only green field project. Green field signifies, in this context, the first time venture of the beneficiary in the manufacturing, services, agri-allied activities or the trading sector. In case of non-individual enterprises, 51% of the shareholding and controlling stake should be held by either SC/ST and/or Women Entrepreneur. Borrower should not be in default to any bank/financial institution."],
-        "hi": ["एससी/एसटी और/या महिला उद्यमी, जिनकी आयु 18 वर्ष से अधिक हो। योजना के तहत ऋण केवल ग्रीनफील्ड परियोजना के लिए उपलब्ध है। ग्रीनफील्ड का अर्थ है, इस संदर्भ में, लाभार्थी का विनिर्माण, सेवाओं, कृषि-संबंधित गतिविधियों या व्यापार क्षेत्र में पहली बार उद्यम। गैर-व्यक्तिगत उद्यमों के मामले में, शेयरधारिता और नियंत्रक हिस्सेदारी का कम से कम 51% हिस्सा एससी/एसटी और/या महिला उद्यमी के पास होना चाहिए। उधारकर्ता को किसी भी बैंक/वित्तीय संस्थान के प्रति डिफ़ॉल्ट नहीं होना चाहिए।"]
+        "en": [
+          "SC/ST and/or woman entrepreneurs, above 18 years of age. Loans under the scheme is available for only green field project. Green field signifies, in this context, the first time venture of the beneficiary in the manufacturing, services, agri-allied activities or the trading sector. In case of non-individual enterprises, 51% of the shareholding and controlling stake should be held by either SC/ST and/or Women Entrepreneur. Borrower should not be in default to any bank/financial institution."
+        ],
+        "hi": [
+          "एससी/एसटी और/या महिला उद्यमी, जिनकी आयु 18 वर्ष से अधिक हो। योजना के तहत ऋण केवल ग्रीनफील्ड परियोजना के लिए उपलब्ध है। ग्रीनफील्ड का अर्थ है, इस संदर्भ में, लाभार्थी का विनिर्माण, सेवाओं, कृषि-संबंधित गतिविधियों या व्यापार क्षेत्र में पहली बार उद्यम। गैर-व्यक्तिगत उद्यमों के मामले में, शेयरधारिता और नियंत्रक हिस्सेदारी का कम से कम 51% हिस्सा एससी/एसटी और/या महिला उद्यमी के पास होना चाहिए। उधारकर्ता को किसी भी बैंक/वित्तीय संस्थान के प्रति डिफ़ॉल्ट नहीं होना चाहिए।"
+        ]
       },
       "contact": {
         "phone": "",
@@ -70,8 +92,8 @@
         "hi": []
       },
       "guidelines": {
-        "en": "",
-        "hi": ""
+        "en": [],
+        "hi": []
       },
       "website": "https://udyamimitra.in/",
       "status": "active",
@@ -92,12 +114,38 @@
         "hi": "स्टार्ट अप इंडिया एक्शन प्लान का उद्देश्य देश में नवाचार और स्टार्टअप को बढ़ावा देने के लिए एक मजबूत पारिस्थितिकी तंत्र बनाना है।"
       },
       "benefits": {
-        "en": ["To reduce the patent registration fees.","Improvement of the Bankruptcy Code ensuring a 90-day exit window.","To provide freedom from mystifying inspections and capital gain tax for the first 3 years of operation.","To create an innovation hub under the Atal Innovation Mission.","Targeting 5 lakh schools along with the involvement of 10 lakh children in innovation-related programs.","To develop new schemes that will provide IPR protection to startup firms.","To encourage entrepreneurship throughout the country.","To promote India as a start-up hub across the world."],
-        "hi": ["पेटेंट पंजीकरण शुल्क को कम करना।","दिवालियापन संहिता में सुधार करना जो 90-दिन की निकासी विंडो सुनिश्चित करता है।","पहले 3 वर्षों के संचालन के लिए रहस्यमय निरीक्षणों और पूंजीगत लाभ कर से मुक्ति प्रदान करना।","अटल नवाचार मिशन के तहत एक नवाचार केंद्र बनाना।","10 लाख बच्चों की भागीदारी के साथ 5 लाख स्कूलों को लक्षित करना।","स्टार्टअप फर्मों को आईपीआर सुरक्षा प्रदान करने के लिए नई योजनाओं का विकास करना।","देश भर में उद्यमिता को प्रोत्साहित करना।","दुनिया भर में भारत को एक स्टार्ट-अप हब के रूप में बढ़ावा देना।"]
+        "en": [
+          "To reduce the patent registration fees.",
+          "Improvement of the Bankruptcy Code ensuring a 90-day exit window.",
+          "To provide freedom from mystifying inspections and capital gain tax for the first 3 years of operation.",
+          "To create an innovation hub under the Atal Innovation Mission.",
+          "Targeting 5 lakh schools along with the involvement of 10 lakh children in innovation-related programs.",
+          "To develop new schemes that will provide IPR protection to startup firms.",
+          "To encourage entrepreneurship throughout the country.",
+          "To promote India as a start-up hub across the world."
+        ],
+        "hi": [
+          "पेटेंट पंजीकरण शुल्क को कम करना।",
+          "दिवालियापन संहिता में सुधार करना जो 90-दिन की निकासी विंडो सुनिश्चित करता है।",
+          "पहले 3 वर्षों के संचालन के लिए रहस्यमय निरीक्षणों और पूंजीगत लाभ कर से मुक्ति प्रदान करना।",
+          "अटल नवाचार मिशन के तहत एक नवाचार केंद्र बनाना।",
+          "10 लाख बच्चों की भागीदारी के साथ 5 लाख स्कूलों को लक्षित करना।",
+          "स्टार्टअप फर्मों को आईपीआर सुरक्षा प्रदान करने के लिए नई योजनाओं का विकास करना।",
+          "देश भर में उद्यमिता को प्रोत्साहित करना।",
+          "दुनिया भर में भारत को एक स्टार्ट-अप हब के रूप में बढ़ावा देना।"
+        ]
       },
       "eligibility": {
-        "en": ["It is incorporated as a private limited company or partnership firm or a limited liability partnership in India","It has less than 10 years of history i.e. less than 10 years have elapsed from the date of its incorporation/registration","The turnover for all of the financial years, since the incorporation/ registration has been less than INR 100 crores"],
-        "hi": ["यह भारत में एक प्राइवेट लिमिटेड कंपनी या साझेदारी फर्म या सीमित देयता साझेदारी के रूप में पंजीकृत है","इसका इतिहास 10 वर्ष से कम है अर्थात इसकी स्थापना/पंजीकरण की तिथि से 10 वर्ष से कम समय बीता है","स्थापना/पंजीकरण के बाद से सभी वित्तीय वर्षों के लिए टर्नओवर 100 करोड़ रुपये से कम रहा है"]
+        "en": [
+          "It is incorporated as a private limited company or partnership firm or a limited liability partnership in India",
+          "It has less than 10 years of history i.e. less than 10 years have elapsed from the date of its incorporation/registration",
+          "The turnover for all of the financial years, since the incorporation/ registration has been less than INR 100 crores"
+        ],
+        "hi": [
+          "यह भारत में एक प्राइवेट लिमिटेड कंपनी या साझेदारी फर्म या सीमित देयता साझेदारी के रूप में पंजीकृत है",
+          "इसका इतिहास 10 वर्ष से कम है अर्थात इसकी स्थापना/पंजीकरण की तिथि से 10 वर्ष से कम समय बीता है",
+          "स्थापना/पंजीकरण के बाद से सभी वित्तीय वर्षों के लिए टर्नओवर 100 करोड़ रुपये से कम रहा है"
+        ]
       },
       "contact": {
         "phone": "",
@@ -112,8 +160,8 @@
         "hi": []
       },
       "guidelines": {
-        "en": "",
-        "hi": ""
+        "en": [],
+        "hi": []
       },
       "website": "https://www.startupindia.gov.in/",
       "status": "active",
@@ -122,6 +170,6 @@
         "en": [],
         "hi": []
       }
-    } 
+    }
   ]
 }
