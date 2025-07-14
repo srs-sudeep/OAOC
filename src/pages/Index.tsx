@@ -1,13 +1,43 @@
-
 import DepartmentCard from '@/components/DepartmentCard';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-import departmentsData from '@/data/departments.json';
-import { ArrowRight, Award, Building2, CheckCircle, Clock, Globe, Mail, MapPin, Phone, Shield, Star, Users, Zap } from 'lucide-react';
+import { Department, fetchDepartments } from '@/lib/departmentUtils';
+import { ArrowRight, Award, Building2, CheckCircle, Clock, Globe, Mail, MapPin, Phone, Shield, Users, Zap } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
   const { language, t } = useLanguage();
+  const [departments, setDepartments] = useState<Department[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadDepartments = async () => {
+      try {
+        const departmentsData = await fetchDepartments();
+        setDepartments(departmentsData.departments);
+      } catch (error) {
+        console.error('Error loading departments:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadDepartments();
+  }, []);
+
+  // Loading state for departments
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-900 mx-auto"></div>
+          <p className="mt-4 text-blue-900 font-medium">
+            {language === 'en' ? 'Loading departments...' : 'विभाग लोड हो रहे हैं...'}
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
@@ -239,7 +269,7 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {departmentsData.departments.slice(0, 6).map((department, index) => (
+            {departments.slice(0, 6).map((department, index) => (
               <div key={department.id} className={`animate-scale-in stagger-delay-${Math.min(index + 1, 4)}`}>
                 <DepartmentCard department={department} />
               </div>
