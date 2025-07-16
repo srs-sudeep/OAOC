@@ -30,7 +30,11 @@ const Navbar = () => {
               className="flex items-center space-x-3 group"
               onClick={closeMobileMenu}
             >
-              <img src="/logo.png" alt="Logo" className="w-8 h-8 border-2 border-orange-500 rounded-full" />
+              <img
+                src="/logo.png"
+                alt="Logo"
+                className="w-8 h-8 border-2 border-orange-500 rounded-full"
+              />
               <div className="text-xl font-bold text-blue-900 group-hover:text-orange-600 transition-colors duration-200">
                 {t("hero.title")}
               </div>

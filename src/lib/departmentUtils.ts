@@ -93,7 +93,8 @@ export interface SchemeData {
 // Fetch all departments
 export const fetchDepartments = async (): Promise<{ departments: Department[] }> => {
   try {
-    const response = await fetch('/data/departments.json');
+    // const response = await fetch('/data/departments.json');
+    const response = await fetch('http://localhost:8000/api/departments')
     if (!response.ok) {
       throw new Error('Failed to fetch departments');
     }
@@ -107,7 +108,8 @@ export const fetchDepartments = async (): Promise<{ departments: Department[] }>
 // Fetch schemes for a specific department
 export const fetchSchemes = async (departmentId: string): Promise<SchemeData> => {
   try {
-    const response = await fetch(`/data/schemes/${departmentId}.json`);
+    // const response = await fetch(`/data/schemes/${departmentId}.json`);
+    const response = await fetch(`http://localhost:8000/api/schemes/${departmentId}`)
     if (!response.ok) {
       throw new Error(`Failed to fetch schemes for ${departmentId}`);
     }
