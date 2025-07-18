@@ -158,13 +158,13 @@ const SchemeDetail = () => {
                 {language === "en" ? "Quick Actions" : "त्वरित कार्य"}
               </h3>
               <div className="space-y-3">
-                <a href={scheme.website}>
+                <a href={scheme.website} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 my-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
                     <FileText className="w-5 h-5 mr-2" />
                     {t("button.applyNow")}
                   </Button>
                 </a>
-                <a href={`tel:${scheme?.contact?.phone}`}>
+                <a href={`tel:${scheme?.contact?.phone}`} target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
                     className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300"
@@ -408,7 +408,7 @@ const SchemeDetail = () => {
                     </strong>{" "}
                     {scheme.contact.office[language]}
                   </div>
-                  <a href={`tel:${scheme.contact.phone}`}>
+                  <a href={`tel:${scheme.contact.phone}`} target="_blank" rel="noopener noreferrer">
                     <Button
                       variant="outline"
                       className="w-full mt-4 border-purple-600 text-purple-600 hover:bg-purple-50"
