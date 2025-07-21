@@ -271,9 +271,10 @@ const SchemeDetail = () => {
                       key={index}
                       className="flex items-start space-x-4 p-4 bg-blue-50 rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors duration-300"
                     >
-                      <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mt-1">
+                      <div className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1 shrink-0">
                         {index + 1}
                       </div>
+                      
                       <span className="text-gray-700 leading-relaxed font-medium">
                         {criteria}
                       </span>
@@ -341,7 +342,7 @@ const SchemeDetail = () => {
                     return (
                       <p
                         key={index}
-                        className={index === 0 ? "font-medium" : ""}
+                        className={index === 0 ? "font-medium break-words whitespace-pre-wrap" : "break-words whitespace-pre-wrap"}
                       >
                         {urlMatch ? (
                           <a

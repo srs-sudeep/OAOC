@@ -86,15 +86,15 @@
       "website": "https://nagarnigamraipur.nic.in/",
       "contact": {
         "phone": "91-771-2535-780",
-        "email": "",
-        "helpline": ""
+        "email": "NA",
+        "helpline": "NA"
       },
       "office": {
         "address": {
           "en": "Municipal Corporation, Raipur (C.G.) Nagar Nigam Head Office, Near Mahila Police Thana,Gandhi Maidan , Raipur (C.G.)",
           "hi": "नगर निगम, रायपुर (छ.ग.) नगर निगम मुख्यालय कार्यालय, महिला पुलिस थाना के पास, गांधी मैदान, रायपुर (छ.ग.)"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
@@ -104,7 +104,7 @@
             "hi": "अतिरिक्त आयुक्त"
           },
           "phone": "91-771-2535780-2535790",
-          "email": ""
+          "email": "NA"
         }
       ]
     },
@@ -116,39 +116,39 @@
       },
       "icon": "🏭",
       "description": {
-        "en": "Prime Minister Employment generation Programme (PMEGP)",
-        "hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम (PMEGP)"
+        "en": "NA",
+        "hi": "NA"
       },
       "website": "https://www.industries.cg.gov.in",
       "contact": {
         "phone": "0771-2436-450",
-        "email": "",
-        "helpline": ""
+        "email": "NA",
+        "helpline": "NA"
       },
       "office": {
         "address": {
           "en": "3rd Floor, Udyog Bhawan, Telibandha, Raipur",
           "hi": "तीसरी मंजिल, उद्योग भवन, तेलीबांधा, रायपुर"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
-          "name": "",
+          "name": "NA",
           "designation": {
             "en": "Chief General Manager",
             "hi": "मुख्य महाप्रबंधक"
           },
-          "phone": "",
-          "email": ""
+          "phone": "NA",
+          "email": "NA"
         }
       ]
     },
     {
-      "id": "bank",
+      "id": "lead-bank-manager",
       "name": {
-        "en": "Bank",
-        "hi": "बैंक"
+        "en": "Lead Bank Manager",
+        "hi": "मुख्य बैंक प्रबंधक"
       },
       "icon": "🏦",
       "description": {
@@ -161,26 +161,26 @@
         "https://www.startupindia.gov.in/"
       ],
       "contact": {
-        "phone": "",
-        "email": "",
-        "helpline": ""
+        "phone": "NA",
+        "email": "NA",
+        "helpline": "NA"
       },
       "office": {
         "address": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
-          "name": "",
+          "name": "NA",
           "designation": {
-            "en": "",
-            "hi": ""
+            "en": "NA",
+            "hi": "NA"
           },
-          "phone": "",
-          "email": ""
+          "phone": "NA",
+          "email": "NA"
         }
       ]
     },
@@ -192,31 +192,31 @@
       },
       "icon": "🚍",
       "description": {
-        "en": "",
-        "hi": ""
+        "en": "NA",
+        "hi": "NA"
       },
       "website": "https://cgtransport.gov.in/",
       "contact": {
         "phone": "0771-2511-085",
-        "email": "",
-        "helpline": ""
+        "email": "NA",
+        "helpline": "NA"
       },
       "office": {
         "address": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
-          "name": "",
+          "name": "NA",
           "designation": {
-            "en": "",
-            "hi": ""
+            "en": "NA",
+            "hi": "NA"
           },
-          "phone": "",
-          "email": ""
+          "phone": "NA",
+          "email": "NA"
         }
       ]
     },
@@ -228,31 +228,31 @@
       },
       "icon": "🏡",
       "description": {
-        "en": "",
-        "hi": ""
+        "en": "NA",
+        "hi": "NA"
       },
       "website": "https://prd.cg.gov.in/",
       "contact": {
         "phone": "0771 2426-739",
-        "email": "",
-        "helpline": ""
+        "email": "NA",
+        "helpline": "NA"
       },
       "office": {
         "address": {
           "en": "Office of District Panchayat Raipur, Collectorate Campus, Ghadi Chowk, Raipur (C.G.)",
           "hi": "कार्यालय जिला पंचायत रायपुर, क्लेकट्रेट परिसर, घड़ी चौक, रायपुर (छ.ग.)"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
-          "name": "",
+          "name": "NA",
           "designation": {
             "en": "Chief Executive Officer, District Panchayat Raipur",
             "hi": "मुख्य कार्यपालन अधिकारी, जिला पंचायत रायपुर"
           },
-          "phone": "",
-          "email": ""
+          "phone": "NA",
+          "email": "NA"
         }
       ]
     },
@@ -269,26 +269,26 @@
       },
       "website": "https://shramevjayate.cg.gov.in",
       "contact": {
-        "phone": "0771-4913-850",
-        "email": "",
-        "helpline": ""
+        "phone": "0771-4913850",
+        "email": "Raipuralc2@gmail.com",
+        "helpline": "NA"
       },
       "office": {
         "address": {
           "en": "Angela Cottage, Near Sihawa Bhawan, Civil Lines, Raipur",
           "hi": "एंजिला कॉटेज सिहावा भवन के पास सिविल लाईन रायपुर"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
-          "name": "",
+          "name": "NA",
           "designation": {
             "en": "Office of the Assistant Labour Commissioner, Raipur",
             "hi": "कार्यालय सहायक श्रमायुक्‍त रायपुर"
           },
-          "phone": "",
-          "email": ""
+          "phone": "NA",
+          "email": "NA"
         }
       ]
     },
@@ -305,26 +305,26 @@
       },
       "website": "https://uwin.mohfw.gov.in/home",
       "contact": {
-        "phone": "",
-        "email": "",
-        "helpline": ""
+        "phone": "NA",
+        "email": "NA",
+        "helpline": "NA"
       },
       "office": {
         "address": {
           "en": "Chief Medical & Health Office",
           "hi": "मुख्य चिकित्सा एवं स्वास्थ्य कार्यालय"
         },
-        "pincode": ""
+        "pincode": "NA"
       },
       "personsOfContact": [
         {
           "name": "Mr. Kajeshwar Singh",
           "designation": {
-            "en": "",
-            "hi": ""
+            "en": "NA",
+            "hi": "NA"
           },
-          "phone": "",
-          "email": ""
+          "phone": "NA",
+          "email": "NA"
         }
       ]
     }

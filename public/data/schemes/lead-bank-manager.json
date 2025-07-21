@@ -1,23 +1,25 @@
 {
   "schemes": [
     {
-      "id": "pmmy",
+      "id": "pradhan-mantri-mudra-yojana",
       "name": {
         "en": "Pradhan Mantri MUDRA Yojana (PMMY)",
         "hi": "प्रधानमंत्री मुद्रा योजना (PMMY)"
       },
       "description": {
-        "en": "radhan Mantri MUDRA Yojana (PMMY) is a scheme launched for providing loans up to 20 lakh to the non-corporate, non-farm small/micro enterprises. These loans are classified as MUDRA loans under PMMY. These loans are given by Commercial Banks, RRBs, Small Finance Banks, MFIs and NBFCs. ",
+        "en": "radhan Mantri MUDRA Yojana (PMMY) is a scheme launched for providing loans up to 20 lakh to the non-corporate, non-farm small/micro enterprises. These loans are classified as MUDRA loans under PMMY. These loans are given by Commercial Banks, RRBs, Small Finance Banks, MFIs and NBFCs.",
         "hi": "प्रधानमंत्री मुद्रा योजना (PMMY) एक ऐसी योजना है जो गैर-कॉर्पोरेट, गैर-कृषि छोटे/सूक्ष्म उद्यमों को 20 लाख रुपये तक के ऋण प्रदान करने के लिए शुरू की गई है। इन ऋणों को पीएमएमवाई के तहत मुद्रा ऋण के रूप में वर्गीकृत किया जाता है। ये ऋण वाणिज्यिक बैंकों, क्षेत्रीय ग्रामीण बैंकों, लघु वित्त बैंकों, माइक्रो फाइनेंस संस्थानों और एनबीएफसी द्वारा दिए जाते हैं।"
       },
       "benefits": {
         "en": [
+          "Collateral Free Loans",
           "Shishu – Loans up to ₹50,000",
           "Kishor – Loans between ₹50,000 and ₹5 lakh",
           "Tarun – Loans between ₹5 lakh and ₹10 lakh",
           "Tarun Plus – Loans between ₹10 lakh and ₹20 lakh"
         ],
         "hi": [
+          "बिना गारंटी का ऋण",
           "विभिन्न श्रेणियों के तहत बिना संपार्श्विक ऋण:",
           "शिशु – ₹50,000 तक के ऋण",
           "किशोर – ₹50,000 से ₹5 लाख के बीच के ऋण",
@@ -27,10 +29,10 @@
       },
       "eligibility": {
         "en": [
-          "Any Indian citizen involved in non-agricultural activities, such as manufacturing, trading or services, can apply for a PMMY loan. Both, new and existing enterprises, whose credit needs are up to Rs.20 lakh, are eligible."
+          "Any Indian citizen involved in non-agricultural activities, such as manufacturing, trading or services, can apply for a PMMY loan. Both, new and existing enterprises, whose credit needs are up to Rs.20 lakh, are eligible.","Applicants must be at least 18 years old and willing to contribute a minimum of 10% of the project cost."
         ],
         "hi": [
-          "कोई भी भारतीय नागरिक जो गैर-कृषि गतिविधियों में शामिल है, जैसे कि विनिर्माण, व्यापार या सेवाएं, पीएमएमवाई ऋण के लिए आवेदन कर सकता है। नए और मौजूदा दोनों उद्यम, जिनकी क्रेडिट आवश्यकताएं 20 लाख रुपये तक हैं, पात्र हैं।"
+          "कोई भी भारतीय नागरिक जो गैर-कृषि गतिविधियों में शामिल है, जैसे कि विनिर्माण, व्यापार या सेवाएं, पीएमएमवाई ऋण के लिए आवेदन कर सकता है। नए और मौजूदा दोनों उद्यम, जिनकी क्रेडिट आवश्यकताएं 20 लाख रुपये तक हैं, पात्र हैं।","आवेदक की आयु कम से कम 18 वर्ष होनी चाहिए और उन्हें परियोजना लागत का न्यूनतम 10% योगदान देने के लिए तैयार होना चाहिए।"
         ]
       },
       "contact": {
@@ -73,10 +75,10 @@
       },
       "eligibility": {
         "en": [
-          "SC/ST and/or woman entrepreneurs, above 18 years of age. Loans under the scheme is available for only green field project. Green field signifies, in this context, the first time venture of the beneficiary in the manufacturing, services, agri-allied activities or the trading sector. In case of non-individual enterprises, 51% of the shareholding and controlling stake should be held by either SC/ST and/or Women Entrepreneur. Borrower should not be in default to any bank/financial institution."
+          "SC/ST and/or woman entrepreneurs, above 18 years of age.", "Loans under the scheme is available for only green field project.", "Green field signifies, in this context, the first time venture of the beneficiary in the manufacturing, services, agri-allied activities or the trading sector.", "In case of non-individual enterprises, 51% of the shareholding and controlling stake should be held by either SC/ST and/or Women Entrepreneur.", "Borrower should not be in default to any bank/financial institution."
         ],
         "hi": [
-          "एससी/एसटी और/या महिला उद्यमी, जिनकी आयु 18 वर्ष से अधिक हो। योजना के तहत ऋण केवल ग्रीनफील्ड परियोजना के लिए उपलब्ध है। ग्रीनफील्ड का अर्थ है, इस संदर्भ में, लाभार्थी का विनिर्माण, सेवाओं, कृषि-संबंधित गतिविधियों या व्यापार क्षेत्र में पहली बार उद्यम। गैर-व्यक्तिगत उद्यमों के मामले में, शेयरधारिता और नियंत्रक हिस्सेदारी का कम से कम 51% हिस्सा एससी/एसटी और/या महिला उद्यमी के पास होना चाहिए। उधारकर्ता को किसी भी बैंक/वित्तीय संस्थान के प्रति डिफ़ॉल्ट नहीं होना चाहिए।"
+          "एससी/एसटी और/या महिला उद्यमी, जिनकी आयु 18 वर्ष से अधिक हो।", "योजना के तहत ऋण केवल ग्रीनफील्ड परियोजना के लिए उपलब्ध है।", "ग्रीनफील्ड का अर्थ है, इस संदर्भ में, लाभार्थी का विनिर्माण, सेवाओं, कृषि-संबंधित गतिविधियों या व्यापार क्षेत्र में पहली बार उद्यम।", "गैर-व्यक्तिगत उद्यमों के मामले में, शेयरधारिता और नियंत्रक हिस्सेदारी का कम से कम 51% हिस्सा एससी/एसटी और/या महिला उद्यमी के पास होना चाहिए।", "उधारकर्ता को किसी भी बैंक/वित्तीय संस्थान के प्रति डिफ़ॉल्ट नहीं होना चाहि ए।"
         ]
       },
       "contact": {
@@ -110,7 +112,7 @@
         "hi": "स्टार्ट अप इंडिया"
       },
       "description": {
-        "en": "Start Up India Action Plan is  an aim to build a strong eco-system for nurturing innovation and Startups in the country.",
+        "en": "Start Up India Action Plan is  an aim to build a strong eco-system for nurturing innovation and Startups in the country.",
         "hi": "स्टार्ट अप इंडिया एक्शन प्लान का उद्देश्य देश में नवाचार और स्टार्टअप को बढ़ावा देने के लिए एक मजबूत पारिस्थितिकी तंत्र बनाना है।"
       },
       "benefits": {
