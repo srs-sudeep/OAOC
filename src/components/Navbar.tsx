@@ -82,6 +82,17 @@ const Navbar = () => {
               >
                 {t("nav.contact")}
               </Link>
+
+              <Link
+                to="/career"
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
+                  isActive("/career")
+                    ? "text-white bg-blue-900 shadow-lg border border-blue-700"
+                    : "text-gray-700 hover:text-blue-900 hover:bg-blue-50 border border-transparent hover:border-blue-200"
+                }`}
+              >
+                {t("nav.career") ?? (language === "en" ? "Career" : "करियर")}
+              </Link>
             </div>
 
             {/* Desktop Language Toggle & Mobile Menu Button */}

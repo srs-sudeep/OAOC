@@ -13,6 +13,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Footer from "@/components/Footer";
+import CareerPage from "./pages/CareerPage";
+import CareerDetailsPage from "./pages/CareerDetailsPage";
 
 const queryClient = new QueryClient();
 
@@ -36,6 +38,8 @@ const App = () => (
                 />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/career" element={<CareerPage />} />
+                <Route path="/career/:id" element={<CareerDetailsPage />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
