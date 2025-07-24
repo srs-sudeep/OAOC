@@ -1,7 +1,7 @@
 {
   "schemes": [
     {
-      "id": "pmegp",
+      "id": "prime-minister-employment-generation-programme",
       "name": {
         "en": "Prime Minister Employment generation Programme (PMEGP)",
         "hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम (PMEGP)"
@@ -16,18 +16,18 @@
       },
       "eligibility": {
         "en": [
-          "Any individual, above 18 years of age. At least VIII standard pass for projects costing above Rs.10 lakh in the manufacturing sector and above Rs. 5 lakh in the business / service sector."
+          "Any individual, above 18 years of age.", "At least VIII standard pass for projects costing above Rs.10 lakh in the manufacturing sector and above Rs. 5 lakh in the business / service sector."
         ],
         "hi": [
-          "कोई भी व्यक्ति, जिसकी आयु 18 वर्ष से अधिक हो। विनिर्माण क्षेत्र में 10 लाख रुपये से अधिक की लागत वाले परियोजनाओं के लिए कम से कम VIII कक्षा उत्तीर्ण और व्यापार / सेवा क्षेत्र में 5 लाख रुपये से अधिक की लागत वाले परियोजनाओं के लिए।"
+          "कोई भी व्यक्ति, जिसकी आयु 18 वर्ष से अधिक हो।", "विनिर्माण क्षेत्र में 10 लाख रुपये से अधिक की लागत वाले परियोजनाओं के लिए कम से कम VIII कक्षा उत्तीर्ण और व्यापार / सेवा क्षेत्र में 5 लाख रुपये से अधिक की लागत वाले परियोजनाओं के लिए।"
         ]
       },
       "contact": {
         "phone": "0771-2436-450",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -47,13 +47,13 @@
       }
     },
     {
-      "id": "pmfme",
+      "id": "pradhan-mantri-formalisation-of-micro-food-processing-enterprises-scheme",
       "name": {
         "en": "Pradhan Mantri Formalisation of Micro Food Processing Enterprises Scheme (PMFME)",
         "hi": "प्रधानमंत्री सूक्ष्म खाद्य प्रसंस्करण उद्यमों का औपचारिककरण योजना (PMFME)"
       },
       "description": {
-        "en": "The PM FME Scheme is a government scheme launched by the Ministry of Food Processing Industries (MoFPI). The purpose of this scheme is to provide financial, technical, and business assistance to micro food processing enterprises so that they can upgrade their new and existing micro food processing unit. It is also meant to bring unorganised micro food enterprises into an organised framework. ",
+        "en": "The PM FME Scheme is a government scheme launched by the Ministry of Food Processing Industries (MoFPI). The purpose of this scheme is to provide financial, technical, and business assistance to micro food processing enterprises so that they can upgrade their new and existing micro food processing unit. It is also meant to bring unorganised micro food enterprises into an organised framework. ",
         "hi": "PM FME योजना खाद्य प्रसंस्करण उद्योग मंत्रालय (MoFPI) द्वारा शुरू की गई एक सरकारी योजना है। इस योजना का उद्देश्य सूक्ष्म खाद्य प्रसंस्करण उद्यमों को वित्तीय, तकनीकी और व्यावसायिक सहायता प्रदान करना है ताकि वे अपने नए और मौजूदा सूक्ष्म खाद्य प्रसंस्करण इकाई को उन्नत कर सकें। इसका उद्देश्य असंगठित सूक्ष्म खाद्य उद्यमों को एक संगठित ढांचे में लाना भी है।"
       },
       "benefits": {
@@ -70,10 +70,10 @@
       },
       "contact": {
         "phone": "0771-2436-450",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {

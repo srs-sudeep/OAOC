@@ -25,7 +25,7 @@
         "hi": [
           "पंजीकृत निर्माणी महिला श्रमिक, जिसके पंजीयन को बच्चे के जन्म दिनांक से 01 वर्ष पूर्ण हो।",
           "केवल प्रथम दो प्रसव हेतु।",
-          " बच्चे के जन्म पश्चात 90 दिवस के भीतर आवेदन करना अनिवार्य है।"
+          "बच्चे के जन्म पश्चात 90 दिवस के भीतर आवेदन करना अनिवार्य है।"
         ]
       },
       "contact": {
@@ -104,16 +104,16 @@
       },
       "eligibility": {
         "en": [
-          "Only for the first two studying children of a registered construction worker."
+          "Only for the first two studying children of a registered construction worker.", "Applicable only for the first two deliveries."
         ],
-        "hi": ["पंजीकृत निर्माणी श्रमिक के केेवल प्रथम दो अध्ययनरत संतान हेतु।"]
+        "hi": ["पंजीकृत निर्माणी श्रमिक के केेवल प्रथम दो अध्ययनरत संतान हेतु।", "केवल प्रथम दो प्रसव हेतु।"]
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -194,26 +194,26 @@
       },
       "eligibility": {
         "en": [
-          "A registered construction worker, whose registration is at least 90 days old, is eligible.",
-          "To avail assistance for education abroad, the worker’s registration must be at least 3 years old, and the benefit is limited to the first two children only.",
-          "Under the scheme, assistance will be provided for pursuing a one-year Master’s course in any country outside India.",
-          "It is mandatory to qualify IELTS/TOEFL or any exam prescribed for studying in that country.",
-          "The exam fee for IELTS/TOEFL or the prescribed test (only once) will be borne by the department."
+          "Registered construction worker whose registration is at least 90 days old.",
+          "The children of a registered construction worker will be eligible for education abroad after the worker has completed 3 years of registration.",
+          "Applicable only for the first two children.",
+          "Under the scheme, assistance will be provided for pursuing a one-year master's course in any country outside India.",
+          "It is mandatory to pass IELTS/TOEFL or the examination prescribed for studying in that country. The department will bear the cost of the exam fee (IELTS/TOEFL or other required exam) once."
         ],
         "hi": [
           "पंजीकृत निर्माणी श्रमिक, जिसके पंजीयन को 90 दिवस पूर्ण हो।",
           "पंजीकृत निर्माणी श्रमिक के पंजीयन को 03 वर्ष पूर्ण होने उपरांत श्रमिक के बच्चे विदेश में शिक्षा प्राप्त करने के लिए पात्र होंगे।",
-          "केवल प्रथम दो संतान हेतु। योजनांतर्गत भारत के बाहर किसी भी देश में एक वष्र्षीय मास्टर कोर्स किए जाने हेतु सहायता प्रदान की जावेगी।",
-          "आईईएलटीएस/टीओईएफएल/उस देश में अध्ययन के लिए निर्धारित परीक्षा उत्तीर्ण करना अनिवार्य होगा।",
-          " एक बार का आईईएलटीएस/टीओईएफएल/उस देश में अध्ययन के लिए निर्धारित परीक्षा शुल्क विभाग द्वारा वहन किया जाएगा"
+          "केवल प्रथम दो संतान हेतु।",
+          "योजनांतर्गत भारत के बाहर किसी भी देश में एक वष्र्षीय मास्टर कोर्स किए जाने हेतु सहायता प्रदान की जावेगी।",
+          "आईईएलटीएस/टीओईएफएल/उस देश में अध्ययन के लिए निर्धारित परीक्षा उत्तीर्ण करना अनिवार्य होगा। एक बार का आईईएलटीएस/टीओईएफएल/उस देश में अध्ययन के लिए निर्धारित परीक्षा शुल्क विभाग द्वारा वहन किया जाएगा"
         ]
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -261,10 +261,10 @@
       "lastUpdated": "2025-07-11",
       "notices": {
         "en": [
-          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/904639_04_09_2023.pdf"
         ],
         "hi": [
-          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/NAUNIHAL%20CHHATRVRITTI%20YOJANA.pdf"
+          "https://shramevjayate.cg.gov.in/WebDocs/Acts/3/904639_04_09_2023.pdf"
         ]
       }
     },
@@ -312,10 +312,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -396,10 +396,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -478,10 +478,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -536,7 +536,7 @@
       },
       "description": {
         "en": "Under the scheme, financial assistance is provided to the daughters of registered construction workers for education, employment, and marriage.",
-        "hi": "योजनांतर्गत पंजीकृत निर्माणी श्रमिक के पुत्रीयो को शिक्षा, रोजगार एवं विवाह हेतु सहायता राशि प्रदान की जाती है।"
+        "hi": "योजनांतर्गत पंजीकृत निर्माणी श्रमिक के पुत्रीयो को शिक्षा, रोजगार एवं विवाह हेतु सहायता राशि प्रदान की जाती है।"
       },
       "benefits": {
         "en": ["A one-time payment of ₹20,000 to the daughter."],
@@ -552,10 +552,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -638,10 +638,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -710,18 +710,18 @@
       },
       "eligibility": {
         "en": [
-          "The benefit of the scheme will be provided to construction workers who have been continuously registered with the board for the past 3 years. In case both husband and wife are registered beneficiaries under the board, only one of them will be eligible to receive the one-time housing grant under the scheme."
+          "The benefit of the scheme will be provided to construction workers who have been continuously registered with the board for the past 3 years.", "In case both husband and wife are registered beneficiaries under the board, only one of them will be eligible to receive the one-time housing grant under the scheme."
         ],
         "hi": [
-          "मंडल अंतर्गत गत् 03 वर्ष से निरंतर पंजीकृत निर्माण श्रमिकों को योजना का लाभ प्रदाय किया जावेगा।  पति व पत्नी दोनों के मंडल में पंजीकृत हितग्राही होने की स्थिति में योजना के तहत् केवल एक ही हितग्राही को आवास के लिए एकमुश्त अनुदान राशि प्राप्त हो सकेगा।"
+          "मंडल अंतर्गत गत् 03 वर्ष से निरंतर पंजीकृत निर्माण श्रमिकों को योजना का लाभ प्रदाय किया जावेगा।", "पति व पत्नी दोनों के मंडल में पंजीकृत हितग्राही होने की स्थिति में योजना के तहत् केवल एक ही हितग्राही को आवास के लिए एकमुश्त अनुदान राशि प्राप्त हो सकेगा।"
         ]
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -804,10 +804,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -890,10 +890,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -915,7 +915,7 @@
           "मृत्यु प्रमाण पत्र",
           "एफआईआर की कॉपी (केवल दुर्घटना मृत्यु में)",
           "पोस्ट मार्टम रिपोर्ट (केवल दुर्घटना मृत्यु में)",
-          " नियोजन संबंधी स्थल रिपार्ट (केवल दुर्घटना मृत्यु में)"
+          "नियोजन संबंधी स्थल रिपार्ट (केवल दुर्घटना मृत्यु में)"
         ]
       },
       "guidelines": {
@@ -980,10 +980,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1062,10 +1062,10 @@
       },
       "contact": {
         "phone": "8770374056",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1150,10 +1150,10 @@
       },
       "contact": {
         "phone": "9009450042  ",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1204,10 +1204,10 @@
       },
       "contact": {
         "phone": "9009450042",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1282,10 +1282,10 @@
       },
       "contact": {
         "phone": "9009450042",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1366,10 +1366,10 @@
       },
       "contact": {
         "phone": "9009450042",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1450,10 +1450,10 @@
       },
       "contact": {
         "phone": "9009450042",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {
@@ -1504,7 +1504,7 @@
       },
       "description": {
         "en": "Provided to workers in the rickshaw driver/auto driver category who are registered as unorganized workers.",
-        "hi": "पंजीकृत असंगठित कर्मकारों के रिक्शा चालकW@आWWटो चालक प्रवर्ग के कामगार को प्रदान की जाती है।"
+        "hi": "पंजीकृत असंगठित कर्मकारों के रिक्शा चालक / ऑटो चालक प्रवर्ग के कामगार को प्रदान की जाती है।"
       },
       "benefits": {
         "en": [
@@ -1519,15 +1519,15 @@
           "Registered cycle rickshaw/auto drivers or registered groups of workers between the age group of 18 to 50 years."
         ],
         "hi": [
-          "18से 50आयु समूह के पंजीकृत सायकल रिक्शा चालक/ऑटो चालक अथवा पंजीकृत श्रमिकों के पंजीकृत समूह।"
+          "18 से 50 आयु समूह के पंजीकृत सायकल रिक्शा चालक/ऑटो चालक अथवा पंजीकृत श्रमिकों के पंजीकृत समूह।"
         ]
       },
       "contact": {
         "phone": "9009450042",
-        "email": "",
+        "email": "NA",
         "office": {
-          "en": "",
-          "hi": ""
+          "en": "NA",
+          "hi": "NA"
         }
       },
       "documents": {

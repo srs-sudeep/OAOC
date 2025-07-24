@@ -158,13 +158,13 @@ const SchemeDetail = () => {
                 {language === "en" ? "Quick Actions" : "त्वरित कार्य"}
               </h3>
               <div className="space-y-3">
-                <a href={scheme.website}>
+                <a href={scheme.website} target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white font-medium py-3 my-3 rounded-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] transition-all duration-300">
                     <FileText className="w-5 h-5 mr-2" />
                     {t("button.applyNow")}
                   </Button>
                 </a>
-                <a href={`tel:${scheme?.contact?.phone}`}>
+                <a href={`tel:${scheme?.contact?.phone}`} target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
                     className="w-full border-white/30 text-black hover:bg-white/10 py-3 rounded-lg font-medium transition-all duration-300"
@@ -271,9 +271,10 @@ const SchemeDetail = () => {
                       key={index}
                       className="flex items-start space-x-4 p-4 bg-blue-50 rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors duration-300"
                     >
-                      <div className="bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center text-sm font-bold mt-1">
+                      <div className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold mt-1 shrink-0">
                         {index + 1}
                       </div>
+                      
                       <span className="text-gray-700 leading-relaxed font-medium">
                         {criteria}
                       </span>
@@ -341,7 +342,7 @@ const SchemeDetail = () => {
                     return (
                       <p
                         key={index}
-                        className={index === 0 ? "font-medium" : ""}
+                        className={index === 0 ? "font-medium break-words whitespace-pre-wrap" : "break-words whitespace-pre-wrap"}
                       >
                         {urlMatch ? (
                           <a
@@ -408,7 +409,7 @@ const SchemeDetail = () => {
                     </strong>{" "}
                     {scheme.contact.office[language]}
                   </div>
-                  <a href={`tel:${scheme.contact.phone}`}>
+                  <a href={`tel:${scheme.contact.phone}`} target="_blank" rel="noopener noreferrer">
                     <Button
                       variant="outline"
                       className="w-full mt-4 border-purple-600 text-purple-600 hover:bg-purple-50"

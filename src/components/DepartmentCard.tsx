@@ -110,18 +110,18 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
 
           {/* Additional Contact Info */}
           <div className="space-y-2">
-            <div className="flex items-center text-sm text-gray-600">
-              <Phone className="w-4 h-4 mr-2 text-blue-500" />
+            <div className="flex items-start text-sm text-gray-600">
+              <Phone className="w-4 h-4 mr-2 mt-1 text-blue-500 shrink-0" />
               <span className="font-medium">{department.contact.phone}</span>
             </div>
-            <div className="flex items-center text-sm text-gray-600">
-              <Globe className="w-4 h-4 mr-2 text-orange-500" />
-              <span className="font-medium">
+            <div className="flex items-start text-sm text-gray-600">
+              <Globe className="w-4 h-4 mr-2 mt-1 text-orange-500 shrink-0" />
+              <span className="font-medium ">
                 {language === "en" ? "Official Website" : "आधिकारिक वेबसाइट"}
               </span>
             </div>
-            <div className="flex items-center text-sm text-gray-600">
-              <MapPin className="w-4 h-4 mr-2 text-green-500" />
+            <div className="flex items-start text-sm text-gray-600">
+              <MapPin className="w-4 h-4 mr-2 mt-1 text-green-500 shrink-0" />
               <span className="font-medium">
                 {department.office.address[language]}
               </span>

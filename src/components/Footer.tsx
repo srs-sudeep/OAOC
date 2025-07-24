@@ -13,9 +13,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo and Description */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <img src="/logo.png" alt="Logo" className="w-8 h-8 border-2 border-orange-500 rounded-full" />
-              <div className="text-xl font-bold">
+            <div className=" flex flex-col">
+              <div className='flex space-x-3'>
+              <img src="/logo.png" alt="Logo" className="w-20 h-20 border-2 border-orange-500 rounded-full" />
+              <img src="/iitLogo.png" alt="Logo" className="w-20 h-20 bg-white border-2 border-orange-500 rounded-full p-1" />
+              </div>
+              <div className="text-xl font-bold mt-2">
                 {t('hero.title')}
               </div>
             </div>
@@ -134,7 +137,8 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-sm text-blue-100">
-              © 2025 {language === 'en' ? 'Government of India. All rights reserved.' : 'भारत सरकार। सभी अधिकार सुरक्षित।'}
+              {/* © 2025 {language === 'en' ? 'Government of India. All rights reserved.' : 'भारत सरकार। सभी अधिकार सुरक्षित।'} */}
+              © 2025 {language === 'en' ? 'IIT Bhilai Innovation Technologies and Foundation. All rights reserved.' : 'आईआईटी भिलाई नवाचार तकनीकी और संस्थान। सभी अधिकार सुरक्षित।'}
             </div>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-blue-100 hover:text-orange-300 transition-colors duration-200">
