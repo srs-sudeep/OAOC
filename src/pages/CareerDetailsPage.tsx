@@ -314,9 +314,8 @@ export default function CareerDetailsPage() {
 
                 {exam.uploadFile && (
                   <a
-                    // href={exam.uploadFile}
                     target="_blank"
-                    href={`http://localhost:8000${exam.uploadFile}`}
+                    href={`http://localhost:8000/images/uploads/${exam.uploadFile}`}
                     className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-300 font-medium group"
                     download
                     rel="noopener noreferrer"
