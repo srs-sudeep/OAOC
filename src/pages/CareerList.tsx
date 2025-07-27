@@ -635,6 +635,26 @@ const CareerList = ({ id }) => {
 
       {/* Cards Grid */}
       <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-10">
+          {/* 1 */}
+          <div className="inline-flex items-center justify-center p-2 bg-blue-100 rounded-full mb-8">
+            <div className="flex items-center space-x-2 bg-white px-6 py-3 rounded-full shadow-lg">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+              <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
+                {language === "en" ? "Career" : "करियर"}
+              </span>
+            </div>
+          </div>
+          {/* 2 */}
+          <h2 className="text-3xl font-bold text-blue-900 mb-4">
+            {language === "en" ? "Browse Career" : "करियर ब्राउज़ करें"}
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            {language === "en"
+              ? "Discover the right path for your future through our detailed career guidance section."
+              : "अपने भविष्य को सशक्त बनाएं करियर मार्गदर्शन की सम्पूर्ण जानकारी के साथ।"}
+          </p>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredCareerItem?.map((item, i) => (
             <Card

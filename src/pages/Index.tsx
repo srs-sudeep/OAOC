@@ -19,6 +19,8 @@ import {
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ServerError from "../components/ServerError";
+import HeroSection from "./HeroSection";
+import ImageSlideshow from "@/components/ui/ImageSlideshow";
 
 const Index = () => {
   const { language, t } = useLanguage();
@@ -82,7 +84,7 @@ const Index = () => {
               </div>
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-bold mb-8 animate-slide-up bg-gradient-to-r from-white via-orange-200 to-white bg-clip-text text-transparent leading-tight">
+            <h1 className="text-6xl md:text-8xl font-bold pt-5 mb-8 animate-slide-up bg-gradient-to-r from-white via-orange-200 to-white bg-clip-text text-transparent leading-tight">
               {t("hero.title")}
             </h1>
 
@@ -118,10 +120,72 @@ const Index = () => {
           </div>
         </div>
       </section>
+      {/* <HeroSection /> */}
+
+      {/* middle slider section */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center justify-center p-2 bg-blue-100 rounded-full mb-8">
+              <div className="flex items-center space-x-2 bg-white px-6 py-3 rounded-full shadow-lg">
+                <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+                <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
+                  {language === "en"
+                    ? "Chhattisgarh Tourism and Culture"
+                    : "छत्तीसगढ़ पर्यटन और संस्कृति"}
+                </span>
+              </div>
+            </div>
+
+            <h2 className="text-4xl md:text-6xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-blue-800 via-blue-600 to-blue-600 bg-clip-text text-transparent">
+                {language === "en"
+                  ? "Chhattisgarh Tourism and Culture"
+                  : "छत्तीसगढ़ पर्यटन और संस्कृति"}
+              </span>
+            </h2>
+
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              {language === "en"
+                ? "Chhattisgarh is an Indian state rich in cultural heritage and diverse natural beauty. Its tourism and culture are symbols of the state's identity and pride."
+                : "छत्तीसगढ़ एक समृद्ध सांस्कृतिक विरासत और विविध प्राकृतिक सौंदर्य से भरपूर भारतीय राज्य है। यहां का पर्यटन और संस्कृति राज्य की पहचान और गर्व का प्रतीक हैं।"}
+            </p>
+          </div>
+
+          {/* Enhanced Slideshow Container */}
+          <div className="relative">
+            {/* Glow Effect Background */}
+            <div className="absolute -inset-8 bg-gradient-to-r from-blue-200/30 via-blue-200/30 to-blue-200/30 rounded-3xl blur-2xl"></div>
+
+            {/* Main Slideshow */}
+            <div className="relative bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-blue-100/50">
+              <ImageSlideshow />
+            </div>
+
+            {/* Floating Elements */}
+            <div className="absolute -top-6 -right-6 w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full opacity-20 animate-pulse"></div>
+            <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-gradient-to-br from-blue-400 to-blue-500 rounded-full opacity-30 animate-pulse delay-1000"></div>
+          </div>
+        </div>
+      </section>
 
       {/* Chhattisgarh Stats Section */}
       <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* 1 */}
+          <div className="inline-flex items-center justify-center p-2 bg-blue-100 rounded-full mb-8">
+            <div className="flex items-center space-x-2 bg-white px-6 py-3 rounded-full shadow-lg">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+              <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
+                {language === "en"
+                  ? "Chhattisgarh at a Glance"
+                  : "छत्तीसगढ़ एक नज़र में"}
+              </span>
+            </div>
+          </div>
+
+          {/* 2 */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
               {language === "en"
@@ -183,7 +247,19 @@ const Index = () => {
 
       {/* Features Section */}
       <section className="py-24 bg-gradient-to-br from-gray-50 to-blue-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* 1 */}
+          <div className="inline-flex items-center justify-center p-2 bg-blue-100 rounded-full mb-8">
+            <div className="flex items-center space-x-2 bg-white px-6 py-3 rounded-full shadow-lg">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+              <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
+                {language === "en"
+                  ? "Digital Chhattisgarh Features"
+                  : "डिजिटल छत्तीसगढ़ सुविधाएं"}
+              </span>
+            </div>
+          </div>
+          {/* 2 */}
           <div className="text-center mb-20 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
               {language === "en"
@@ -308,7 +384,17 @@ const Index = () => {
 
       {/* Departments Preview */}
       <section className="py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          {/* 1 */}
+          <div className="inline-flex items-center justify-center p-2 bg-blue-100 rounded-full mb-8">
+            <div className="flex items-center space-x-2 bg-white px-6 py-3 rounded-full shadow-lg">
+              <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+              <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
+                {t("departments.title")}
+              </span>
+            </div>
+          </div>
+          {/* 2 */}
           <div className="text-center mb-20 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
               {t("departments.title")}

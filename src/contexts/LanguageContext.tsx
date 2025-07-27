@@ -19,7 +19,13 @@ const translations = {
     "nav.about": "About",
     "nav.contact": "Contact",
     "nav.career": "Career",
-    "hero.title": "One App One Citizen",
+    "nav.gallery": "Gallery",
+    "hero.title": "One Citizen One App",
+    "hero.para": "GOVERNMENT OF CHHATTISGARH",
+    "hero.pm": "Shri Narendra Modi Ji",
+    "hero.cm": "Shri Vishnu Deo Sai",
+    "hero.respect.pm": "Hon. Prime Minister, India",
+    "hero.respect.cm": "Hon. Chief Minister, C.G.",
     "hero.subtitle":
       "Digital Chhattisgarh Initiative - Serving Citizens Through Technology",
     "hero.description":
@@ -37,6 +43,8 @@ const translations = {
     "button.applyNow": "Apply Now",
     "button.backToDepartments": "Back to Departments",
     "button.learnMore": "Learn About Chhattisgarh",
+    "footer.proud":
+      "Prouded By IIT Bhilai & IIT Bhilai Innovation and Technology Foundation (IBITF)",
   },
   hi: {
     "nav.home": "होम",
@@ -44,7 +52,13 @@ const translations = {
     "nav.about": "हमारे बारे में",
     "nav.contact": "संपर्क",
     "nav.career": "करियर",
-    "hero.title": "वन ऐप वन सिटिजन",
+    "nav.gallery": "गैलरी",
+    "hero.title": "वन सिटिजन वन ऐप", // एक नागरिक, एक ऐप
+    "hero.para": "छत्तीसगढ़ शासन",
+    "hero.pm": "श्री नरेंद्र मोदी जी",
+    "hero.cm": "श्री विष्णुदेव साय",
+    "hero.respect.pm": "माननीय प्रधान मंत्री, भारत",
+    "hero.respect.cm": "माननीय मुख्यमंत्री, छत्तीसगढ़",
     "hero.subtitle":
       "डिजिटल छत्तीसगढ़ पहल - प्रौद्योगिकी के माध्यम से नागरिकों की सेवा",
     "hero.description":
@@ -62,6 +76,8 @@ const translations = {
     "button.applyNow": "अभी आवेदन करें",
     "button.backToDepartments": "विभागों पर वापस जाएं",
     "button.learnMore": "छत्तीसगढ़ के बारे में और जानें",
+    "footer.proud":
+      "आईआईटी भिलाई एवं आईआईटी भिलाई नवाचार एवं प्रौद्योगिकी प्रतिष्ठान (आईबीआईटीएफ) द्वारा प्रस्तुत",
   },
 };
 

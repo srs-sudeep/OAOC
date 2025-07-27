@@ -60,7 +60,7 @@ const Departments = () => {
                 <Building2 className="w-12 h-12 text-orange-300" />
               </div>
             </div>
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+            <h1 className="text-5xl lg:text-6xl font-bold pt-3 mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
               {t("departments.title")}
             </h1>
             <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed mb-8">
@@ -157,6 +157,18 @@ const Departments = () => {
         {/* Department Grid */}
         <div className="mb-12">
           <div className="text-center mb-12">
+            {/* 1 */}
+            <div className="inline-flex items-center justify-center p-2 bg-blue-100 rounded-full mb-8">
+              <div className="flex items-center space-x-2 bg-white px-6 py-3 rounded-full shadow-lg">
+                <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+                <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
+                  {language === "en"
+                    ? "Browse Departments"
+                    : "विभाग ब्राउज़ करें"}
+                </span>
+              </div>
+            </div>
+            {/* 2 */}
             <h2 className="text-3xl font-bold text-blue-900 mb-4">
               {language === "en" ? "Browse Departments" : "विभाग ब्राउज़ करें"}
             </h2>

@@ -15,6 +15,7 @@ import NotFound from "./pages/NotFound";
 import Footer from "@/components/Footer";
 import CareerPage from "./pages/CareerPage";
 import CareerDetailsPage from "./pages/CareerDetailsPage";
+import Gallery from "./pages/Gallery";
 
 const queryClient = new QueryClient();
 
@@ -27,7 +28,7 @@ const App = () => (
         <BrowserRouter>
           <div className="min-h-screen bg-gray-50">
             <Navbar />
-            <div className="pt-16">
+            <div className="pt-6.9">
               <Routes>
                 <Route path="/" element={<Index />} />
                 <Route path="/departments" element={<Departments />} />
@@ -40,6 +41,7 @@ const App = () => (
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/career" element={<CareerPage />} />
                 <Route path="/career/:id" element={<CareerDetailsPage />} />
+                <Route path="/gallery" element={<Gallery />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </div>
