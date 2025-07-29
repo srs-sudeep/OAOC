@@ -690,8 +690,8 @@ const CareerList = ({ id }) => {
 
                 <div className="flex items-center gap-4 text-sm text-gray-600">
                   <span className="flex items-center gap-2 px-3 py-1.5 bg-blue-50 rounded-lg border border-blue-100">
-                    <GraduationCap className="w-4 h-4 text-blue-600" />
-                    <span className="font-medium">{item.currentEducation}</span>
+                    <GraduationCap className="w-4 h-4 text-blue-600"/>
+                    <span className="font-medium">{item.currentEducation.join(", ")}</span>
                   </span>
                   <span className="flex items-center gap-2 px-3 py-1.5 bg-purple-50 rounded-lg border border-purple-100">
                     <BookOpen className="w-4 h-4 text-purple-600" />
