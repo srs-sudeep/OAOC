@@ -203,7 +203,7 @@ const ImageSlideshow = () => {
 
   return (
     <div
-      className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] xl:h-[600px] overflow-hidden rounded-2xl shadow-2xl group"
+      className="relative w-full h-64 sm:h-80 md:h-96 lg:h-[500px] xl:h-[500px] overflow-hidden rounded-2xl shadow-2xl group"
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}

@@ -10,13 +10,9 @@ import {
 import CareerCard from "@/components/CareerCard";
 import CareerList from "./CareerList";
 import { useState } from "react";
-import EducationStepForm from "@/components/EducationStepForm";
 
 const CareerPage = () => {
   const { language } = useLanguage();
-  //   const [activeTab, setActiveTab] = useState<"education" | "job" | "business">(
-  //     "education"
-  //   );
   const [activeTab, setActiveTab] = useState("education");
 
   const guidanceOptions = [
