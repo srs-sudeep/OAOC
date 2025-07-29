@@ -79,12 +79,27 @@ import React, { useState, useEffect } from "react";
 import { X, ChevronLeft, ChevronRight, Play, Pause } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 
+// interface GalleryItem {
+//   id: number;
+//   title: string;
+//   image: string;
+//   className: string;
+//   modalImages: string[];
+// }
+
 interface GalleryItem {
   id: number;
-  title: string;
+  title: {
+    en: string;
+    hi: string;
+  };
   image: string;
   className: string;
   modalImages: string[];
+  description?: {
+    en: string;
+    hi: string;
+  };
 }
 
 const Gallery: React.FC = () => {
@@ -95,10 +110,63 @@ const Gallery: React.FC = () => {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const { language } = useLanguage();
 
+  // const galleryItems: GalleryItem[] = [
+  //   {
+  //     id: 1,
+  //     title: "Bhoramdeo",
+  //     image: "/bhoramdev1.png",
+  //     className: "col-span-2 row-span-2",
+  //     modalImages: [
+  //       "/bhoramdev2.jpeg",
+  //       "/bhoramdeo3.jpg",
+  //       "/bhoramdev4.jpeg",
+  //       "/bhoramdev5.jpg",
+  //     ],
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Chitrakoot WaterFall",
+  //     image: "/chitrakote1.jpg",
+  //     className: "col-span-2 row-span-1",
+  //     modalImages: ["/chitrakote2.jpg", "/chitrakote3.jpg"],
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Ghatarani",
+  //     image: "/Ghatarani1.jpg",
+  //     className: "col-span-1 row-span-2",
+  //     modalImages: ["/Ghatarani2.jpg", "/Jatmai1.png", "/Jatmai2.jpg"],
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Girodpuri",
+  //     image: "/girodpuri1.jpg",
+  //     className: "col-span-2 row-span-1",
+  //     modalImages: ["/girodpuri2.jpg"],
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "Sirpur",
+  //     image: "/sirpur1.jpg",
+  //     className: "col-span-1 row-span-1",
+  //     modalImages: ["/sirpur2.jpg", "/sirpur3.jpg", "/sirpur4.png"],
+  //   },
+  //   {
+  //     id: 6,
+  //     title: "Dongargarh",
+  //     image: "/dongargarh1.jpeg",
+  //     className: "col-span-1 row-span-1",
+  //     modalImages: ["/dongargarh2.jpeg", "/dongargarh3.jpeg"],
+  //   },
+  // ];
+
   const galleryItems: GalleryItem[] = [
     {
       id: 1,
-      title: "Bhoramdeo",
+      title: {
+        en: "Bhoramdeo Temple",
+        hi: "भोरमदेव मंदिर",
+      },
       image: "/bhoramdev1.png",
       className: "col-span-2 row-span-2",
       modalImages: [
@@ -107,115 +175,82 @@ const Gallery: React.FC = () => {
         "/bhoramdev4.jpeg",
         "/bhoramdev5.jpg",
       ],
+      description: {
+        en: "Ancient temple complex known as the 'Khajuraho of Chhattisgarh'",
+        hi: "प्राचीन मंदिर परिसर जो 'छत्तीसगढ़ का खजुराहो' के नाम से प्रसिद्ध है",
+      },
     },
     {
       id: 2,
-      title: "Chitrakoot WaterFall",
+      title: {
+        en: "Chitrakoot Waterfall",
+        hi: "चित्रकोट जलप्रपात",
+      },
       image: "/chitrakote1.jpg",
       className: "col-span-2 row-span-1",
       modalImages: ["/chitrakote2.jpg", "/chitrakote3.jpg"],
+      description: {
+        en: "India's broadest waterfall, also known as 'Niagara of India'",
+        hi: "भारत का सबसे चौड़ा जलप्रपात, 'भारत का नियाग्रा' के नाम से प्रसिद्ध",
+      },
     },
     {
       id: 3,
-      title: "Ghatarani",
+      title: {
+        en: "Ghatarani Waterfalls",
+        hi: "घटारानी जलप्रपात",
+      },
       image: "/Ghatarani1.jpg",
       className: "col-span-1 row-span-2",
       modalImages: ["/Ghatarani2.jpg", "/Jatmai1.png", "/Jatmai2.jpg"],
+      description: {
+        en: "Scenic waterfall surrounded by dense forests",
+        hi: "घने जंगलों से घिरा हुआ सुंदर जलप्रपात",
+      },
     },
     {
       id: 4,
-      title: "Girodpuri",
+      title: {
+        en: "Girodpuri Dham",
+        hi: "गिरोदपुरी धाम",
+      },
       image: "/girodpuri1.jpg",
       className: "col-span-2 row-span-1",
       modalImages: ["/girodpuri2.jpg"],
+      description: {
+        en: "Sacred pilgrimage site and religious center",
+        hi: "पवित्र तीर्थ स्थल और धार्मिक केंद्र",
+      },
     },
     {
       id: 5,
-      title: "Sirpur",
+      title: {
+        en: "Sirpur Archaeological Site",
+        hi: "सिरपुर पुरातत्व स्थल",
+      },
       image: "/sirpur1.jpg",
       className: "col-span-1 row-span-1",
       modalImages: ["/sirpur2.jpg", "/sirpur3.jpg", "/sirpur4.png"],
+      description: {
+        en: "Ancient Buddhist and Hindu archaeological remains",
+        hi: "प्राचीन बौद्ध और हिंदू पुरातत्व अवशेष",
+      },
     },
     {
       id: 6,
-      title: "Dongargarh",
+      title: {
+        en: "Dongargarh Temple",
+        hi: "डोंगरगढ़ मंदिर",
+      },
       image: "/dongargarh1.jpeg",
       className: "col-span-1 row-span-1",
       modalImages: ["/dongargarh2.jpeg", "/dongargarh3.jpeg"],
+      description: {
+        en: "Hilltop temple dedicated to Maa Bamleshwari Devi",
+        hi: "माता बम्लेश्वरी देवी को समर्पित पहाड़ी मंदिर",
+      },
     },
   ];
-
-  // const galleryItems: GalleryItem[] = [
-  //   {
-  //     id: 1,
-  //     title: "Portfolio",
-  //     image:
-  //       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=300&fit=crop",
-  //     className: "col-span-2 row-span-2",
-  //     modalImages: [
-  //       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1565464027194-5d0b707c2f95?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
-  //     ],
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Photography",
-  //     image:
-  //       "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=500&h=250&fit=crop",
-  //     className: "col-span-2 row-span-1",
-  //     modalImages: [
-  //       "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1493134799591-2c9eed3d4877?w=800&h=600&fit=crop",
-  //     ],
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Design",
-  //     image:
-  //       "https://images.unsplash.com/photo-1558655146-d09347e92766?w=250&h=300&fit=crop",
-  //     className: "col-span-1 row-span-2",
-  //     modalImages: [
-  //       "https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1609921212029-bb5a28e60960?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-  //     ],
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Branding",
-  //     image:
-  //       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=250&fit=crop",
-  //     className: "col-span-2 row-span-1",
-  //     modalImages: [
-  //       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1542744094-24638eff58bb?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
-  //     ],
-  //   },
-  //   {
-  //     id: 5,
-  //     title: "Creative",
-  //     image:
-  //       "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=250&h=250&fit=crop",
-  //     className: "col-span-1 row-span-1",
-  //     modalImages: [
-  //       "https://images.unsplash.com/photo-1542744094-3a31f272c490?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800&h=600&fit=crop",
-  //       "https://images.unsplash.com/photo-1594736797933-d0ce6b395256?w=800&h=600&fit=crop",
-  //     ],
-  //   },
-  // ];
 
   // Auto-scroll functionality
   useEffect(() => {
@@ -339,13 +374,13 @@ const Gallery: React.FC = () => {
               >
                 <img
                   src={item.image}
-                  alt={item.title}
+                  alt={item.title[language]}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-blue-900/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity duration-300" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <h3 className="text-white text-2xl font-bold tracking-wide drop-shadow-lg">
-                    {item.title}
+                    {item.title[language]}
                   </h3>
                 </div>
                 <div className="absolute inset-0 bg-blue-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -362,7 +397,7 @@ const Gallery: React.FC = () => {
               <div className="absolute top-0 left-0 right-0 bg-gradient-to-b from-blue-900/90 to-transparent z-10 p-6">
                 <div className="flex justify-between items-center">
                   <h2 className="text-white text-2xl font-bold">
-                    {selectedGallery.title}
+                    {selectedGallery.title[language]}
                   </h2>
                   <div className="flex items-center gap-4">
                     <button
