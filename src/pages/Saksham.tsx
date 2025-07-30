@@ -6,6 +6,7 @@ import {
   Info,
   Target,
   Users,
+  FileBadge
 } from "lucide-react";
 import SakshamDetails from "./sakshamDetails";
 import { useState } from "react";
@@ -13,56 +14,39 @@ import SakshamCard from "@/components/SakshamCard";
 
 function Saksham() {
   const [saksham, setSaksham] = useState();
-  const { language } = useLanguage();
+  const { language,t } = useLanguage();
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-orange-50">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-16">
+      <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-bold mb-4 pt-2.5 bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent">
-            {language === "en" ? "Aao Saksham Banein" : "आओ सक्षम बनें"}
-          </h1>
-          <h5 className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-0">
-            {language === "en"
-              ? "Jahaan har yojana hai ab aapke haath mein!"
-              : "जहां हर योजना है अब आपके हाथ में!"}
-          </h5>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-8">
-            {language === "en"
-              ? "Sarkari yojanaon ki jankari, patrata, aur seedhe labh — ab ek hi manch par, saral aur paardarshi tareeke se."
-              : "सरकारी योजनाओं की जानकारी, पात्रता, और सीधे लाभ — अब एक ही मंच पर, सरल और पारदर्शी तरीके से।"}
-          </p>
-          <div className="flex justify-center space-x-4">
-            <div className="flex items-center text-blue-200">
-              {/* <Users className="w-5 h-5 mr-2" /> */}
-              <Clock className="w-6 h-6 mr-2 text-orange-400" />
-              <span>
-                {language === "en"
-                  ? "Samay aur paise ki bachat"
-                  : "समय और पैसे की बचत"}
-              </span>
+          <div className="animate-fade-in">
+            <div className="flex justify-center mb-6">
+              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-full border border-white/20">
+                <FileBadge className="w-12 h-12 text-orange-300" />
+              </div>
             </div>
-            <div className="flex items-center text-blue-200">
-              {/* <Target className="w-5 h-5 mr-2" /> */}
-              <ArrowRightLeft className="w-6 h-6 mr-2 text-orange-400" />
-              <span>
-                {language === "en"
-                  ? "Sarkari yojanaon tak seedha pahunch"
-                  : "सरकारी योजनाओं तक सीधा पहुंच"}
-              </span>
-            </div>
-            <div className="flex items-center text-blue-200">
-              {/* <Award className="w-5 h-5 mr-2" /> */}
-              <Info className="w-6 h-6 mr-2 text-orange-400" />
-              <span>
-                {language === "en"
-                  ? "Updated aur vishwasniya jankari"
-                  : "अपडेटेड और विश्वसनीय जानकारी"}
-              </span>
+            <h1 className="text-5xl lg:text-6xl font-bold pt-3 mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
+              {t("saksham.title")}
+            </h1>
+            <p className="text-xl text-blue-100 max-w-4xl mx-auto leading-relaxed mb-8">
+              {t("saksham.subtitle")}
+            </p>
+            <div className="flex flex-wrap justify-center gap-6 mt-8">
+              <div className="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
+                <span className="text-orange-300 font-bold text-lg">
+                  {/* {totalCareer} */}---
+                </span>
+                <span className="text-blue-200 ml-2">
+                  {language === "en" ? "Saksham Initiatives" : "सक्षम पहल"}
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Saksham Grid */}
         <div className="mb-12">

@@ -6,7 +6,7 @@ const Footer = () => {
   const { language, t } = useLanguage();
 
   return (
-    <footer className="bg-blue-900 text-white bg-[url('/footer-pattern.svg')] bg-bottom bg-repeat-x bg-center">
+    <footer className="bg-blue-900 text-white bg-[url('/footer-pattern.svg')] bg-bottom bg-repeat-x bg-end">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 ">
         <div className="flex flex-col items-center text-center space-y-3 border-b border-gray-500 pb-3 mb-4">

@@ -48,6 +48,9 @@ const translations = {
     "career.title": "Career Guidance",
     "career.subtitle":
       "Empower your future with comprehensive career guidance. Explore education, job opportunities, and business development paths tailored for success.",
+    "saksham.title": "Aao Saksham Banein",
+    "saksham.subtitle":
+      "Jahaan har yojana hai ab aapke haath mein! Sarkari yojanaon ki jankari, patrata, aur seedhe labh — ab ek hi manch par, saral aur paardarshi tareeke se.",
     "footer.proud":
       "Prouded By IIT Bhilai & IIT Bhilai Innovation and Technology Foundation (IBITF)",
   },
@@ -85,6 +88,8 @@ const translations = {
     "button.learnMore": "छत्तीसगढ़ के बारे में और जानें",
     "career.title": "करियर मार्गदर्शन",
     "career.subtitle":"व्यापक करियर मार्गदर्शन के साथ अपने भविष्य को सशक्त बनाएं। सफलता के लिए तैयार किए गए शिक्षा, नौकरी के अवसर और व्यापार विकास के पथों का अन्वेषण करें।",
+    "saksham.title": "आओ सक्षम बनें",
+    "saksham.subtitle":"जहां हर योजना है अब आपके हाथ में! सरकारी योजनाओं की जानकारी, पात्रता, और सीधे लाभ — अब एक ही मंच पर, सरल और पारदर्शी तरीके से।",
     "footer.proud":
       "आईआईटी भिलाई एवं आईआईटी भिलाई नवाचार एवं प्रौद्योगिकी प्रतिष्ठान (आईबीआईटीएफ) द्वारा प्रस्तुत",
   },
