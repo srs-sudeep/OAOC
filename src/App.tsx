@@ -16,6 +16,7 @@ import Footer from "@/components/Footer";
 import CareerPage from "./pages/CareerPage";
 import CareerDetailsPage from "./pages/CareerDetailsPage";
 import Gallery from "./pages/Gallery";
+import Saksham from "./pages/Saksham";
 
 const queryClient = new QueryClient();
 
@@ -41,6 +42,7 @@ const App = () => (
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/career" element={<CareerPage />} />
                 <Route path="/career/:id" element={<CareerDetailsPage />} />
+                <Route path="/saksham" element={<Saksham />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
