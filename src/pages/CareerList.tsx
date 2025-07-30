@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 import { useLanguage } from "@/contexts/LanguageContext";
 import {
   ExternalLink,
@@ -147,7 +148,7 @@ const CareerList = ({ id }) => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:8000/api/careers?id=${id}`)
+      .get(`${BASE_URL}/api/careers?id=${id}`)
       .then((res) => {
         setCareerItem(res.data);
         setFilteredCareerItem(res.data);
