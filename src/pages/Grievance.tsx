@@ -77,7 +77,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-16 grid lg:grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-3 gap-10">
         {/* Grievance Form */}
         <div className="lg:col-span-2 bg-white rounded-2xl shadow-xl p-8 border border-gray-100">
           <h2 className="text-2xl font-bold text-blue-900 mb-6">
@@ -199,72 +199,7 @@ const Contact = () => {
         </div>
 
         {/* Right Panel */}
-        <div className="space-y-8">
-          {/* Quick Help */}
-          <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-blue-600">
-            <div className="flex items-center mb-4">
-              <div className="bg-blue-100 p-3 rounded-full">
-                <Shield className="text-blue-600 w-6 h-6" />
-              </div>
-              <h3 className="ml-3 text-lg font-semibold text-gray-800">
-                {language === "en" ? "Quick Help" : "त्वरित सहायता"}
-              </h3>
-            </div>
-            <ul className="text-sm text-gray-700 space-y-4">
-              <li>
-                <strong>
-                  {language === "en"
-                    ? "How to track application?"
-                    : "आवेदन कैसे ट्रैक करें?"}
-                </strong>
-                <p className="text-gray-600">
-                  {language === "en"
-                    ? "Use your application reference number in the tracking portal or call our helpline."
-                    : "ट्रैकिंग पोर्टल में अपने आवेदन संदर्भ संख्या का उपयोग करें या हमारी हेल्पलाइन पर कॉल करें।"}
-                </p>
-              </li>
-              <li>
-                <strong>
-                  {language === "en"
-                    ? "How to lodge complaints?"
-                    : "शिकायत कैसे दर्ज करें?"}
-                </strong>
-                <p className="text-gray-600">
-                  {language === "en"
-                    ? "Use our grievance form or visit nearest center."
-                    : "हमारे फॉर्म का उपयोग करें या नजदीकी केंद्र जाएं।"}
-                </p>
-              </li>
-            </ul>
-          </div>
-
-          {/* Emergency Contacts */}
-          {/* <div className="bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-2xl shadow-xl p-6">
-            <h3 className="text-xl font-bold mb-4">
-              {language === "en" ? "Emergency Contacts" : "आपातकालीन संपर्क"}
-            </h3>
-            <div className="space-y-3">
-              <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 mt-1 shrink-0" />
-                <span className="font-semibold">1800-123-4567</span>
-              </div>
-              <div className="flex items-start gap-3">
-                <Mail className="w-5 h-5 mt-1 shrink-0" />
-                <span className="font-semibold">
-                  help@oneapponecitizen.gov.in
-                </span>
-              </div>
-              <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 mt-1 shrink-0" />
-                <span className="font-semibold">
-                  Chhattisgarh State Electronics Development Corporation,
-                  Collectorate Complex, Civil Lines, Raipur, Chhattisgarh -
-                  492001
-                </span>
-              </div>
-            </div>
-          </div> */}
-
+        <div className="space-y-0">
           <div className="bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-2xl shadow-xl p-6">
             <h3 className="text-xl font-bold mb-4">
               {language === "en" ? "Emergency Contacts" : "आपातकालीन संपर्क"}
