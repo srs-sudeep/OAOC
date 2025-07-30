@@ -45,6 +45,9 @@ const translations = {
     "button.applyNow": "Apply Now",
     "button.backToDepartments": "Back to Departments",
     "button.learnMore": "Learn About Chhattisgarh",
+    "career.title": "Career Guidance",
+    "career.subtitle":
+      "Empower your future with comprehensive career guidance. Explore education, job opportunities, and business development paths tailored for success.",
     "footer.proud":
       "Prouded By IIT Bhilai & IIT Bhilai Innovation and Technology Foundation (IBITF)",
   },
@@ -80,6 +83,8 @@ const translations = {
     "button.applyNow": "अभी आवेदन करें",
     "button.backToDepartments": "विभागों पर वापस जाएं",
     "button.learnMore": "छत्तीसगढ़ के बारे में और जानें",
+    "career.title": "करियर मार्गदर्शन",
+    "career.subtitle":"व्यापक करियर मार्गदर्शन के साथ अपने भविष्य को सशक्त बनाएं। सफलता के लिए तैयार किए गए शिक्षा, नौकरी के अवसर और व्यापार विकास के पथों का अन्वेषण करें।",
     "footer.proud":
       "आईआईटी भिलाई एवं आईआईटी भिलाई नवाचार एवं प्रौद्योगिकी प्रतिष्ठान (आईबीआईटीएफ) द्वारा प्रस्तुत",
   },
