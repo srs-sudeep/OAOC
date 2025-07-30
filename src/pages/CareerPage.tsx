@@ -1,12 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import {
-  GraduationCap,
-  BriefcaseBusiness,
-  Building2,
-  Award,
-  Target,
-  Users,
-} from "lucide-react";
+import { GraduationCap, Award, Target, Users } from "lucide-react";
 import CareerCard from "@/components/CareerCard";
 import CareerList from "./CareerList";
 import { useState } from "react";
@@ -25,24 +18,6 @@ const CareerPage = () => {
           : "कक्षा 10/12/स्नातक के बाद उपलब्ध पाठ्यक्रमों, छात्रवृत्तियों और परीक्षाओं की जानकारी प्राप्त करें।",
       icon: <GraduationCap className="w-10 h-10 text-blue-900" />,
     },
-    // {
-    //   id: "job",
-    //   title: language === "en" ? "Job Opportunities" : "नौकरी के अवसर",
-    //   description:
-    //     language === "en"
-    //       ? "Get guidance on government exams, private jobs, and skill development programs."
-    //       : "सरकारी परीक्षाओं, निजी नौकरियों और कौशल विकास कार्यक्रमों पर मार्गदर्शन प्राप्त करें।",
-    //   icon: <BriefcaseBusiness className="w-10 h-10 text-orange-600" />,
-    // },
-    // {
-    //   id: "business",
-    //   title: language === "en" ? "Business" : "व्यवसाय",
-    //   description:
-    //     language === "en"
-    //       ? "Start your entrepreneurial journey with MSME schemes and startup support."
-    //       : "एमएसएमई योजनाओं और स्टार्टअप सहायता के साथ अपना व्यवसाय शुरू करें।",
-    //   icon: <Building2 className="w-10 h-10 text-green-700" />,
-    // },
   ];
 
   return (
@@ -84,7 +59,7 @@ const CareerPage = () => {
       {/* Guidance Options */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         {/* Tab Section */}
-        <div className="grid gap-6 md:grid-cols-1 mx-auto max-w-2xl">
+        <div className="grid gap-6 md:grid-cols-1 mx-auto max-w-7xl">
           {guidanceOptions.map((option) => (
             <CareerCard
               key={option.id}
@@ -99,31 +74,8 @@ const CareerPage = () => {
         </div>
 
         {/* Tab-wise Content */}
-        {/* <div className="mt-10">
-          {activeTab === "education" && (
-            <CareerList
-              id={activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}
-            />
-          )}
-          {activeTab === "job" && (
-            <div className="text-center text-gray-600 text-lg">
-              {language === "en"
-                ? "Job-related content coming soon..."
-                : "नौकरी से संबंधित जानकारी शीघ्र आ रही है..."}
-            </div>
-          )}
-          {activeTab === "business" && (
-            <div className="text-center text-gray-600 text-lg">
-              {language === "en"
-                ? "Business-related content coming soon..."
-                : "व्यापार से संबंधित जानकारी शीघ्र आ रही है..."}
-            </div>
-          )}
-        </div> */}
         <div className="mt-10">
-          {(activeTab === "education" ||
-            activeTab === "job" ||
-            activeTab === "business") && (
+          {activeTab === "education" && (
             <CareerList
               id={activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}
             />

@@ -76,22 +76,20 @@ const Index = () => {
                 <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
                 <span className="text-sm font-semibold text-blue-700 uppercase tracking-wider">
                   {language === "en"
-                    ? "Chhattisgarh Tourism and Culture"
-                    : "छत्तीसगढ़ पर्यटन और संस्कृति"}
+                    ? "Images of Raipur"
+                    : "रायपुर की तस्वीरें"}
                 </span>
               </div>
             </div>
 
             <div className="text-center mb-6 animate-fade-in ">
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-                {language === "en"
-                  ? "Chhattisgarh Tourism and Culture"
-                  : "छत्तीसगढ़ पर्यटन और संस्कृति"}
+                {language === "en" ? "Images of Raipur" : "रायपुर की तस्वीरें"}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 {language === "en"
-                  ? "Chhattisgarh is an Indian state rich in cultural heritage and diverse natural beauty. Its tourism and culture are symbols of the state's identity and pride."
-                  : "छत्तीसगढ़ एक समृद्ध सांस्कृतिक विरासत और विविध प्राकृतिक सौंदर्य से भरपूर भारतीय राज्य है। यहां का पर्यटन और संस्कृति राज्य की पहचान और गर्व का प्रतीक हैं।"}
+                  ? "Discover the beauty, culture, and spirit of Raipur through captivating visuals."
+                  : "आकर्षक तस्वीरों के माध्यम से रायपुर की सुंदरता, संस्कृति और आत्मा को महसूस करें।"}
               </p>
             </div>
           </div>

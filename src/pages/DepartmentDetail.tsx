@@ -109,13 +109,13 @@ const DepartmentDetail = () => {
                     {language === "en" ? "Schemes Available" : "योजनाएं उपलब्ध"}
                   </span>
                 </div>
-                <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
+                {/* <div className="bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
                   <span className="text-blue-200 font-medium">
                     {language === "en"
                       ? "Government of Chhattisgarh"
                       : "छत्तीसगढ़ सरकार"}
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -225,7 +225,7 @@ const DepartmentDetail = () => {
               </div>
 
               {/* Statistics */}
-              <div className="mt-16 bg-gradient-to-r from-blue-900 to-indigo-800 text-white rounded-2xl p-8">
+              {/* <div className="mt-16 bg-gradient-to-r from-blue-900 to-indigo-800 text-white rounded-2xl p-8">
                 <div className="grid md:grid-cols-4 gap-6 text-center">
                   <div>
                     <div className="text-3xl font-bold text-orange-300 mb-2">
@@ -262,7 +262,7 @@ const DepartmentDetail = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </>
           ) : (
             <div className="text-center py-16">

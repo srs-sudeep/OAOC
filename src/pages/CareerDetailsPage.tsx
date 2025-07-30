@@ -75,7 +75,7 @@ export default function CareerDetailsPage() {
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-5xl font-bold mb-4 py-1.5 bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent">
+            <h1 className="text-5xl font-bold mb-2 py-3 bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent">
               {exam.title?.[language]}
             </h1>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto leading-relaxed mb-2">
@@ -83,11 +83,9 @@ export default function CareerDetailsPage() {
             </p>
             <div className="flex justify-center space-x-4">
               <div className="flex items-center text-blue-200">
-                {/* <Target className="w-5 h-5 mr-2" /> */}
                 <span>ID : {exam.id}</span>
               </div>
               <div className="flex items-center text-blue-200">
-                {/* <Clock className="w-5 h-5 mr-2" /> */}
                 <span>
                   {language === "en" ? "Updated:" : "अपडेट:"} {exam.updatedAt}
                 </span>
@@ -321,7 +319,7 @@ export default function CareerDetailsPage() {
                     rel="noopener noreferrer"
                   >
                     <Download className="w-5 h-5 group-hover:translate-y-1 transition-transform duration-300" />
-                    {language === "en" ? "Download File" : "फाइल डाउनलोड करें"}
+                    {language === "en" ? "More Details" : "अधिक जानकारी"}
                   </a>
                 )}
 

@@ -49,13 +49,6 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
       <div className="bg-gradient-to-r from-blue-600 to-blue-700 h-2"></div>
 
       <CardHeader className="pb-4 relative">
-        <div className="absolute top-4 right-4 -mt-2.5">
-          <div className="bg-orange-100 text-orange-600 text-xs font-bold px-3 py-1 rounded-full flex items-center">
-            <Star className="w-3 h-3 mr-1" />
-            {language === "en" ? "OFFICIAL" : "आधिकारिक"}
-          </div>
-        </div>
-
         <div className="flex items-start space-x-4 mt-2">
           <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
             <div className="text-5xl">{department.icon}</div>
@@ -74,7 +67,20 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
       <CardContent className="pt-0 pb-6">
         <div className="space-y-6">
           {/* Department Stats */}
-          <div className="grid grid-cols-3 gap-4">
+          <div className="w-full p-2 bg-blue-50 rounded-lg border border-blue-100">
+            <div className="flex items-center justify-between w-full">
+              <div className="flex items-center gap-2">
+                <FileText className="w-4 h-4 text-blue-600" />
+                <span className="text-lg font-semibold text-blue-700">
+                  {language === "en" ? "Schemes" : "योजनाएं"}
+                </span>
+              </div>
+              <div className="text-lg text-blue-900 font-bold">
+                {schemeCount}
+              </div>
+            </div>
+          </div>
+          {/* <div className="grid grid-cols-3 gap-4">
             <div className="text-center p-3 bg-blue-50 rounded-lg border border-blue-100">
               <div className="flex items-center justify-center mb-1">
                 <FileText className="w-4 h-4 text-blue-600" />
@@ -106,7 +112,7 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
                 {language === "en" ? "Days" : "दिन"}
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* Additional Contact Info */}
           <div className="space-y-2">
@@ -155,7 +161,8 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
                 {language === "en" ? "Last Updated:" : "अंतिम अपडेट:"}
               </span>
               <span className="text-green-600 font-medium">
-                {language === "en" ? "Recently" : "हाल ही में"}
+                {/* {language === "en" ? "Recently" : "हाल ही में"} */}
+                {new Date(department.updatedAt).toLocaleDateString()}
               </span>
             </div>
           </div>

@@ -29,7 +29,23 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
           <div className="bg-blue-100 p-3 rounded-full group-hover:bg-blue-200 transition-colors duration-300">
             <ExternalLink className="w-6 h-6 text-blue-600" />
           </div>
-          <div className="bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full flex items-center">
+          <div
+            className={`text-xs font-semibold px-3 py-1 rounded-full flex items-center ${
+              scheme.status === "active"
+                ? "bg-green-100 text-green-700"
+                : "bg-red-100 text-red-700"
+            }`}
+          >
+            <Shield className="w-3 h-3 mr-1" />
+            {scheme.status === "active"
+              ? language === "en"
+                ? "Active"
+                : "सक्रिय"
+              : language === "en"
+              ? "Inactive"
+              : "निष्क्रिय"}
+          </div>
+          {/* <div className="bg-orange-100 text-orange-600 text-xs font-semibold px-3 py-1 rounded-full flex items-center">
             <Shield className="w-3 h-3 mr-1" />
             {scheme.status === "active"
               ? language === "en"
@@ -38,7 +54,7 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
               : language === "en"
               ? "INACTIVE"
               : "निष्क्रिय"}
-          </div>
+          </div> */}
         </div>
         <CardTitle className="text-xl text-blue-900 mb-3 group-hover:text-blue-700 transition-colors duration-300 leading-tight">
           {scheme.name[language]}
@@ -85,10 +101,11 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
             <div className="flex items-center">
               <Clock className="w-3 h-3 mr-1" />
               <span>
-                {language === "en" ? "Updated:" : "अपडेट:"} {scheme.lastUpdated}
+                {language === "en" ? "Last Update:" : "अंतिम अपडेट:"}{" "}
+                {scheme.lastUpdated}
               </span>
             </div>
-            <span
+            {/* <span
               className={`px-2 py-1 rounded-full text-xs font-medium ${
                 scheme.status === "active"
                   ? "bg-green-100 text-green-700"
@@ -102,7 +119,7 @@ const SchemeCard: React.FC<SchemeCardProps> = ({ scheme, departmentId }) => {
                 : language === "en"
                 ? "Inactive"
                 : "निष्क्रिय"}
-            </span>
+            </span> */}
           </div>
         </div>
       </CardContent>
