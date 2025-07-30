@@ -10,7 +10,7 @@ import Departments from "./pages/Departments";
 import DepartmentDetail from "./pages/DepartmentDetail";
 import SchemeDetail from "./pages/SchemeDetail";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Contact from "./pages/Grievance";
 import NotFound from "./pages/NotFound";
 import Footer from "@/components/Footer";
 import CareerPage from "./pages/CareerPage";
