@@ -50,9 +50,17 @@ const DepartmentCard: React.FC<DepartmentCardProps> = ({ department }) => {
 
       <CardHeader className="pb-4 relative">
         <div className="flex items-start space-x-4 mt-2">
-          <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+          {/* <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-4 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
             <div className="text-5xl">{department.icon}</div>
+          </div> */}
+          <div className="bg-gradient-to-br from-blue-100 to-blue-200 p-1 rounded-2xl group-hover:scale-110 transition-transform duration-300 shadow-lg">
+            <img
+              src={`${import.meta.env.VITE_BASE_URL}/${department.icon}`}
+              alt="Department Icon"
+              className="w-16 h-16 object-cover rounded-2xl"
+            />
           </div>
+
           <div className="flex-1 pt-2">
             <CardTitle className="text-xl text-blue-900 group-hover:text-blue-700 transition-colors duration-300 mb-2 leading-tight">
               {department.name[language]}

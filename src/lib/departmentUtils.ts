@@ -1,4 +1,6 @@
 // Utility functions for departments and schemes
+import axios from "axios";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 export interface Department {
   id: string;
@@ -94,11 +96,15 @@ export interface SchemeData {
 export const fetchDepartments = async (): Promise<{ departments: Department[] }> => {
   try {
     // const response = await fetch('/data/departments.json');
-    const response = await fetch('http://localhost:8000/api/departments')
-    if (!response.ok) {
-      throw new Error('Failed to fetch departments');
-    }
-    return await response.json();
+    // const response = await fetch('http://localhost:8000/api/departments')
+    const response = await axios.get<{ departments: Department[] }>(
+      `${BASE_URL}/api/departments`
+    );
+    return response.data;
+    // if (!response.ok) {
+    //   throw new Error('Failed to fetch departments');
+    // }
+    // return await response.json();
   } catch (error) {
     console.error('Error fetching departments:', error);
     return { departments: [] };
@@ -106,14 +112,23 @@ export const fetchDepartments = async (): Promise<{ departments: Department[] }>
 };
 
 // Fetch schemes for a specific department
+// export const fetchSchemes = async (departmentId: string): Promise<SchemeData> => {
+//   try {
+//     // const response = await fetch(`/data/schemes/${departmentId}.json`);
+//     const response = await fetch(`http://localhost:8000/api/schemes/${departmentId}`)
+//     if (!response.ok) {
+//       throw new Error(`Failed to fetch schemes for ${departmentId}`);
+//     }
+//     return await response.json();
+//   } catch (error) {
+//     console.error(`Error fetching schemes for ${departmentId}:`, error);
+//     return { schemes: [] };
+//   }
+// };
 export const fetchSchemes = async (departmentId: string): Promise<SchemeData> => {
   try {
-    // const response = await fetch(`/data/schemes/${departmentId}.json`);
-    const response = await fetch(`http://localhost:8000/api/schemes/${departmentId}`)
-    if (!response.ok) {
-      throw new Error(`Failed to fetch schemes for ${departmentId}`);
-    }
-    return await response.json();
+    const response = await axios.get<SchemeData>(`${BASE_URL}/api/schemes/${departmentId}`);
+    return response.data;
   } catch (error) {
     console.error(`Error fetching schemes for ${departmentId}:`, error);
     return { schemes: [] };

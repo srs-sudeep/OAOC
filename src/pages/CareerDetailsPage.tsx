@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
+import axios from "axios";
+const BASE_URL = import.meta.env.VITE_BASE_URL;
 import {
   AlertCircle,
   BookOpen,
@@ -39,13 +41,14 @@ export default function CareerDetailsPage() {
   useEffect(() => {
     const fetchExam = async () => {
       try {
-        const res = await fetch(`http://localhost:8000/api/careers/${id}`);
+        // const res = await fetch(`http://localhost:8000/api/careers/${id}`);
+        const res = await axios.get(`${BASE_URL}/api/careers/${id}`);
         console.log("res", res);
 
-        const data = await res.json();
-        console.log("data---", data);
+        // const data = await res.json();
+        console.log("data---", res.data);
 
-        setExam(data);
+        setExam(res.data);
       } catch (error) {
         console.error("Error fetching exam details:", error);
       } finally {
@@ -313,7 +316,7 @@ export default function CareerDetailsPage() {
                 {exam.uploadFile && (
                   <a
                     target="_blank"
-                    href={`http://localhost:8000/images/uploads/${exam.uploadFile}`}
+                    href={`${BASE_URL}/images/uploads/${exam.uploadFile}`}
                     className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors duration-300 font-medium group"
                     download
                     rel="noopener noreferrer"
